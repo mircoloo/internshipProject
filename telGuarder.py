@@ -4,6 +4,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+
 opt = webdriver.FirefoxOptions()
 opt.add_argument("--headless")
 
@@ -79,4 +80,6 @@ def extractNum(refreshPage: int):
         if number.text != '':
             numbers.append(number.text)
     del numbers[-20:]
+    driver.quit()
     return numbers
+

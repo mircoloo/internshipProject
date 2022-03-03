@@ -1,0 +1,30 @@
+{
+    "id": 209683,
+    "nome": "Mirco",
+    "cognome": "Bisoffi",
+    "codiceFiscale": "BSFMRC00B17H612W",
+    "eta": 22,
+    "sposato": false,
+    "indirizzo": {
+        "via": "Vanza",
+        "città": "trambileno",
+        "provincia": "TN",
+        "codicePostale": "38068"
+    },
+    "recapito":{
+        "email": ["bismirco@gmail.com", "mirco.bisoffi@unitn.it"],
+        "telefono":[{
+            "tipo": "ufficio",
+            "numero": "3458382843"
+        }, {
+            "tipo": "casa",
+            "numero": "0464868015"
+        }]
+    },
+    "amici":[
+        {"nome": "Stefano",
+         "cognome": "Speranza"},
+         {"nome": "Giacomo",
+        "cognome": "Fogolari"}
+    ]
+}
