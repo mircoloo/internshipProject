@@ -1,0 +1,6 @@
+
+api_key = "3zSp0uU28ervqrkxLE7O2ybfO"
+api_secret_key = "3CWfIP1LGHOsqYDjLO7KHZjHJP6YLZ04A5BPHSs3Z02hTy4izH"
+access_token = "1499408411628351491-TApbhDoswMsHVu13PAEs2jhciPsWZ2"
+access_secret_token = "fO5LpJv0rhg3kh7noN0QQUm6Eyahn7ynQvq6Fto0CcbTJ"
+bearer_token = "AAAAAAAAAAAAAAAAAAAAAGRQZwEAAAAAMnK1TY6ZC94273gk7RKpChaOgvs%3DhZpnlRaLB7Qa74sfoeCc3R8Pn47PDoQt6dgxk9YKUMxhPiUgeR"
