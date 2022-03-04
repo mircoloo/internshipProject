@@ -1,5 +1,4 @@
 from sqlite3 import Cursor
-from xmlrpc import client
 
 import ApiKeys.apiKey as k
 import tweepy
@@ -16,8 +15,9 @@ client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
 
 query = "SMS truffa"
 
-response = client.search_recent_tweets(query=query, tweet_fields=['created_at', 'lang'], max_results=12)
+response = client.search_recent_tweets(query=query, tweet_fields=['created_at', 'lang'], max_result=15)
 
 for tweet in response.data:
     print(tweet.created_at)
     print(f"{tweet.text}\n")
+

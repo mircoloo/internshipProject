@@ -86,7 +86,7 @@ def extractNum(refreshPage: int):
 
 if __name__ == "__main__":
     
-    """ data = extractNumData(2)
+    data = extractNumData(2)
     df = pd.DataFrame(data, columns=['Number', 'Comment'])
     print(df)
-    """
+   

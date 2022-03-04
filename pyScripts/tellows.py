@@ -12,8 +12,8 @@ def getNumbersFromTelguarder(refreshPage):
 
 def searchNumberInformation(num: int):
     tellowsUrl = "https://www.tellows.it/"
-    #opt = extractorTelGuarder.opt
-    driver = webdriver.Firefox()
+    opt = telGuarder.opt
+    driver = webdriver.Firefox(options=opt)
 
     driver.get(tellowsUrl)
     driver.find_element(by=By.CLASS_NAME, value="fc-button-label").click()
@@ -56,4 +56,4 @@ if __name__ == "__main__":
         driver.quit()
     driver.quit() """
 
-    print(searchNumberInformation("3458382843"))
+    #print(searchNumberInformation("3458382843"))
