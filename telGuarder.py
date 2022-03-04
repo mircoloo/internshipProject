@@ -3,6 +3,7 @@ import time
 from selenium.webdriver.firefox.options import Options
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import pandas as pd
 
 
 opt = webdriver.FirefoxOptions()
@@ -83,3 +84,9 @@ def extractNum(refreshPage: int):
     driver.quit()
     return numbers
 
+if __name__ == "__main__":
+    
+    """ data = extractNumData(2)
+    df = pd.DataFrame(data, columns=['Number', 'Comment'])
+    print(df)
+    """

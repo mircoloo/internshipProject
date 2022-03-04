@@ -1,16 +1,23 @@
 from sqlite3 import Cursor
+from xmlrpc import client
 
 import ApiKeys.apiKey as k
 import tweepy
 
-auth = tweepy.OAuthHandler(
-    k.api_key, k.api_secret_key,   
-)
-auth.set_access_token(k.access_token,k.access_secret_token)
-api = tweepy.API(auth, wait_on_rate_limit=True)
+def verifyCred(api):
+    try:
+        api.verify_credentials()
+        print("Authenicated properly!")
+    except:
+        print("Something wrong in authentication...")
 
-try:
-    api.verify_credentials()
-    print("ok")
-except:
-    print("something wrong")
+
+client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
+
+query = "SMS truffa"
+
+response = client.search_recent_tweets(query=query, tweet_fields=['created_at', 'lang'], max_results=12)
+
+for tweet in response.data:
+    print(tweet.created_at)
+    print(f"{tweet.text}\n")

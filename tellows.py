@@ -36,20 +36,24 @@ def searchNumbersInformation(driver, numbers: list[int]):
             print("Error in searching numbers...")
             driver.quit()    
 
-#for each number search informations on Tellows
-tellowsUrl = "https://www.tellows.it/"
 
-opt = telGuarder.opt
-driver = webdriver.Firefox(options=opt)
-driver.get(tellowsUrl)
-driver.implicitly_wait(3)
+if __name__ == "__main__":
+    """ #for each number search informations on Tellows
+    tellowsUrl = "https://www.tellows.it/"
 
-#accept cookie
-driver.find_element(by=By.CLASS_NAME, value="fc-button-label").click()
+    opt = telGuarder.opt
+    driver = webdriver.Firefox(options=opt)
+    driver.get(tellowsUrl)
+    driver.implicitly_wait(3)
 
-try:
-    numbers = getNumbersFromTelguarder(0)
-    searchNumbersInformation(driver=driver, numbers=numbers)
-except:
-    driver.quit()
-driver.quit()
+    #accept cookie
+    driver.find_element(by=By.CLASS_NAME, value="fc-button-label").click()
+
+    try:
+        numbers = getNumbersFromTelguarder(0)
+        searchNumbersInformation(driver=driver, numbers=numbers)
+    except:
+        driver.quit()
+    driver.quit() """
+
+    print(searchNumberInformation("3458382843"))
