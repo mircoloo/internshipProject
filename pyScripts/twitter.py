@@ -35,7 +35,7 @@ json_file = df.to_json(orient='records')
 fileHandler = open("tweet_json.json", "a+")
 fileHandler.write(json_file)
 
-#modifica mac prova    
+    
 
 
 
