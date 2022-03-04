@@ -1,5 +1,4 @@
 #!python3
-from cv2 import line
 import ApiKeys.apiKey as k
 import tweepy
 import pandas as pd
