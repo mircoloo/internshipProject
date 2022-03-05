@@ -1,6 +1,4 @@
 #!python3
-from http.client import ResponseNotReady
-from cv2 import line
 import ApiKeys.apiKey as k
 import tweepy
 import pandas as pd
