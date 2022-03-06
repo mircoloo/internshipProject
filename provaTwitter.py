@@ -1,3 +1,5 @@
+#!python3
+import pandas as pd
 import tweepy
 import pyScripts.ApiKeys.apiKey as k
 
@@ -7,16 +9,10 @@ query = "SMS truffa"
 
 response = client.search_recent_tweets(query=query, max_results=10, tweet_fields=['created_at', 'lang', 'context_annotations', 'entities', 'public_metrics'])
 
+columns = ['Time', 'Tweet', 'Lang', 'User']
+data = []
+for tweet in response.data:
+    data.append([tweet.created_at, tweet.text, tweet.lang,tweet.entities['mentions']  if 'mentions' in tweet.entities else "--"])
 
-for t in response.data:
-    print(t.created_at)
-    """ 
-    print(t.public_metrics)
-    print(t.entities, '\n') """
-    try:
-        print(t.entites['urls']['images'])
-    except:
-        print('not present')
-        print(t.entities.keys())
-    print(t.text,'\n')
-
+df = pd.DataFrame(data,columns=columns)
+print(df)
