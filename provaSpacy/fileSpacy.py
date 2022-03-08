@@ -1,20 +1,20 @@
 #!python3
 
-from cv2 import DescriptorMatcher
+from spacy import displacy
 import spacy
 
 
 
 nlp = spacy.load("it_core_news_sm")
 
-with open("/Users/mircobisoffi/Desktop/acaso.txt", "r") as f:
-    text = f.read()
+text = "A Mirco piace partecipare a questo progetto delegato da FBK in quanto non sta capendo nulla di quello che sta facendo."
 
 doc = nlp(text) 
 
-sentence1 = list(doc.sents)
 
-for sent in list(doc.sents)[:5] :
-    for token in sent:
-        #if(token.ent_type == )
-        print(token, token.ent_type_)
+
+for token in doc:
+    print(token.text, token.pos_, token.dep_, token.lemma_)
+    
+
+
