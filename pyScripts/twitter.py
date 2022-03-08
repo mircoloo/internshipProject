@@ -24,6 +24,11 @@ for tweet in response.data:
     #print(tweet.text)
 df = pd.DataFrame(data,columns=columns)
 
-dFtoJSON('tweets.json', df)
 
-print(df)
+#dFtoJSON('tweets.json', df)
+#print(df)
+risposta = client.search_recent_tweets("SMS Truffa")
+with open('tweets.txt', 'a+') as fh:
+    for r in risposta.data:
+        print(r.text)
+        fh.write(r.text)
