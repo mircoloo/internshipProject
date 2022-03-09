@@ -1,0 +1,23 @@
+#23 Febbraio 2022 14:00-19:00
+Primo approccio a FBK, domande su progetto e prime configurazioni con le piattaforme online di FBK
+
+#24 Febbraio 2022 8:30-12:30 13:30-16:00
+Studio sulle basi del progetto e di cosa vuol dire: Smishing, IoC, Natural language processing ecc.
+
+#25 Febbraio 2022 14:00-19:00
+Ritiro badge FBK e prima bozza generale su come realizzare il progetto, con le sue componenti, scelta del linguaggio 
+e librerie da utilizzare
+
+#28 Febbraio 2022 10:30-13:00
+Studio e prime prove con libreria SELENIUM per estrarre informazioni utili suio numeri da siti quali tellows e telguarder
+
+#29 Febbraio 2022
+
+#28 Febbraio 2022 
+
+
+#7 Marzo 2022 10:30-13:00
+-Prova tweepy per raccogliere URL dai tweet
+
+#9 Marzo 2022 8:30-12_30
+-Ripresa studio di spacy più approfonita e prove con la libreria

@@ -57,5 +57,3 @@ if __name__ == "__main__":
     driver.quit() """
 
     print(searchNumberInformation("0230300659"))
-
-
