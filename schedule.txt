@@ -17,7 +17,7 @@ Studio e prime prove con libreria SELENIUM per estrarre informazioni utili suio 
 
 
 #7 Marzo 2022 10:30-13:00
--Prova tweepy per raccogliere URL dai tweet
+Prova tweepy per raccogliere URL dai tweet
 
 #9 Marzo 2022 8:30-12_30
--Ripresa studio di spacy più approfonita e prove con la libreria
+Ripresa studio di spacy più approfonita e prove con la libreria
