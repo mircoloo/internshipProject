@@ -1,6 +1,4 @@
 #!python3
-
-
 import spacy
 
 
@@ -23,10 +21,6 @@ for sentence in doc.sents:
     for token in sentence:
         if(token.like_url):
             URLS.append(token.text)
-            print(sentence, '\n') 
+            #print(sentence, '\n') 
 
 print(URLS)
-
-
-
-

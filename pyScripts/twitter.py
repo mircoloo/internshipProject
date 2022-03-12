@@ -1,9 +1,9 @@
 #!python3
 import pandas as pd
-import tweepy
 import ApiKeys.apiKey as k
 import json
-import unidecode
+import tweepy
+
 
 client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
 
