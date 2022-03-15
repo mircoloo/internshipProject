@@ -1,0 +1,1155 @@
+1647332281593	geckodriver	INFO	Listening on 127.0.0.1:52895
+1647332282120	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "52896" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileRAKB5g"
+*** You are running in headless mode.
+*** You are running in headless mode.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://localhost:52896/devtools/browser/5d5fcb8b-fff6-429b-a05c-d670c6fcd074
+1647332304414	geckodriver	INFO	Listening on 127.0.0.1:52973
+1647332304427	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52974" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilebtn7sI"
+1647332304773	Marionette	INFO	Marionette enabled
+2022-03-15 09:18:25.408 firefox-bin[8704:256676] Warning: Expected min height of view: (<NSButton: 0x11a81ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:18:25.409 firefox-bin[8704:256676] Warning: Expected min height of view: (<NSButton: 0x1208c6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:18:25.409 firefox-bin[8704:256676] Warning: Expected min height of view: (<NSButton: 0x1208c8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:18:25.410 firefox-bin[8704:256676] Warning: Expected min height of view: (<NSButton: 0x1208c3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:18:25.410 firefox-bin[8704:256676] Warning: Expected min height of view: (<NSButton: 0x1208c6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:18:25.411 firefox-bin[8704:256676] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1208c7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:18:25.412 firefox-bin[8704:256676] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118c0d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilebtn7sI/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52974/devtools/browser/3f93cd3a-f9d8-4744-818e-20a6f81dfdcf
+1647332306479	Marionette	INFO	Listening on port 52979
+1647332306590	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332310115	Marionette	INFO	Stopped listening on port 52979
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647332358371	geckodriver	INFO	Listening on 127.0.0.1:53056
+1647332358384	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53057" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileRXPA9A"
+1647332358770	Marionette	INFO	Marionette enabled
+2022-03-15 09:19:19.350 firefox-bin[8716:257294] Warning: Expected min height of view: (<NSButton: 0x12a269800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:19.350 firefox-bin[8716:257294] Warning: Expected min height of view: (<NSButton: 0x12a2b1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:19.351 firefox-bin[8716:257294] Warning: Expected min height of view: (<NSButton: 0x12a2ae000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:19.351 firefox-bin[8716:257294] Warning: Expected min height of view: (<NSButton: 0x12a2b1400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:19.352 firefox-bin[8716:257294] Warning: Expected min height of view: (<NSButton: 0x12a2aec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:19.352 firefox-bin[8716:257294] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12a2b2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:19.353 firefox-bin[8716:257294] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x122b61800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileRXPA9A/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:53057/devtools/browser/0ea12e17-4dd7-4444-bb5b-951a752c1c39
+1647332360521	Marionette	INFO	Listening on port 53062
+1647332360539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332363680	Marionette	INFO	Stopped listening on port 53062
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647332367853	geckodriver	INFO	Listening on 127.0.0.1:53134
+1647332367866	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53135" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilerSPUaq"
+1647332368253	Marionette	INFO	Marionette enabled
+2022-03-15 09:19:28.821 firefox-bin[8732:257704] Warning: Expected min height of view: (<NSButton: 0x11bed6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:28.822 firefox-bin[8732:257704] Warning: Expected min height of view: (<NSButton: 0x12b40e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:28.822 firefox-bin[8732:257704] Warning: Expected min height of view: (<NSButton: 0x12b40d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:28.823 firefox-bin[8732:257704] Warning: Expected min height of view: (<NSButton: 0x12b40ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:28.824 firefox-bin[8732:257704] Warning: Expected min height of view: (<NSButton: 0x12b412800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:28.824 firefox-bin[8732:257704] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12b413000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:28.825 firefox-bin[8732:257704] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11beda400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilerSPUaq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:53135/devtools/browser/35c00feb-6a9f-47d4-a1b9-4fcc289ca176
+1647332369787	Marionette	INFO	Listening on port 53140
+1647332369821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332373787	Marionette	INFO	Stopped listening on port 53140
+1647332386298	geckodriver	INFO	Listening on 127.0.0.1:53213
+1647332386311	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53214" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilee2FxQe"
+1647332386647	Marionette	INFO	Marionette enabled
+2022-03-15 09:19:47.244 firefox-bin[8744:258109] Warning: Expected min height of view: (<NSButton: 0x112ab5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:47.245 firefox-bin[8744:258109] Warning: Expected min height of view: (<NSButton: 0x121ea7000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:47.245 firefox-bin[8744:258109] Warning: Expected min height of view: (<NSButton: 0x121ea3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:47.246 firefox-bin[8744:258109] Warning: Expected min height of view: (<NSButton: 0x121ea2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:47.246 firefox-bin[8744:258109] Warning: Expected min height of view: (<NSButton: 0x121ea8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:47.247 firefox-bin[8744:258109] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x121ea5400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:19:47.247 firefox-bin[8744:258109] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x112ab4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilee2FxQe/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:53214/devtools/browser/d43e1221-6485-448d-b894-be392f7a0cb6
+1647332388463	Marionette	INFO	Listening on port 53217
+1647332388480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332392126	Marionette	INFO	Stopped listening on port 53217
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647332506450	geckodriver	INFO	Listening on 127.0.0.1:53362
+1647332506464	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "53363" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileMaT8wW"
+*** You are running in headless mode.
+1647332506753	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileMaT8wW/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:53363/devtools/browser/7b26afdc-fe99-432f-9b03-d56e0912f9ec
+1647332507851	Marionette	INFO	Listening on port 53366
+1647332507909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332510942	Marionette	INFO	Stopped listening on port 53366
+1647332618959	geckodriver	INFO	Listening on 127.0.0.1:53445
+1647332618973	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "53446" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile4lf788"
+*** You are running in headless mode.
+1647332619316	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile4lf788/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:53446/devtools/browser/91b8d4e9-7e82-402b-998c-ac2b4d972deb
+1647332620423	Marionette	INFO	Listening on port 53449
+1647332620532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332638382	geckodriver	INFO	Listening on 127.0.0.1:53530
+1647332638394	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "53531" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile9dXrAy"
+*** You are running in headless mode.
+1647332638829	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile9dXrAy/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:53531/devtools/browser/27e75253-8bd2-4a2c-9a26-1625145a9ef9
+1647332639956	Marionette	INFO	Listening on port 53534
+1647332640048	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332643053	Marionette	INFO	Stopped listening on port 53534
+1647332651769	geckodriver	INFO	Listening on 127.0.0.1:53601
+1647332651783	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "53602" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileg5b36p"
+*** You are running in headless mode.
+1647332652139	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileg5b36p/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:53602/devtools/browser/e1c705a8-c8ef-4c2e-9bb2-6d5c88331bf0
+1647332653218	Marionette	INFO	Listening on port 53605
+1647332653231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 1333 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 3659 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1647332715436	geckodriver	INFO	Listening on 127.0.0.1:53974
+1647332715450	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "53975" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileQdJ6nr"
+*** You are running in headless mode.
+1647332715793	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileQdJ6nr/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:53975/devtools/browser/1e5f0c19-7c24-4854-b9a9-22741b6af0a4
+1647332716964	Marionette	INFO	Listening on port 53978
+1647332717006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332744852	geckodriver	INFO	Listening on 127.0.0.1:54084
+1647332744862	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "54085" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileJzkzTg"
+*** You are running in headless mode.
+1647332745245	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileJzkzTg/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:54085/devtools/browser/a35ce6ad-6704-4631-a477-e8b409d3a6bf
+1647332746329	Marionette	INFO	Listening on port 54088
+1647332746405	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332749588	Marionette	INFO	Stopped listening on port 54088
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 1677 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647332772337	geckodriver	INFO	Listening on 127.0.0.1:54319
+1647332772349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "54320" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileArLWER"
+*** You are running in headless mode.
+1647332772641	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileArLWER/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:54320/devtools/browser/63aeadb9-9e5a-41ec-a03b-3cac77d6fb67
+1647332773726	Marionette	INFO	Listening on port 54323
+1647332773804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332777125	Marionette	INFO	Stopped listening on port 54323
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647332895731	geckodriver	INFO	Listening on 127.0.0.1:54439
+1647332896257	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "54440" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileWdj1T3"
+*** You are running in headless mode.
+1647332896615	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileWdj1T3/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:54440/devtools/browser/ba272a50-16f9-420e-a012-2e51585c92c6
+1647332897704	Marionette	INFO	Listening on port 54445
+1647332897802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332919414	geckodriver	INFO	Listening on 127.0.0.1:54525
+1647332919427	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "54526" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilednmLAF"
+*** You are running in headless mode.
+1647332919735	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilednmLAF/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:54526/devtools/browser/7b0f9cbc-774e-462a-b1dd-7939d7ff6f9e
+1647332920847	Marionette	INFO	Listening on port 54529
+1647332920876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647332925116	Marionette	INFO	Stopped listening on port 54529
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 7790 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647333300130	geckodriver	INFO	Listening on 127.0.0.1:54859
+1647333300657	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "54860" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileizQjKb"
+*** You are running in headless mode.
+1647333301039	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileizQjKb/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:54860/devtools/browser/32d6c642-e965-4f8c-bfde-ffa3b62c6b94
+1647333302196	Marionette	INFO	Listening on port 54865
+1647333302212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647333306496	Marionette	INFO	Stopped listening on port 54865
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647333463127	geckodriver	INFO	Listening on 127.0.0.1:54952
+1647333463142	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54953" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile7pu3fA"
+1647333463486	Marionette	INFO	Marionette enabled
+2022-03-15 09:37:44.072 firefox-bin[9640:271288] Warning: Expected min height of view: (<NSButton: 0x11ba10000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:37:44.073 firefox-bin[9640:271288] Warning: Expected min height of view: (<NSButton: 0x121bda800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:37:44.073 firefox-bin[9640:271288] Warning: Expected min height of view: (<NSButton: 0x121bdc800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:37:44.074 firefox-bin[9640:271288] Warning: Expected min height of view: (<NSButton: 0x121bdbc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:37:44.075 firefox-bin[9640:271288] Warning: Expected min height of view: (<NSButton: 0x121bdc000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:37:44.075 firefox-bin[9640:271288] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x121bdd000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:37:44.076 firefox-bin[9640:271288] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x119a0a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile7pu3fA/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:54953/devtools/browser/06b4fc05-6028-42f3-b200-460c7a4b628b
+1647333465281	Marionette	INFO	Listening on port 54956
+1647333465305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333469932	Marionette	INFO	Stopped listening on port 54956
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647333594143	geckodriver	INFO	Listening on 127.0.0.1:55060
+1647333594159	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55061" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilewuqD30"
+1647333594517	Marionette	INFO	Marionette enabled
+2022-03-15 09:39:55.120 firefox-bin[9735:272949] Warning: Expected min height of view: (<NSButton: 0x11d7d9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:39:55.121 firefox-bin[9735:272949] Warning: Expected min height of view: (<NSButton: 0x12396bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:39:55.121 firefox-bin[9735:272949] Warning: Expected min height of view: (<NSButton: 0x123968800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:39:55.122 firefox-bin[9735:272949] Warning: Expected min height of view: (<NSButton: 0x123964800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:39:55.122 firefox-bin[9735:272949] Warning: Expected min height of view: (<NSButton: 0x12396c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:39:55.123 firefox-bin[9735:272949] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x123969400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:39:55.123 firefox-bin[9735:272949] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11b8d0800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilewuqD30/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55061/devtools/browser/28c52939-dd05-43c9-adcc-60e780fc85ba
+1647333596375	Marionette	INFO	Listening on port 55064
+1647333596422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333601633	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333605187	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333606191	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333607674	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 4306 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 4216 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 7041 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647333676372	geckodriver	INFO	Listening on 127.0.0.1:55351
+1647333676896	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55352" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileys5Mtf"
+1647333677344	Marionette	INFO	Marionette enabled
+2022-03-15 09:41:17.931 firefox-bin[9790:273881] Warning: Expected min height of view: (<NSButton: 0x1278c8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:41:17.932 firefox-bin[9790:273881] Warning: Expected min height of view: (<NSButton: 0x12da60400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:41:17.932 firefox-bin[9790:273881] Warning: Expected min height of view: (<NSButton: 0x12da5d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:41:17.933 firefox-bin[9790:273881] Warning: Expected min height of view: (<NSButton: 0x12da5d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:41:17.933 firefox-bin[9790:273881] Warning: Expected min height of view: (<NSButton: 0x12da5c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:41:17.934 firefox-bin[9790:273881] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12da5f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:41:17.935 firefox-bin[9790:273881] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1220ac800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileys5Mtf/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55352/devtools/browser/a25826d9-9544-4421-89a4-06aa12a8f5b1
+1647333679385	Marionette	INFO	Listening on port 55357
+1647333679451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333683725	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333697633	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333701897	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333703201	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1647333704988	Marionette	INFO	Stopped listening on port 55357
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://ducadimorrone.com/wp-content/plugins/woocommerce-products-filter/js/chosen/chosen.jquery.min.js?ver=2.2.5.3, line 516: unreachable code after return statement
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://ducadimorrone.com/sp-push-worker-fb.js for scope https://ducadimorrone.com/ threw an exception during script evaluation.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 6353 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 342 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 4056 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:450:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:414:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2132:35
+addAllSources@resource://devtools/server/actors/thread.js:1487:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:556:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:465:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:'
+1647333808752	geckodriver	INFO	Listening on 127.0.0.1:55580
+1647333808765	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55581" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileTJas5R"
+1647333809154	Marionette	INFO	Marionette enabled
+2022-03-15 09:43:29.732 firefox-bin[9837:275221] Warning: Expected min height of view: (<NSButton: 0x126807c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:43:29.733 firefox-bin[9837:275221] Warning: Expected min height of view: (<NSButton: 0x12687c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:43:29.733 firefox-bin[9837:275221] Warning: Expected min height of view: (<NSButton: 0x12687c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:43:29.734 firefox-bin[9837:275221] Warning: Expected min height of view: (<NSButton: 0x12687c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:43:29.734 firefox-bin[9837:275221] Warning: Expected min height of view: (<NSButton: 0x126876400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:43:29.735 firefox-bin[9837:275221] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x126878000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:43:29.736 firefox-bin[9837:275221] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x116320c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileTJas5R/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55581/devtools/browser/d043fa96-e436-44d8-b7d2-9b49247b002c
+1647333810952	Marionette	INFO	Listening on port 55584
+1647333811047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333815198	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333820230	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333821884	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333823260	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333825280	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333831584	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333832930	Marionette	INFO	Stopped listening on port 55584
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 1323 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647333896311	geckodriver	INFO	Listening on 127.0.0.1:55696
+1647333896325	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55697" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile7Mt1eK"
+1647333896683	Marionette	INFO	Marionette enabled
+2022-03-15 09:44:57.251 firefox-bin[9864:276259] Warning: Expected min height of view: (<NSButton: 0x1171d3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:44:57.252 firefox-bin[9864:276259] Warning: Expected min height of view: (<NSButton: 0x11d454000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:44:57.252 firefox-bin[9864:276259] Warning: Expected min height of view: (<NSButton: 0x11d451400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:44:57.253 firefox-bin[9864:276259] Warning: Expected min height of view: (<NSButton: 0x11d450000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:44:57.253 firefox-bin[9864:276259] Warning: Expected min height of view: (<NSButton: 0x11d450c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:44:57.254 firefox-bin[9864:276259] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11d454800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:44:57.254 firefox-bin[9864:276259] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11521dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile7Mt1eK/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55697/devtools/browser/ae23879a-f50c-4a1b-b7e1-4bc639d78767
+1647333898505	Marionette	INFO	Listening on port 55700
+1647333898617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333907425	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333916795	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333920125	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647333921873	Marionette	INFO	Stopped listening on port 55700
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647333977059	geckodriver	INFO	Listening on 127.0.0.1:55793
+1647333977072	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55794" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile4uowHZ"
+1647333977427	Marionette	INFO	Marionette enabled
+2022-03-15 09:46:18.053 firefox-bin[9896:277079] Warning: Expected min height of view: (<NSButton: 0x124109400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:18.053 firefox-bin[9896:277079] Warning: Expected min height of view: (<NSButton: 0x124196800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:18.054 firefox-bin[9896:277079] Warning: Expected min height of view: (<NSButton: 0x124190000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:18.055 firefox-bin[9896:277079] Warning: Expected min height of view: (<NSButton: 0x124195000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:18.055 firefox-bin[9896:277079] Warning: Expected min height of view: (<NSButton: 0x124195c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:18.056 firefox-bin[9896:277079] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x124190c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:18.056 firefox-bin[9896:277079] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x116251800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile4uowHZ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55794/devtools/browser/02aa2fe7-6f2e-4a08-9eeb-ca972d032456
+1647333978931	Marionette	INFO	Listening on port 55797
+1647333979034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647333995881	geckodriver	INFO	Listening on 127.0.0.1:55890
+1647333995895	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55891" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile0Ig4el"
+1647333996212	Marionette	INFO	Marionette enabled
+2022-03-15 09:46:36.773 firefox-bin[9933:277844] Warning: Expected min height of view: (<NSButton: 0x11d3e4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:36.773 firefox-bin[9933:277844] Warning: Expected min height of view: (<NSButton: 0x123675c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:36.774 firefox-bin[9933:277844] Warning: Expected min height of view: (<NSButton: 0x123676400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:36.775 firefox-bin[9933:277844] Warning: Expected min height of view: (<NSButton: 0x12367a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:36.775 firefox-bin[9933:277844] Warning: Expected min height of view: (<NSButton: 0x12367a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:36.776 firefox-bin[9933:277844] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x123677c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:46:36.776 firefox-bin[9933:277844] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11b420400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofile0Ig4el/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55891/devtools/browser/d7708aac-411f-428c-97e0-73e41553ed34
+1647333997935	Marionette	INFO	Listening on port 55894
+1647333997960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334002242	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334040606	geckodriver	INFO	Listening on 127.0.0.1:55988
+1647334040621	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55989" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileJvkCq2"
+1647334041024	Marionette	INFO	Marionette enabled
+2022-03-15 09:47:21.624 firefox-bin[9951:278408] Warning: Expected min height of view: (<NSButton: 0x11ebcf400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:47:21.624 firefox-bin[9951:278408] Warning: Expected min height of view: (<NSButton: 0x120560000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:47:21.625 firefox-bin[9951:278408] Warning: Expected min height of view: (<NSButton: 0x120564400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:47:21.626 firefox-bin[9951:278408] Warning: Expected min height of view: (<NSButton: 0x12055f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:47:21.626 firefox-bin[9951:278408] Warning: Expected min height of view: (<NSButton: 0x120560800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:47:21.627 firefox-bin[9951:278408] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x120562c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:47:21.627 firefox-bin[9951:278408] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11cc08800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileJvkCq2/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55989/devtools/browser/f9cbe076-4645-4e8e-b720-e2de84312b0f
+1647334042791	Marionette	INFO	Listening on port 55992
+1647334042887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334048211	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 6467 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334070789	Marionette	INFO	Stopped listening on port 55992
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647334113106	Marionette	INFO	Stopped listening on port 55064
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647334115303	Marionette	INFO	Stopped listening on port 55894
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1647334345168	geckodriver	INFO	Listening on 127.0.0.1:49190
+1647334345196	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49191" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilelyvrIJ"
+1647334345808	Marionette	INFO	Marionette enabled
+2022-03-15 09:52:26.447 firefox-bin[653:6042] Warning: Expected min height of view: (<NSButton: 0x127850000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:52:26.448 firefox-bin[653:6042] Warning: Expected min height of view: (<NSButton: 0x1278b7000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:52:26.448 firefox-bin[653:6042] Warning: Expected min height of view: (<NSButton: 0x1278b9800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:52:26.449 firefox-bin[653:6042] Warning: Expected min height of view: (<NSButton: 0x1278ba000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:52:26.449 firefox-bin[653:6042] Warning: Expected min height of view: (<NSButton: 0x1278bb000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:52:26.450 firefox-bin[653:6042] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1278b9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:52:26.450 firefox-bin[653:6042] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11f437c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilelyvrIJ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:49191/devtools/browser/71218d3a-e0e3-4f23-898b-918d033b2c0a
+1647334347400	Marionette	INFO	Listening on port 49196
+1647334347456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334377427	Marionette	INFO	Stopped listening on port 49196
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647334431058	geckodriver	INFO	Listening on 127.0.0.1:49308
+1647334431082	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49309" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileTBeFI6"
+1647334431519	Marionette	INFO	Marionette enabled
+2022-03-15 09:53:52.273 firefox-bin[717:8062] Warning: Expected min height of view: (<NSButton: 0x12181ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:53:52.273 firefox-bin[717:8062] Warning: Expected min height of view: (<NSButton: 0x1218c4800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:53:52.274 firefox-bin[717:8062] Warning: Expected min height of view: (<NSButton: 0x1218c3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:53:52.275 firefox-bin[717:8062] Warning: Expected min height of view: (<NSButton: 0x1218c2c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:53:52.276 firefox-bin[717:8062] Warning: Expected min height of view: (<NSButton: 0x1218c3000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:53:52.277 firefox-bin[717:8062] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1218c9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-15 09:53:52.277 firefox-bin[717:8062] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1115a5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileTBeFI6/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:49309/devtools/browser/685ce7b0-405c-4ffd-aa2b-f8d15ee811c4
+1647334433620	Marionette	INFO	Listening on port 49314
+1647334433650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334451156	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334457913	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334461023	Marionette	INFO	Stopped listening on port 49314
+1647334544426	geckodriver	INFO	Listening on 127.0.0.1:49430
+1647334544441	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "49431" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileLBkTBW"
+*** You are running in headless mode.
+1647334544767	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileLBkTBW/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:49431/devtools/browser/1edf8fae-446f-4ee8-9914-88e67719e208
+1647334545814	Marionette	INFO	Listening on port 49436
+1647334545890	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334553940	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334559989	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334565539	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334570163	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334575738	Marionette	INFO	Stopped listening on port 49436
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647334703326	geckodriver	INFO	Listening on 127.0.0.1:49521
+1647334703339	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "49522" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileNQtQKL"
+*** You are running in headless mode.
+1647334703614	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileNQtQKL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:49522/devtools/browser/1b6e47ea-cf4e-4955-a3a5-6228df3c99e8
+1647334704658	Marionette	INFO	Listening on port 49527
+1647334704673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334711565	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334717449	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334732293	Marionette	INFO	Stopped listening on port 49527
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647334757048	geckodriver	INFO	Listening on 127.0.0.1:49605
+1647334757061	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "49606" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilem1m7ox"
+*** You are running in headless mode.
+1647334757341	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofilem1m7ox/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:49606/devtools/browser/97767f99-48e3-4377-a86b-adc2af346771
+1647334758388	Marionette	INFO	Listening on port 49611
+1647334758501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334781069	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334788566	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 7452 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 1586 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wpnNdEHEE-H-HWkGYo82vcEULjX7WQfOj--jYhPbLdo.js line 1 > eval line 2774 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+1647334810801	geckodriver	INFO	Listening on 127.0.0.1:49866
+1647334810814	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "49867" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileaBpToQ"
+*** You are running in headless mode.
+1647334811091	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileaBpToQ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:49867/devtools/browser/442b16fe-2dbf-494c-a59a-330738bf4509
+1647334812114	Marionette	INFO	Listening on port 49872
+1647334812150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334820689	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334827513	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334828683	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334835938	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334838047	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334839317	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334840689	Marionette	INFO	Stopped listening on port 49872
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647334855439	geckodriver	INFO	Listening on 127.0.0.1:49966
+1647334855452	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "49967" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileduDxz4"
+*** You are running in headless mode.
+1647334855816	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileduDxz4/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:49967/devtools/browser/3a45511b-9e60-4f04-8235-3aa2e27c46cf
+1647334856831	Marionette	INFO	Listening on port 49970
+1647334856905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334868329	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334869895	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334873104	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334905014	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334917925	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334921456	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334926441	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334929617	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334946960	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647334949720	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
