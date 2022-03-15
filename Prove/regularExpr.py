@@ -1,20 +1,11 @@
-import re
-"""
-text = "tellows Valutazione per 34535345 : Score 55"
+#!python3
+
+import re 
 
 
-windows_filepath = r'\b[A-Z]:\\[A-Za-z0-9-_\.\\]+\b'
-score = r"Score\s?(\d+)"
 
+t = "ocr ha segnalato Sconosciuto con il numero 393482764328 come Truffa 15/03/22 14.00 Avevano il mio numero ma cercavano mia madre per la bolletta della luce, molto molto sospetto. Appena ho chiesto come avessero il mio numero hanno attaccato 6 Valutazioni per +393482764328 (Vodafone (cellulare))"
 
-result  = re.findall(windows_filepath, text)
-
-print(result)
-
-"""
-
-
-x = 'tellows valutazione per 34535345 : Score 55'
-#output = re.search('(?<=Your number is )<b>(\d+)</b>',x).group(1)
-output = re.search('Score\s?(\d+)',x).group(1)
-print(output)
+pattern = re.compile(r'\+?\d{7,15}')
+output = pattern.search(t)
+print(output.group(0))

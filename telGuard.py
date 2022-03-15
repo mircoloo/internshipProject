@@ -86,7 +86,8 @@ def extractNumData(refreshPage: int):
     driver.quit()
     return numCom
 
+if __name__ == '__main__':
+    data = extractNumData(1)
+    df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs'])
+    print(df)
 
-data = extractNumData(2)
-df = pd.DataFrame(data, columns=['Number', 'Comment', 'Reason','Researchs'])
-print(df)
