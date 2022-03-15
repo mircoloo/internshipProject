@@ -101,3 +101,15 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1647251749057	geckodriver	INFO	Listening on 127.0.0.1:51557
+1647251749092	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "51558" "-foreground" "-no-remote" "-profile" "/var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileazNZ0T"
+*** You are running in headless mode.
+1647251749493	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/62/n6h2yln55tb_kctvrsw0zyrr0000gn/T/rust_mozprofileazNZ0T/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51558/devtools/browser/10d2ee7a-fa1e-40b6-9b55-4cbaa79cf93c
+1647251750693	Marionette	INFO	Listening on port 51563
+1647251750743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647251754516	Marionette	INFO	Stopped listening on port 51563

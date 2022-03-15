@@ -34,6 +34,8 @@ def extractNumData(refreshPage: int):
     telephonesNumbers = driver.find_elements(by=By.CLASS_NAME, value="ai-phone")#margin-2
     for number in telephonesNumbers:
         if number.text != '':
+
+            "//table[@class, 'test']/tbody.." 
             numbers.append(number.text)
     del numbers[-20:]
 
@@ -87,6 +89,7 @@ def extractNum(refreshPage: int):
 if __name__ == "__main__":
     
     data = extractNumData(2)
+    #df = pd.DataFrame(data, columns=['Number', 'Comment', 'Score', 'Type', 'Organization', 'Source'])
     df = pd.DataFrame(data, columns=['Number', 'Comment'])
     print(df)
    

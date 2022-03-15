@@ -21,3 +21,9 @@ Studio e prime prove con libreria SELENIUM per estrarre informazioni utili suio 
 
 #9 Marzo 2022 8:30-12_30
 -Ripresa studio di spacy più approfonita e prove con la libreria
+
+#14 Marzo 11:00-13:00
+Meeting con tutor aziendale
+
+#15 Marzo
+Inizio primo codice progetto: estrazione informazioni da tellows e telguarder
