@@ -1,0 +1,8 @@
+tweepy
+opencv-python
+spacy
+numpy
+pytesseract
+pandas
+selenium
+

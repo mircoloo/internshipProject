@@ -17,9 +17,10 @@ Studio e prime prove con libreria SELENIUM per estrarre informazioni utili suio 
 
 
 #7 Marzo 2022 10:30-13:00
--Prova tweepy per raccogliere URL dai tweet
+Prova tweepy per raccogliere URL dai tweet
 
 #9 Marzo 2022 8:30-12_30
+<<<<<<< HEAD
 -Ripresa studio di spacy più approfonita e prove con la libreria
 
 #14 Marzo 11:00-13:00
@@ -27,3 +28,6 @@ Meeting con tutor aziendale
 
 #15 Marzo
 Inizio primo codice progetto: estrazione informazioni da tellows e telguarder
+=======
+Ripresa studio di spacy più approfonita e prove con la libreria
+>>>>>>> 202565230a422519cf0233ca39a1683a5a1ca4a3
