@@ -26,7 +26,8 @@ Prova tweepy per raccogliere URL dai tweet
 #14 Marzo 11:00-13:00
 Meeting con tutor aziendale
 
-#15 Marzo
-Inizio primo codice progetto: estrazione informazioni da tellows e telguarder
+#15 Marzo 8:30-12:30 13:00-15:30
+Inizio primo codice progetto: estrazione informazioni da tellows e telguarder 
+e studio regular expressions in python
 
 
