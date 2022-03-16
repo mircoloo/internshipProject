@@ -10948,3 +10948,1874 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1647417393753	geckodriver	INFO	Listening on 127.0.0.1:51309
+1647417396853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51310" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilePUmuSS"
+*** You are running in headless mode.
+1647417397182	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilePUmuSS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51310/devtools/browser/5dbf2365-94bf-4f7a-bef3-5f71e90be155
+1647417398173	Marionette	INFO	Listening on port 51317
+1647417398425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 378 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6926 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2155 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647417405564	Marionette	INFO	Stopped listening on port 51317
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 451 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647417506690	geckodriver	INFO	Listening on 127.0.0.1:49722
+1647417509749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "49723" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileYHebNB"
+*** You are running in headless mode.
+1647417510025	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileYHebNB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49723/devtools/browser/51ae6531-3bba-49b8-8c4d-6e773e19ca43
+1647417511026	Marionette	INFO	Listening on port 49729
+1647417511315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3667 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 243 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4152 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6565 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647417518703	Marionette	INFO	Stopped listening on port 49729
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647417560323	geckodriver	INFO	Listening on 127.0.0.1:49857
+1647417563378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "49858" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilewTTyeA"
+*** You are running in headless mode.
+1647417563671	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilewTTyeA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49858/devtools/browser/0de22eca-1468-401e-bb13-174f85a9c921
+1647417564645	Marionette	INFO	Listening on port 49863
+1647417564903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5141 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5711 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647417572208	Marionette	INFO	Stopped listening on port 49863
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647417920827	geckodriver	INFO	Listening on 127.0.0.1:57327
+1647417923890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "57328" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilehId55C"
+*** You are running in headless mode.
+1647417924647	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilehId55C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57328/devtools/browser/4a74ecd4-6f92-4686-847d-c53322f27be1
+1647417925601	Marionette	INFO	Listening on port 57334
+1647417925971	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 378 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 395 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4279 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5552 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647417934091	Marionette	INFO	Stopped listening on port 57334
+1647418005395	geckodriver	INFO	Listening on 127.0.0.1:57601
+1647418008467	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "57602" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile3wDki6"
+*** You are running in headless mode.
+1647418008814	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile3wDki6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57602/devtools/browser/543cc9bf-935e-4733-9edf-137271b3fede
+1647418009880	Marionette	INFO	Listening on port 57608
+1647418010026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647418014236	Marionette	INFO	Stopped listening on port 57608
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647418053196	geckodriver	INFO	Listening on 127.0.0.1:57766
+1647418056281	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "57767" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileqtvUhv"
+*** You are running in headless mode.
+1647418056555	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileqtvUhv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57767/devtools/browser/02af20f3-5d9c-4924-ab78-07da6c67de92
+1647418057471	Marionette	INFO	Listening on port 57774
+1647418057829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4833 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4946 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 266 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5002 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647418065307	Marionette	INFO	Stopped listening on port 57774
+1647418087755	geckodriver	INFO	Listening on 127.0.0.1:57968
+1647418090866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "57969" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileZshVyM"
+*** You are running in headless mode.
+1647418091138	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileZshVyM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57969/devtools/browser/13368cef-e98d-4bcf-9f65-493f1b298c81
+1647418092058	Marionette	INFO	Listening on port 57976
+1647418092417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3616 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 317 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7464 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3883 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647418100041	Marionette	INFO	Stopped listening on port 57976
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647418175163	geckodriver	INFO	Listening on 127.0.0.1:58140
+1647418178256	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58141" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileJWnxlh"
+*** You are running in headless mode.
+1647418178533	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileJWnxlh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58141/devtools/browser/5b605752-1422-4725-948e-2ef60929e8c8
+1647418179547	Marionette	INFO	Listening on port 58147
+1647418179818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647418184706	Marionette	INFO	Stopped listening on port 58147
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647418211482	geckodriver	INFO	Listening on 127.0.0.1:58297
+1647418214572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58298" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileeMCKY0"
+1647418214843	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileeMCKY0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58298/devtools/browser/bc4ef110-e23c-4a39-879a-3aa9e143e809
+1647418216656	Marionette	INFO	Listening on port 58304
+1647418216728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1647418223892	Marionette	INFO	Stopped listening on port 58304
+1647418529829	geckodriver	INFO	Listening on 127.0.0.1:53769
+1647418532939	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53770" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileFmMdOb"
+1647418533221	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileFmMdOb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53770/devtools/browser/1b9e2796-20e2-40c9-bff9-bb0385788fbb
+1647418535031	Marionette	INFO	Listening on port 53775
+1647418535099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647418540030	Marionette	INFO	Stopped listening on port 53775
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647418574663	geckodriver	INFO	Listening on 127.0.0.1:53897
+1647418577765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53898" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilex2zwcW"
+1647418578031	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilex2zwcW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53898/devtools/browser/d0b10b60-8c85-46e0-b14c-49d08ae72627
+1647418579851	Marionette	INFO	Listening on port 53903
+1647418579933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 80 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7045 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5231 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6860 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647418587275	Marionette	INFO	Stopped listening on port 53903
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647418708611	geckodriver	INFO	Listening on 127.0.0.1:54259
+1647418711684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54260" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileIlw6N4"
+1647418711963	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileIlw6N4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54260/devtools/browser/f6c55311-d326-46ef-8ab3-2071f7f796ed
+1647418713917	Marionette	INFO	Listening on port 54270
+1647418714345	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647418718934	Marionette	INFO	Stopped listening on port 54270
+1647418763870	geckodriver	INFO	Listening on 127.0.0.1:54415
+1647418766920	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54416" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileMj3ELv"
+1647418767180	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileMj3ELv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54416/devtools/browser/6232ebcc-9505-47a9-93cc-31f07bdc2c0f
+1647418768902	Marionette	INFO	Listening on port 54429
+1647418768967	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1647418774118	Marionette	INFO	Stopped listening on port 54429
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647418829275	geckodriver	INFO	Listening on 127.0.0.1:54564
+1647418832358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54565" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileClZSGu"
+1647418832632	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileClZSGu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54565/devtools/browser/cc2001f7-0789-4428-ad4a-233ae1a8e206
+1647418834334	Marionette	INFO	Listening on port 54570
+1647418834402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1647418841493	Marionette	INFO	Stopped listening on port 54570
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647419115371	geckodriver	INFO	Listening on 127.0.0.1:54878
+1647419118430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54879" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilehxIhNE"
+1647419118694	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilehxIhNE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54879/devtools/browser/1d574ed4-bda3-4688-b86a-bf2adaadbb19
+1647419120553	Marionette	INFO	Listening on port 54884
+1647419120593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647419125347	Marionette	INFO	Stopped listening on port 54884
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647419137488	geckodriver	INFO	Listening on 127.0.0.1:54967
+1647419140600	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "54968" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileb8xtlm"
+*** You are running in headless mode.
+1647419140848	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileb8xtlm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54968/devtools/browser/202404b3-2dc7-4f03-9571-acce5bb6fbf7
+1647419141804	Marionette	INFO	Listening on port 54974
+1647419142155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647419146900	Marionette	INFO	Stopped listening on port 54974
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647419304058	geckodriver	INFO	Listening on 127.0.0.1:55363
+1647419307163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55364" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileppnevO"
+*** You are running in headless mode.
+1647419307461	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileppnevO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55364/devtools/browser/92ee9a88-882b-4496-a0ce-5cc05222d589
+1647419308497	Marionette	INFO	Listening on port 55373
+1647419308730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1647419314655	Marionette	INFO	Stopped listening on port 55373
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647419337948	geckodriver	INFO	Listening on 127.0.0.1:55486
+1647419341052	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55487" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileQa6Vcu"
+*** You are running in headless mode.
+1647419341305	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileQa6Vcu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55487/devtools/browser/ac783811-4938-4114-bc3c-24aafc789d40
+1647419342242	Marionette	INFO	Listening on port 55494
+1647419342615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647419347579	Marionette	INFO	Stopped listening on port 55494
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647419390832	geckodriver	INFO	Listening on 127.0.0.1:55660
+1647419393923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55661" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileU5nq1q"
+*** You are running in headless mode.
+1647419394186	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileU5nq1q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55661/devtools/browser/a542311a-894a-4129-a076-26da0a9b2435
+1647419395091	Marionette	INFO	Listening on port 55666
+1647419395468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647419400107	Marionette	INFO	Stopped listening on port 55666
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647419420697	geckodriver	INFO	Listening on 127.0.0.1:55747
+1647419423772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55748" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilennX07N"
+*** You are running in headless mode.
+1647419424104	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilennX07N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55748/devtools/browser/ec20960d-e60c-4cf7-8a00-d64e72fc5da3
+1647419425058	Marionette	INFO	Listening on port 62696
+1647419425299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647419429271	Marionette	INFO	Stopped listening on port 62696
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647419481205	geckodriver	INFO	Listening on 127.0.0.1:62796
+1647419484261	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62797" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile6tq8p6"
+*** You are running in headless mode.
+1647419484496	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile6tq8p6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62797/devtools/browser/6dbb24d2-2de2-4687-8ffc-b83ee3bea0d9
+1647419485464	Marionette	INFO	Listening on port 62804
+1647419485818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647419489499	Marionette	INFO	Stopped listening on port 62804
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647419736325	geckodriver	INFO	Listening on 127.0.0.1:51118
+1647419739406	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51119" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileRDu1JR"
+*** You are running in headless mode.
+1647419739709	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileRDu1JR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51119/devtools/browser/6b9192c9-b9ac-46e2-8bab-70e7d5bfd314
+1647419740620	Marionette	INFO	Listening on port 51124
+1647419740999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647419745640	Marionette	INFO	Stopped listening on port 51124
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647419846680	geckodriver	INFO	Listening on 127.0.0.1:51555
+1647419849777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51556" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileiYbomN"
+*** You are running in headless mode.
+1647419850043	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileiYbomN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51556/devtools/browser/8126802e-ac96-416e-8810-0051f37348da
+1647419850980	Marionette	INFO	Listening on port 51564
+1647419851310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647419856265	Marionette	INFO	Stopped listening on port 51564
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647419911396	geckodriver	INFO	Listening on 127.0.0.1:51835
+1647419914477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51836" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofiledcKHXI"
+*** You are running in headless mode.
+1647419914733	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofiledcKHXI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51836/devtools/browser/444e7e6b-82ed-41ee-a4c8-9ce59ee8ca35
+1647419915771	Marionette	INFO	Listening on port 51841
+1647419916031	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1647419925391	Marionette	INFO	Stopped listening on port 51841
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647419954425	geckodriver	INFO	Listening on 127.0.0.1:52017
+1647419957490	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "52018" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofiled8Mby5"
+*** You are running in headless mode.
+1647419957751	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofiled8Mby5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52018/devtools/browser/3e12ecef-76d2-4352-bf3a-8551cd5c5cba
+1647419958673	Marionette	INFO	Listening on port 52025
+1647419959021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647419963302	Marionette	INFO	Stopped listening on port 52025
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647420017835	geckodriver	INFO	Listening on 127.0.0.1:59516
+1647420020918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59517" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileM47v9x"
+*** You are running in headless mode.
+1647420021165	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileM47v9x\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59517/devtools/browser/e711155c-66db-4e77-9daa-2b8b3f7bd463
+1647420022096	Marionette	INFO	Listening on port 59523
+1647420022456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647420026483	Marionette	INFO	Stopped listening on port 59523
+1647420032651	geckodriver	INFO	Listening on 127.0.0.1:59612
+1647420035743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59613" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileRFNU5l"
+*** You are running in headless mode.
+1647420036001	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileRFNU5l\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59613/devtools/browser/127b8e3c-2f44-4e01-87a2-24250c59f240
+1647420037035	Marionette	INFO	Listening on port 59619
+1647420037279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647420043185	Marionette	INFO	Stopped listening on port 59619
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647420069006	geckodriver	INFO	Listening on 127.0.0.1:59718
+1647420072111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59719" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileOnlMbr"
+*** You are running in headless mode.
+1647420072367	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileOnlMbr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59719/devtools/browser/d373d09f-39d4-404f-86f3-5674bb7300f2
+1647420073374	Marionette	INFO	Listening on port 59725
+1647420073656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647420077944	Marionette	INFO	Stopped listening on port 59725
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647420115231	geckodriver	INFO	Listening on 127.0.0.1:59813
+1647420118294	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59814" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileI3T1QK"
+*** You are running in headless mode.
+1647420118560	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileI3T1QK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59814/devtools/browser/9be178bb-f836-4dea-ad39-be563a853be8
+1647420119542	Marionette	INFO	Listening on port 59822
+1647420119846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647420124019	Marionette	INFO	Stopped listening on port 59822
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647420201352	geckodriver	INFO	Listening on 127.0.0.1:60021
+1647420204415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60022" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilek4CK6b"
+*** You are running in headless mode.
+1647420204646	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilek4CK6b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60022/devtools/browser/cfd4f9af-9d5b-4512-b8d0-53e223b6d14b
+1647420205546	Marionette	INFO	Listening on port 60031
+1647420205951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647420210413	Marionette	INFO	Stopped listening on port 60031
+1647420229819	geckodriver	INFO	Listening on 127.0.0.1:60149
+1647420232900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60150" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilevdwHvL"
+*** You are running in headless mode.
+1647420233144	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilevdwHvL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60150/devtools/browser/190abb16-308a-497f-a67f-0971b41edbad
+1647420234160	Marionette	INFO	Listening on port 60156
+1647420234438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1647420240875	Marionette	INFO	Stopped listening on port 60156
+1647420578255	geckodriver	INFO	Listening on 127.0.0.1:50262
+1647420581356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50263" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile34N9UF"
+1647420581610	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile34N9UF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50263/devtools/browser/e7114e5e-1afb-40a0-8b5d-505c671480b4
+1647420583652	Marionette	INFO	Listening on port 50269
+1647420584009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647420590388	Marionette	INFO	Stopped listening on port 50269
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647420751700	geckodriver	INFO	Listening on 127.0.0.1:50570
+1647420754778	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50571" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilet93EZQ"
+1647420755027	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilet93EZQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50571/devtools/browser/ace28ea4-3685-48b0-a989-e451cc646ba2
+1647420756812	Marionette	INFO	Listening on port 50579
+1647420756929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1647420772245	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4592 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4660 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7732 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647420781053	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647420784955	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647420787220	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647420791489	Marionette	INFO	Stopped listening on port 50579
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647421295787	geckodriver	INFO	Listening on 127.0.0.1:56393
+1647421298874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "56394" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilefXIM57"
+*** You are running in headless mode.
+1647421299139	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilefXIM57\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56394/devtools/browser/928c6488-94fd-4957-a9de-486c214dc645
+1647421300045	Marionette	INFO	Listening on port 56400
+1647421300425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6420 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3082 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5004 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2547 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6317 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3160 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647421321973	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1647421322229	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647421332942	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647421337086	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647421337942	Marionette	INFO	Stopped listening on port 56400
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647421381995	geckodriver	INFO	Listening on 127.0.0.1:53601
+1647421385079	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "53602" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile1j372n"
+*** You are running in headless mode.
+1647421385329	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile1j372n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53602/devtools/browser/05cb6a29-f56b-4efc-b629-fdf06cd77465
+1647421386238	Marionette	INFO	Listening on port 53612
+1647421386612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6567 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1108 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4579 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7692 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647421416025	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647421418661	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647421420199	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647421423479	Marionette	INFO	Stopped listening on port 53612
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647421458444	geckodriver	INFO	Listening on 127.0.0.1:64818
+1647421461503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64819" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileu0Jwwg"
+*** You are running in headless mode.
+1647421461747	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileu0Jwwg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64819/devtools/browser/8dc6ea1b-131d-4ff7-9254-97f4167b6ea2
+1647421462665	Marionette	INFO	Listening on port 64828
+1647421463037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7662 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 46 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2926 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 349 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647421487640	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647421496166	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647421499777	Marionette	INFO	Stopped listening on port 64828
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647421578570	geckodriver	INFO	Listening on 127.0.0.1:51272
+1647421581626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51273" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilekZAdeo"
+*** You are running in headless mode.
+1647421581902	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilekZAdeo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51273/devtools/browser/9e683adb-74d4-43ce-9719-c52e84032b23
+1647421582864	Marionette	INFO	Listening on port 51280
+1647421583163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4780 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5192 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 222 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 15 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647421608358	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647421610793	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647421612920	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647421619262	Marionette	INFO	Stopped listening on port 51280
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647421742582	geckodriver	INFO	Listening on 127.0.0.1:51875
+1647421745645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51876" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileHmRtWj"
+*** You are running in headless mode.
+1647421745892	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileHmRtWj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51876/devtools/browser/552b7efc-6324-4e08-ac06-b448255756b0
+1647421746825	Marionette	INFO	Listening on port 51884
+1647421747197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5364 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2769 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7603 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 778 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647421775101	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647421777939	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647421779534	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647421783826	Marionette	INFO	Stopped listening on port 51884
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647422044723	geckodriver	INFO	Listening on 127.0.0.1:51942
+1647422047799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51943" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile08tXSD"
+*** You are running in headless mode.
+1647422048077	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile08tXSD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51943/devtools/browser/abd3f532-839c-4342-a475-78798250621e
+1647422049057	Marionette	INFO	Listening on port 51951
+1647422049349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4446 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4024 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2812 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1390 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422077988	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422082288	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647422083871	Marionette	INFO	Stopped listening on port 51951
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647422166985	geckodriver	INFO	Listening on 127.0.0.1:55096
+1647422170035	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55097" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileXwd8Sj"
+*** You are running in headless mode.
+1647422170292	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileXwd8Sj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55097/devtools/browser/e79ca938-88e8-46b8-8fe8-b4c9abba1dc3
+1647422171256	Marionette	INFO	Listening on port 55105
+1647422171582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6626 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3510 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4065 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6146 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647422194054	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422200216	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422205196	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647422206552	Marionette	INFO	Stopped listening on port 55105
+1647422253705	geckodriver	INFO	Listening on 127.0.0.1:55631
+1647422256799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55632" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileHjyGa0"
+*** You are running in headless mode.
+1647422257072	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileHjyGa0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55632/devtools/browser/e3e3857f-abdd-44f1-a083-b75a19d4cd22
+1647422258034	Marionette	INFO	Listening on port 55638
+1647422258362	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 316 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 382 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4622 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1238 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4953 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647422282848	geckodriver	INFO	Listening on 127.0.0.1:50082
+1647422285883	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "50083" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileDirang"
+*** You are running in headless mode.
+1647422286175	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileDirang\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50083/devtools/browser/eb065aa8-ebf3-4c24-b897-fa62e41f527a
+1647422287226	Marionette	INFO	Listening on port 50089
+1647422287442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2793 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5354 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4257 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4849 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647422311558	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422316707	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422319490	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647422322719	Marionette	INFO	Stopped listening on port 50089
+1647422404793	geckodriver	INFO	Listening on 127.0.0.1:50687
+1647422407874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "50688" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileYWx99p"
+*** You are running in headless mode.
+1647422408153	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileYWx99p\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50688/devtools/browser/abe72925-b11a-4586-8ae1-a4af67387414
+1647422409207	Marionette	INFO	Listening on port 50694
+1647422409424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2731 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1118 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 915 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4454 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647422441168	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422445401	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422454502	Marionette	INFO	Stopped listening on port 50694
+1647422501742	geckodriver	INFO	Listening on 127.0.0.1:63872
+1647422504824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63873" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileeiGhDL"
+*** You are running in headless mode.
+1647422505087	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileeiGhDL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63873/devtools/browser/551ff65f-842a-4678-b4c0-146597ba3f3a
+1647422506025	Marionette	INFO	Listening on port 63879
+1647422506370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1964 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2742 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7637 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7447 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647422534509	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647422538105	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422545152	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422549836	Marionette	INFO	Stopped listening on port 63879
+1647422674354	geckodriver	INFO	Listening on 127.0.0.1:64474
+1647422677422	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64475" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileQUxYhX"
+*** You are running in headless mode.
+1647422677663	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileQUxYhX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64475/devtools/browser/d7c0a29f-59c8-41b9-bd5d-f1dafec95502
+1647422678627	Marionette	INFO	Listening on port 64481
+1647422678961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 23 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3812 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 286 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7700 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647422707577	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422711538	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647422716755	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647422720121	Marionette	INFO	Stopped listening on port 64481
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1647423079681	geckodriver	INFO	Listening on 127.0.0.1:65345
+1647423082750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "65346" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile68kA2B"
+*** You are running in headless mode.
+1647423083021	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile68kA2B\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65346/devtools/browser/94723122-7a4b-440e-ad8e-4f19a1690653
+1647423083949	Marionette	INFO	Listening on port 65352
+1647423084314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5432 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2816 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3961 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7680 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647423117680	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647423132463	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647423137735	Marionette	INFO	Stopped listening on port 65352
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1647423783872	geckodriver	INFO	Listening on 127.0.0.1:60358
+1647423786939	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60359" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile0B9Bel"
+*** You are running in headless mode.
+1647423787211	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile0B9Bel\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60359/devtools/browser/13f00838-e1db-47ea-9c5d-9cfd3ca276ba
+1647423788449	Marionette	INFO	Listening on port 60366
+1647423788487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1419 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 615 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6657 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6526 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647423815473	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647423820425	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647423824819	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3017 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3363 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2810 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647423829343	Marionette	INFO	Stopped listening on port 60366
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647424466221	geckodriver	INFO	Listening on 127.0.0.1:57742
+1647424469300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "57743" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileN7XJxC"
+*** You are running in headless mode.
+1647424469571	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileN7XJxC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57743/devtools/browser/c158117c-21f5-4252-bb2c-d37c0e5d6d13
+1647424470642	Marionette	INFO	Listening on port 57749
+1647424470852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4482 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2281 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2112 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2563 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647424507470	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647424514262	Marionette	INFO	Stopped listening on port 57749
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647424622673	geckodriver	INFO	Listening on 127.0.0.1:53302
+1647424625736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "53303" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileRsud0D"
+*** You are running in headless mode.
+1647424626046	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileRsud0D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53303/devtools/browser/0cd0ff75-d941-4bc1-8d80-acefd74f3605
+1647424627293	Marionette	INFO	Listening on port 53310
+1647424627801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6045 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1958 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1809 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1977 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647424650331	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1647424650579	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1647424652313	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647424663094	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647424669432	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647424672301	Marionette	INFO	Stopped listening on port 53310
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647424827440	geckodriver	INFO	Listening on 127.0.0.1:58788
+1647424830530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58789" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileFTBNt9"
+*** You are running in headless mode.
+1647424830803	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileFTBNt9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58789/devtools/browser/a16407e1-1094-4daf-bf23-b905c5588da7
+1647424831772	Marionette	INFO	Listening on port 58801
+1647424832083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 944 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6619 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 7590 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 170 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 5063 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1647424876119	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647424879851	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647424885341	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647424890130	Marionette	INFO	Stopped listening on port 58801
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1647425082582	geckodriver	INFO	Listening on 127.0.0.1:56311
+1647425085688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "56312" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile3EXbYG"
+*** You are running in headless mode.
+1647425085963	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile3EXbYG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56312/devtools/browser/0d0f464f-6c19-4cf9-8801-f35be8a0005a
+1647425086933	Marionette	INFO	Listening on port 62501
+1647425087217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6409 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1351 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 2529 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1330 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3086 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647425111095	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1647425115763	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647425121661	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+1647425126111	Marionette	INFO	Stopped listening on port 62501
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647425165246	geckodriver	INFO	Listening on 127.0.0.1:63098
+1647425168314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63099" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile4Dx6fe"
+*** You are running in headless mode.
+1647425168597	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile4Dx6fe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63099/devtools/browser/e03d3586-8b5f-4bfe-922e-cfda695cebb0
+1647425169699	Marionette	INFO	Listening on port 63107
+1647425169861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6010 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3529 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 1084 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 4810 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3222 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3245-1647353336453/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.tellows.it"
+1647425200274	Marionette	INFO	Stopped listening on port 63107
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647425219648	geckodriver	INFO	Listening on 127.0.0.1:63608
+1647425222686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63609" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilelHTo1y"
+*** You are running in headless mode.
+1647425222967	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilelHTo1y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63609/devtools/browser/a83b4b76-ed06-43bb-a67a-ac24dff62913
+1647425223984	Marionette	INFO	Listening on port 63614
+1647425224219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425242894	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425254426	Marionette	INFO	Stopped listening on port 63614
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647425277433	geckodriver	INFO	Listening on 127.0.0.1:63750
+1647425280500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63751" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileIAQ6Gf"
+*** You are running in headless mode.
+1647425280779	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileIAQ6Gf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63751/devtools/browser/49f80732-2384-4fbd-aac6-ca9df8905b62
+1647425281783	Marionette	INFO	Listening on port 63757
+1647425282046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425297718	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6398 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3798 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+ are running in headless mode.
+1647425325171	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile6DbyZC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57918/devtools/browser/611b1cf8-a605-4086-bdd4-83af476f803f
+1647425326218	Marionette	INFO	Listening on port 57932
+1647425326409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425353971	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425358725	Marionette	INFO	Stopped listening on port 57932
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647425393262	geckodriver	INFO	Listening on 127.0.0.1:60686
+1647425399371	geckodriver	INFO	Listening on 127.0.0.1:60700
+1647425402412	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60701" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileEvAOsk"
+*** You are running in headless mode.
+1647425402706	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileEvAOsk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60701/devtools/browser/f0fb7e8e-1fc6-40b8-8b58-6331201af09b
+1647425403829	Marionette	INFO	Listening on port 60707
+1647425403953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425441980	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425445601	Marionette	INFO	Stopped listening on port 60707
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647425605973	geckodriver	INFO	Listening on 127.0.0.1:61801
+1647425609069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61802" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilex8SbLO"
+1647425609340	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilex8SbLO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61802/devtools/browser/7f4ae4d8-68b8-4c9e-8215-0c5f177c9f8b
+1647425611234	Marionette	INFO	Listening on port 61809
+1647425611736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647425619179	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425632041	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425640028	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425645294	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425651248	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425660973	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425678502	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425680805	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425684249	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: , line 0: uncaught exception: Object
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647425701843	Marionette	INFO	Stopped listening on port 61809
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
