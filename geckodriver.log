@@ -12670,8 +12670,9 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 6398 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/nuRxMH4-hdTChYjwlrjO-HW19HyWaJLvFJxS2qLs-7c.js line 1 > eval line 3798 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: , line 0: uncaught exception: 7
- are running in headless mode.
-1647425325171	Marionette	INFO	Marionette enabled
+Exiting due to channel error.
+Exiting due to channel error.
+Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile6DbyZC\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:57918/devtools/browser/611b1cf8-a605-4086-bdd4-83af476f803f
