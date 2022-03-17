@@ -15,7 +15,7 @@ def extractNumData(refreshPage: int):
     telGuarderUrl = "https://www.telguarder.com/it"
 
     #starting telguarder site wait 1 second#
-    driver = webdriver.Firefox()
+    driver = webdriver.Firefox(options=opt)
     driver.get(telGuarderUrl)
 
 
@@ -69,6 +69,7 @@ def extractNumData(refreshPage: int):
         try:
             nSearch = driver.find_element(by=By.CLASS_NAME, value='ai-row-info-value')
             #print(nSearch.text)
+            driver.implicitly_wait(3)
             researchs.append(nSearch.text)
             driver.back()
             driver.implicitly_wait(1)
@@ -86,7 +87,7 @@ def extractNumData(refreshPage: int):
     return numCom
 
 if __name__ == '__main__':
-    data = extractNumData(3)
+    data = extractNumData(1)
     df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs'])
     print(df)
 
