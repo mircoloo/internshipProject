@@ -16,6 +16,7 @@ def extractNumData(refreshPage: int):
 
     #starting telguarder site wait 1 second#
     driver = webdriver.Firefox(options=opt)
+    driver.implicitly_wait(30)
     driver.get(telGuarderUrl)
 
 
@@ -24,12 +25,10 @@ def extractNumData(refreshPage: int):
     try:
         for i in range(refreshPage):
             button = driver.find_element(by=By.CLASS_NAME, value="ai-button-rounded").click()
-            driver.implicitly_wait(1)
     except:
         print("non trovato")
         driver.quit()
 
-    driver.implicitly_wait(4)
     #telephone numbers extraction#
     numbers = []
     telephonesNumbers = driver.find_elements(by=By.CLASS_NAME, value="ai-phone")#margin-2
@@ -65,14 +64,11 @@ def extractNumData(refreshPage: int):
         searchBar = driver.find_element(by=By.ID, value='queryInput')
         searchBar.clear()
         searchBar.send_keys(str(num), Keys.ENTER)
-        driver.implicitly_wait(1)
         try:
             nSearch = driver.find_element(by=By.CLASS_NAME, value='ai-row-info-value')
             #print(nSearch.text)
-            driver.implicitly_wait(3)
             researchs.append(nSearch.text)
             driver.back()
-            driver.implicitly_wait(1)
         except:
             #print(num,"Num non trovato")
             researchs.append('ND')
@@ -87,7 +83,7 @@ def extractNumData(refreshPage: int):
     return numCom
 
 if __name__ == '__main__':
-    data = extractNumData(1)
+    data = extractNumData(5)
     df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs'])
     print(df)
 

@@ -21,7 +21,6 @@ toClick =lasInserted.find_element(by=By.CLASS_NAME, value='mb-2')
 time.sleep(4)
 try: 
     print(toClick.text)
-    toClick.click()
 except:
     print('Unclickable')
     driver.quit()
