@@ -68,13 +68,13 @@ for num in numbers:
          
 
         #print("{}\n{}\n{}\n\n".format(num,imgText,description))
-        try:
+        """ try:
         
             fComment = driver.find_element(by=By.XPATH,value='/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[7]/ol[1]/li[1]/div[1]/div[2]/p[2]')
             print(fComment.text) 
             driver.back()                             
         except:
-            print('Commento non trovato')
+            print('Commento non trovato') """
         #extract informations  
         scorePatt = re.compile(r'Score\s([\d])')
         score = scorePatt.search(imgText).group(1)

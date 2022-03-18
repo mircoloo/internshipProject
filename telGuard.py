@@ -1,10 +1,15 @@
 #!python3
-from click import option
 from selenium.webdriver.firefox.options import Options
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import pandas as pd
+
+
+def remove_suffix(input_string, suffix):
+    if suffix and input_string.endswith(suffix):
+        return input_string[:-len(suffix)]
+    return input_string
 
 
 opt = webdriver.FirefoxOptions()
@@ -45,8 +50,8 @@ def extractNumData(refreshPage: int):
     numComments = driver.find_elements(by=By.CLASS_NAME, value="ai-column-comment")
     for comment in numComments:
         if comment.text != '':
-            cleanedComment = comment.text.removesuffix("\nCommento dell'utente (Italia,  web)")
-            cleanedComment = cleanedComment.removesuffix("\nCommento dell'utente (Italia,  app)")
+            cleanedComment = remove_suffix(comment.text, "\nCommento dell'utente (Italia,  web)")
+            cleanedComment = remove_suffix(cleanedComment, "\nCommento dell'utente (Italia,  app)")
             comments.append(cleanedComment)
 
 
@@ -80,10 +85,11 @@ def extractNumData(refreshPage: int):
     for i in range(len(numbers)):
         numCom.append([numbers[i],comments[i], reasons[i],researchs[i]])
     driver.quit()
-    return numCom
+    df = pd.DataFrame(numCom, columns=['Number', 'Comment', 'Type', 'Researchs'])
+    return df
 
 if __name__ == '__main__':
-    data = extractNumData(5)
-    df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs'])
-    print(df)
+    
+    print('')
+    
 

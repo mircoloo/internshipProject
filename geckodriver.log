@@ -26098,3 +26098,684 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 
 ###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
+1647597854736	geckodriver	INFO	Listening on 127.0.0.1:40065
+1647597855230	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "34943" "-no-remote" "-profile" "/tmp/rust_mozprofileVTEoKe"
+*** You are running in headless mode.
+1647597859453	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVTEoKe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34943/devtools/browser/5004ded5-1237-46a2-8c74-a2258a613b08
+1647597866744	Marionette	INFO	Listening on port 38381
+1647597866993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3271-1647532725217/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 4264 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 309 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-LSynECPyRS4LW&moatClientLevel2=qfm&moatClientLevel3=90a5b8b4-8f51-464e-b402-7093a758f8bc&moatClientLevel4=1108d6b7-0589-41c1-a83f-ab20e59d2331&uid=n2Iny58xLMqHZ32Xkiwqks4zM5GZZH_ezDN_wZg4f8aaZ3zLDYl3DQ==, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 451 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-fHFepEQud3Q-h&moatClientLevel2=qfm&moatClientLevel3=bb77f45e-2ff4-40d0-b259-cf7ab9f9231e&moatClientLevel4=07525932-62e7-4678-b770-057ac51a68ed&uid=CHL3wQkq8MQRfKKVXmb3kgou7p1eL_qICHrzkQQqp8APKPqTlrl4Mg==, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://native.sharethrough.com/assets/sfp.js, line 2: SecurityError: Permission denied to access property "origin" on cross-origin object
+JavaScript error: https://native.sharethrough.com/assets/sfp.js, line 2: SecurityError: Permission denied to access property "origin" on cross-origin object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 2760 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 641 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-LSynECPyRS4LW&moatClientLevel2=qfm&moatClientLevel3=9718a72a-a617-46ed-84d1-4dec446e6489&moatClientLevel4=84e7d36b-f359-4e05-98ee-12736fdf0e9d&uid=vTMhe7YzIQKoMSUPsS8ne7VGPgLGOlEXszsiCbVAVwyzO1YIshGyvg==, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 1623 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1647597913390&ver1=2.2.3&qid=53232313f523332313f5333393&rnd=jtcjykry0acq&cid=933 line 1 > eval, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 5365 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 2167 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1647597942839&ver1=2.2.3&qid=53232313f523332313f5333393&rnd=1ak1cze7k5ui&cid=933 line 1 > eval, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 4910 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3271-1647532725217/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-4fc9NHhQBUj8p&moatClientLevel2=qfm&moatClientLevel3=28d6f069-7e1f-4e9f-8e34-bd259b949be4&moatClientLevel4=b2d805ca-0bd9-45aa-9db8-18548289f8cf&uid=i3ifEot0l0GSKZZBh2CaFdx1g0aLL8wKjn7NQ915zUWIeZ8R8LQTmQ==, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-fHFepEQud3Q-h&moatClientLevel2=qfm&moatClientLevel3=1d84b633-789e-4d3c-b7ba-2d5593aaa534&moatClientLevel4=5d98e0ed-5bcd-43e1-87ad-9d7c10407864&uid=6tsxNbvWPmCj3TRluMIzMrmNKjS73jR7vNZjM72LP2S6iT83lN395w==, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 6852 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-LSynECPyRS4LW&moatClientLevel2=qfm&moatClientLevel3=9c25c869-b4b2-4fec-82eb-67d3cd6a33c3&moatClientLevel4=0a7e687d-03f9-45c9-9e4a-920c317fa7f2&uid=JLAbzSO1HblPsGjOId5tulvGdMQgsh_RIMFsvSayH88hxRrFUlQC7w==, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 1528 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 999 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 691 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647598088935	Marionette	INFO	Stopped listening on port 38381
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647598111780	geckodriver	INFO	Listening on 127.0.0.1:60707
+1647598111784	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "55411" "-no-remote" "-profile" "/tmp/rust_mozprofileFoqIZl"
+*** You are running in headless mode.
+1647598118063	geckodriver	INFO	Listening on 127.0.0.1:51597
+1647598118068	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "57579" "-no-remote" "-profile" "/tmp/rust_mozprofileo525To"
+*** You are running in headless mode.
+1647598120187	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo525To/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57579/devtools/browser/1d089e1f-68e8-42d3-ab91-a7f5bc103cdf
+1647598123180	Marionette	INFO	Listening on port 40763
+1647598123287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1647598306936	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 4473 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647598437754	geckodriver	INFO	Listening on 127.0.0.1:45817
+1647598437758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "51897" "-no-remote" "-profile" "/tmp/rust_mozprofilelA9wVM"
+*** You are running in headless mode.
+1647598440212	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelA9wVM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51897/devtools/browser/c2170a04-d311-4884-a501-12b18145e3f3
+1647598443093	Marionette	INFO	Listening on port 36761
+1647598443191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 6606 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1647599516276	geckodriver	INFO	Listening on 127.0.0.1:34213
+1647599516280	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "34023" "-no-remote" "-profile" "/tmp/rust_mozprofile9pg2Iq"
+*** You are running in headless mode.
+1647599518225	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9pg2Iq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34023/devtools/browser/c106a568-ddc8-4911-b82e-ce5d692fdb5b
+1647599520873	Marionette	INFO	Listening on port 39447
+1647599521177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647599539420	geckodriver	INFO	Listening on 127.0.0.1:50535
+1647599539426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "55017" "-no-remote" "-profile" "/tmp/rust_mozprofileL0Rwwt"
+*** You are running in headless mode.
+1647599541125	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL0Rwwt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55017/devtools/browser/d8b7afe8-eb49-4ee7-a7f0-2eb5b4cbe080
+1647599543907	Marionette	INFO	Listening on port 39071
+1647599543944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 90 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/J_qxQZjuUB_uQp7BvnBI0K8a5e4rJKdHhykRiRTCxyY.js line 1 > eval line 173 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1647599655482	geckodriver	INFO	Listening on 127.0.0.1:45197
+1647599655486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "53283" "-no-remote" "-profile" "/tmp/rust_mozprofilez4ltjL"
+*** You are running in headless mode.
+1647599657228	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilez4ltjL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53283/devtools/browser/305112cc-77a9-4635-927c-a5b2373f165d
+1647599659871	Marionette	INFO	Listening on port 40215
+1647599660186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599678502	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599680302	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599690963	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599695964	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599698211	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599701750	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599733129	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599745775	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599754847	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599762963	Marionette	INFO	Stopped listening on port 40215
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647599839816	geckodriver	INFO	Listening on 127.0.0.1:56233
+1647599839822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "38105" "-no-remote" "-profile" "/tmp/rust_mozprofileDYtws8"
+*** You are running in headless mode.
+1647599841723	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDYtws8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38105/devtools/browser/f38cbac7-98c7-4c65-9636-21e3e3af07df
+1647599844424	Marionette	INFO	Listening on port 36989
+1647599844804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647599885928	Marionette	INFO	Stopped listening on port 36989
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647600763005	geckodriver	INFO	Listening on 127.0.0.1:42023
+1647600763009	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "55553" "-no-remote" "-profile" "/tmp/rust_mozprofile7kwDCK"
+*** You are running in headless mode.
+1647600764819	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7kwDCK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55553/devtools/browser/ddb8266a-a5ce-44dd-9aff-1e87c8c83da7
+1647600767654	Marionette	INFO	Listening on port 45605
+1647600768107	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647600783418	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647600786264	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647600802288	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647600862420	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647600869066	Marionette	INFO	Stopped listening on port 45605
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647600962464	geckodriver	INFO	Listening on 127.0.0.1:52543
+1647600962469	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "40585" "-no-remote" "-profile" "/tmp/rust_mozprofilegaMFer"
+*** You are running in headless mode.
+1647600964318	Marionette	INFO	Marionette enabled
+1647600969136	geckodriver	INFO	Listening on 127.0.0.1:56953
+1647600969140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "44441" "-no-remote" "-profile" "/tmp/rust_mozprofileQlBwP4"
+*** You are running in headless mode.
+1647600970955	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQlBwP4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44441/devtools/browser/9a0561c7-2eff-4e77-8283-9924f298f19c
+1647600973844	Marionette	INFO	Listening on port 45991
+1647600974374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647600995680	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601018915	Marionette	INFO	Stopped listening on port 45991
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647601079358	geckodriver	INFO	Listening on 127.0.0.1:42459
+1647601079363	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "58183" "-no-remote" "-profile" "/tmp/rust_mozprofileDacvon"
+*** You are running in headless mode.
+1647601081222	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDacvon/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58183/devtools/browser/7b2358f1-0b4d-4b5b-855a-bc047c8502d7
+1647601083967	Marionette	INFO	Listening on port 44161
+1647601083989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601105095	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601120041	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601125403	Marionette	INFO	Stopped listening on port 44161
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647601187108	geckodriver	INFO	Listening on 127.0.0.1:40945
+1647601187112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "49911" "-no-remote" "-profile" "/tmp/rust_mozprofileT3fOrX"
+*** You are running in headless mode.
+1647601189014	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT3fOrX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49911/devtools/browser/f1ac430e-2fdd-4676-85e5-50aac2fbb82c
+1647601191869	Marionette	INFO	Listening on port 33435
+1647601192257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601202418	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601206101	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601220370	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601229741	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601234909	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601237629	Marionette	INFO	Stopped listening on port 33435
+1647601416590	geckodriver	INFO	Listening on 127.0.0.1:47281
+1647601416595	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "37183" "-no-remote" "-profile" "/tmp/rust_mozprofilehh9CVA"
+*** You are running in headless mode.
+1647601418446	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehh9CVA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37183/devtools/browser/5b24160c-82fa-4e4d-a194-2380cf0179fc
+1647601421215	Marionette	INFO	Listening on port 36999
+1647601421315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.telguarder.com"
+1647601464649	Marionette	INFO	Stopped listening on port 36999
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
