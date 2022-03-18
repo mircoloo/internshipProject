@@ -30,4 +30,6 @@ Meeting con tutor aziendale
 Inizio primo codice progetto: estrazione informazioni da tellows e telguarder 
 e studio regular expressions in python
 
+#18 Marzo 
+Fine lavoro estrazione informazioni e primo approccio a come salvare i dati su database
 

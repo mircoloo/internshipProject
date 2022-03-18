@@ -16,8 +16,9 @@ c = conn.cursor()
 #df.to_sql('info',conn, if_exists='replace', index = False)
 #c.execute(f"INSERT INTO info VALUES ({}, 'Numero di Mirco', 'Numero serio', 17)")
 #c.execute("INSERT INTO info VALUES (342343, 'Numero di sad', 'Numero non serio', 19)")
-res = c.execute("SELECT number, type FROM info")
-print(c.fetchall())
+res = c.execute("SELECT * FROM info WHERE type = 'Sicuro'")
+for r in res:
+    print(r)
 
 conn.commit()
 

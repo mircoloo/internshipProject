@@ -25,20 +25,17 @@ opt.add_argument("--headless")
 
 tellowsUrl = "https://www.tellows.it/"
 driver = webdriver.Firefox(options=opt)
-#driver = webdriver.Firefox()
 driver.implicitly_wait(5)
+#driver = webdriver.Firefox()
 driver.get(tellowsUrl)
 
 
 #Accept cookies
+#WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "fc-button-label")))
 driver.find_element(by=By.CLASS_NAME, value='fc-button-label').click()
-
-
-
 
 #get recents comments numbers
 for i in range(1,7):
-
     if i == 5: 
         continue
     try: 
@@ -48,10 +45,6 @@ for i in range(1,7):
         numbers.append(numero)
     except:
         print(f'Problema nel trovare il {i} commento più recente')
-
-print(numbers)
-
-"""
 
 driver.get(tellowsUrl)
 for num in numbers:
@@ -72,10 +65,9 @@ for num in numbers:
         #print("{}\n{}\n{}\n\n".format(num,imgText,description))
 
         try:
-            fComment = driver.find_element(by=By.XPATH, value='//ol[@id="singlecomments"]/li[1]')
+            fComment = driver.find_element(by=By.XPATH, value='//ol[@id="singlecomments"]/li[1]/div[1]/div[2]/p[2]').text
             #fComment = driver.find_element(by=By.XPATH,value='/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[7]/ol[1]/li[1]/div[1]/div[2]/p[2]')
-            print(fComment.text) 
-
+            comments.append(fComment)
             driver.back()                             
         except:
             print('Commento non trovato') 
@@ -87,9 +79,8 @@ for num in numbers:
 
 
         #build vectors
-        types.append(type)#unicodedata.normalize('NFD', type).encode('ascii', 'ignore'))
-        scores.append(score)
-    
+        types.append(type)      #unicodedata.normalize('NFD', type).encode('ascii', 'ignore'))
+        scores.append(score)    
         driver.back() 
     except:
         print('Error...')
@@ -101,10 +92,8 @@ driver.close()
 #build dataFrame
 data = []
 for i in range(len(numbers)):
-    data.append([numbers[i], types[i], scores[i]])
-df = pd.DataFrame(data, columns=['Number', 'Type', 'Score'])
+    data.append([numbers[i], comments[i], types[i], scores[i]])
+df = pd.DataFrame(data, columns=['Number','Comment' ,'Type',  'Score'])
 
 print(df)
-"""
 
-driver.close()
