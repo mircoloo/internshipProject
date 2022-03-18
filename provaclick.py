@@ -1,7 +1,6 @@
 #!python3
 import re
 import time
-from numpy import number
 import selenium
 import pandas as pd
 from selenium import webdriver
@@ -10,20 +9,15 @@ from selenium.webdriver.common.keys import Keys
 
 
 driver = webdriver.Firefox()
-driver.get('https://www.tellows.it/')
-driver.implicitly_wait(3)
-driver.find_element(by=By.CLASS_NAME, value='fc-button-label').click()
-driver.implicitly_wait(3)
+driver.implicitly_wait(5)
+driver.get('https://www.tellows.it/num/3486158000')
 
-lasInserted = driver.find_element(by=By.XPATH, value='/html/body/main/div/div[1]/div[1]/section/div[9]/ol/li[1]/div[1]')
-#toClick =lasInserted.find_element(by=By.XPATH, value='div[2]/a')  
-toClick =lasInserted.find_element(by=By.CLASS_NAME, value='mb-2')  
-time.sleep(4)
-try: 
-    print(toClick.text)
-except:
-    print('Unclickable')
-    driver.quit()
+""" driver.find_element(by=By.CLASS_NAME, value='fc-button-label').click()
+
+
+fComment = driver.find_element(by=By.XPATH, value='//ol[@id="singlecomments"]/li[1]')
+            #fComment = driver.find_element(by=By.XPATH,value='/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[7]/ol[1]/li[1]/div[1]/div[2]/p[2]')
+print(fComment.text) """
 
 
 
