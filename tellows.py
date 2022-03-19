@@ -31,7 +31,7 @@ driver.get(tellowsUrl)
 
 
 #Accept cookies
-#WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "fc-button-label")))
+WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "fc-button-label")))
 driver.find_element(by=By.CLASS_NAME, value='fc-button-label').click()
 
 #get recents comments numbers
@@ -93,7 +93,7 @@ driver.close()
 data = []
 for i in range(len(numbers)):
     data.append([numbers[i], comments[i], types[i], scores[i]])
-df = pd.DataFrame(data, columns=['Number','Comment' ,'Type',  'Score'])
+df = pd.DataFrame(data, columns=['Number','Comment' ,'Type', 'Score'])
 
 print(df)
 

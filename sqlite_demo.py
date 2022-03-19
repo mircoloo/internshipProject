@@ -6,7 +6,6 @@ from telGuard import extractNumData
 conn = sqlite3.connect('info.db')
 
 #df = extractNumData(0)
-
 #print(df)
 
 c = conn.cursor()
