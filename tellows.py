@@ -19,15 +19,16 @@ scores = []
 
 
 
+
 opt = webdriver.FirefoxOptions()
 opt.add_argument("--headless")  
 
 tellowsUrl = "https://www.tellows.it/"
 driver = webdriver.Firefox(options=opt)
 #driver = webdriver.Firefox()
-driver.implicitly_wait(5)
+driver.implicitly_wait(10)
 driver.get(tellowsUrl)
-
+success = False
 
 #Accept cookies
 WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "fc-button-label")))
@@ -38,11 +39,13 @@ for i in range(1,7):
     if i == 5: 
         continue
     try: 
-        row_text = driver.find_element(by=By.XPATH, value=f'/html/body/main/div/div[2]/div[1]/section/div[9]/ol/li[{i}]/div[1]').text
+        row_text = driver.find_element(by=By.XPATH, value='/html/body/main/div/div[1]/div[1]/section/div[8]/ol/li[{}]/div[1]/div[2]/p[1]'.format(i)).text
         num_pattern= re.compile(r'[i|I]l\snumero\s(\+?\d+)')
         num = num_pattern.search(row_text).group(1)
         numbers.append(num)
+        success = True
     except:
+        #driver.close()
         print(f'Problema nel trovare il {i} commento più recente')
 
 driver.get(tellowsUrl)
@@ -82,16 +85,15 @@ for num in numbers:
         driver.back() 
     except:
         print('Error...')
+
         
-
 driver.close()
-
-
-#build dataFrame
 data = []
-for i in range(len(numbers)):
-    data.append([numbers[i], comments[i], types[i], scores[i]])
-df = pd.DataFrame(data, columns=['Number','Comment' ,'Type', 'Score'])
 
-print(df)
+if success:
+    #build dataFrame
+    for i in range(len(numbers)):
+        data.append([numbers[i], comments[i], types[i], scores[i]])
+        df = pd.DataFrame(data, columns=['Number','Comment' ,'Type', 'Score'])
+    print(df)
 

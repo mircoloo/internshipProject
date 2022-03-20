@@ -4,6 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import pandas as pd
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 def remove_suffix(input_string, suffix):
@@ -21,11 +23,12 @@ def extract_data(refreshPage: int = 0):
 
     #starting telguarder site wait 1 second#
     driver = webdriver.Firefox(options=opt)
-    driver.implicitly_wait(30)
+    driver.implicitly_wait(10)
     driver.get(telGuarderUrl)
 
 
     #accept cookie#
+    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, "didomi-notice-agree-button")))
     acceptCookie = driver.find_element(by=By.ID, value="didomi-notice-agree-button").click()
     try:
         for i in range(refreshPage):
@@ -39,7 +42,6 @@ def extract_data(refreshPage: int = 0):
     telephonesNumbers = driver.find_elements(by=By.CLASS_NAME, value="ai-phone")#margin-2
     for number in telephonesNumbers:
         if number.text != '':
-            "//table[@class, 'test']/tbody.." 
             numbers.append(number.text)
     del numbers[-20:]
 
@@ -87,11 +89,4 @@ def extract_data(refreshPage: int = 0):
     return df
 
 if __name__ == '__main__':
-<<<<<<< HEAD
-    
-    print(extr)
-    
-=======
-    print(extract_data())
->>>>>>> df0b530968264d22002ef31d016310b8d8119ef2
-
+    print(extract_data(1))

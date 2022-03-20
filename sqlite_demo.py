@@ -5,17 +5,15 @@ from telGuard import extract_data
 
 conn = sqlite3.connect('info.db')
 
-<<<<<<< HEAD
-
 #df = extractNumData(0)
-=======
+
 def search_num_information(num: int):
     res = c.execute(f"SELECT * FROM info WHERE number = {num}")
 
     return res.fetchone() if res != None else "number not in database"
 
 #df = extract_data(0)
->>>>>>> df0b530968264d22002ef31d016310b8d8119ef2
+
 
 #print(df)
 
