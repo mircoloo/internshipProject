@@ -16,7 +16,7 @@ opt = webdriver.FirefoxOptions()
 opt.add_argument("--headless")
 
 
-def extractNumData(refreshPage: int):
+def extract_data(refreshPage: int = 0):
     telGuarderUrl = "https://www.telguarder.com/it"
 
     #starting telguarder site wait 1 second#
@@ -66,30 +66,26 @@ def extractNumData(refreshPage: int):
     driver.get(telGuarderUrl)
     researchs = []
     for num in numbers:
-        searchBar = driver.find_element(by=By.ID, value='queryInput')
-        searchBar.clear()
-        searchBar.send_keys(str(num), Keys.ENTER)
+        search_bar = driver.find_element(by=By.ID, value='queryInput')
+        search_bar.clear()
+        search_bar.send_keys(str(num), Keys.ENTER)
         try:
             nSearch = driver.find_element(by=By.CLASS_NAME, value='ai-row-info-value')
-            #print(nSearch.text)
             researchs.append(nSearch.text)
             driver.back()
         except:
-            #print(num,"Num non trovato")
             researchs.append('ND')
             
 
     
     ########BUILDING RELATIONSHIP NUMBER-COMMENT#
-    numCom = []
+    data = []
     for i in range(len(numbers)):
-        numCom.append([numbers[i],comments[i], reasons[i],researchs[i]])
+        data.append([numbers[i],comments[i], reasons[i],researchs[i]])
     driver.quit()
-    df = pd.DataFrame(numCom, columns=['Number', 'Comment', 'Type', 'Researchs'])
+    df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs'])
     return df
 
 if __name__ == '__main__':
-    
-    print('')
-    
+    print(extract_data())
 
