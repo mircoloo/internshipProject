@@ -39,9 +39,9 @@ for i in range(1,7):
     if i == 5: 
         continue
     try: 
-        riga = driver.find_element(by=By.XPATH, value=f'/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/section/div[9]/ol/li[{str(i)}]/div[1]')
-        numPatt = re.compile(r'[i|I]l\snumero\s(\+?\d+)')
-        numero = numPatt.search(riga.text).group(1)
+        row = driver.find_element(by=By.XPATH, value=f'/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/section/div[9]/ol/li[{str(i)}]/div[1]')
+        num_pattern= re.compile(r'[i|I]l\snumero\s(\+?\d+)')
+        numero = num_pattern.search(row.text).group(1)
         numbers.append(numero)
     except:
         print(f'Problema nel trovare il {i} commento più recente')
@@ -66,7 +66,6 @@ for num in numbers:
 
         try:
             fComment = driver.find_element(by=By.XPATH, value='//ol[@id="singlecomments"]/li[1]/div[1]/div[2]/p[2]').text
-            #fComment = driver.find_element(by=By.XPATH,value='/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[7]/ol[1]/li[1]/div[1]/div[2]/p[2]')
             comments.append(fComment)
             driver.back()                             
         except:
@@ -95,5 +94,5 @@ for i in range(len(numbers)):
     data.append([numbers[i], comments[i], types[i], scores[i]])
 df = pd.DataFrame(data, columns=['Number','Comment' ,'Type', 'Score'])
 
-print(df)
+print(df['Comment'])
 
