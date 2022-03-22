@@ -4,6 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import pandas as pd
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 def remove_suffix(input_string, suffix):
@@ -16,16 +18,17 @@ opt = webdriver.FirefoxOptions()
 opt.add_argument("--headless")
 
 
-def extractNumData(refreshPage: int):
+def extract_data(refreshPage: int = 0):
     telGuarderUrl = "https://www.telguarder.com/it"
 
     #starting telguarder site wait 1 second#
     driver = webdriver.Firefox(options=opt)
-    driver.implicitly_wait(30)
+    driver.implicitly_wait(10)
     driver.get(telGuarderUrl)
 
 
     #accept cookie#
+    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, "didomi-notice-agree-button")))
     acceptCookie = driver.find_element(by=By.ID, value="didomi-notice-agree-button").click()
     try:
         for i in range(refreshPage):
@@ -39,7 +42,6 @@ def extractNumData(refreshPage: int):
     telephonesNumbers = driver.find_elements(by=By.CLASS_NAME, value="ai-phone")#margin-2
     for number in telephonesNumbers:
         if number.text != '':
-            "//table[@class, 'test']/tbody.." 
             numbers.append(number.text)
     del numbers[-20:]
 
@@ -66,30 +68,25 @@ def extractNumData(refreshPage: int):
     driver.get(telGuarderUrl)
     researchs = []
     for num in numbers:
-        searchBar = driver.find_element(by=By.ID, value='queryInput')
-        searchBar.clear()
-        searchBar.send_keys(str(num), Keys.ENTER)
+        search_bar = driver.find_element(by=By.ID, value='queryInput')
+        search_bar.clear()
+        search_bar.send_keys(str(num), Keys.ENTER)
         try:
             nSearch = driver.find_element(by=By.CLASS_NAME, value='ai-row-info-value')
-            #print(nSearch.text)
             researchs.append(nSearch.text)
             driver.back()
         except:
-            #print(num,"Num non trovato")
             researchs.append('ND')
             
 
     
     ########BUILDING RELATIONSHIP NUMBER-COMMENT#
-    numCom = []
+    data = []
     for i in range(len(numbers)):
-        numCom.append([numbers[i],comments[i], reasons[i],researchs[i]])
+        data.append([numbers[i],comments[i], reasons[i],researchs[i]])
     driver.quit()
-    df = pd.DataFrame(numCom, columns=['Number', 'Comment', 'Type', 'Researchs'])
+    df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs'])
     return df
 
 if __name__ == '__main__':
-    
-    print(extractNumData)
-    
-
+    print(extract_data(1))

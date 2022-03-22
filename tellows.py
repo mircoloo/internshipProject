@@ -2,7 +2,6 @@
 import re
 import time
 import unicodedata
-import selenium
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -20,30 +19,33 @@ scores = []
 
 
 
+
 opt = webdriver.FirefoxOptions()
 opt.add_argument("--headless")  
 
 tellowsUrl = "https://www.tellows.it/"
 driver = webdriver.Firefox(options=opt)
-driver.implicitly_wait(5)
 #driver = webdriver.Firefox()
+driver.implicitly_wait(10)
 driver.get(tellowsUrl)
-
+success = False
 
 #Accept cookies
-#WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "fc-button-label")))
+WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "fc-button-label")))
 driver.find_element(by=By.CLASS_NAME, value='fc-button-label').click()
 
-#get recents comments numbers
+#get recent numbers
 for i in range(1,7):
     if i == 5: 
         continue
     try: 
-        row = driver.find_element(by=By.XPATH, value=f'/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/section/div[9]/ol/li[{str(i)}]/div[1]')
+        row_text = driver.find_element(by=By.XPATH, value='/html/body/main/div/div[1]/div[1]/section/div[8]/ol/li[{}]/div[1]/div[2]/p[1]'.format(i)).text
         num_pattern= re.compile(r'[i|I]l\snumero\s(\+?\d+)')
-        numero = num_pattern.search(row.text).group(1)
-        numbers.append(numero)
+        num = num_pattern.search(row_text).group(1)
+        numbers.append(num)
+        success = True
     except:
+        #driver.close()
         print(f'Problema nel trovare il {i} commento più recente')
 
 driver.get(tellowsUrl)
@@ -83,16 +85,15 @@ for num in numbers:
         driver.back() 
     except:
         print('Error...')
+
         
-
 driver.close()
-
-
-#build dataFrame
 data = []
-for i in range(len(numbers)):
-    data.append([numbers[i], comments[i], types[i], scores[i]])
-df = pd.DataFrame(data, columns=['Number','Comment' ,'Type',  'Score'])
 
-print(df['Comment'])
+if success:
+    #build dataFrame
+    for i in range(len(numbers)):
+        data.append([numbers[i], comments[i], types[i], scores[i]])
+        df = pd.DataFrame(data, columns=['Number','Comment' ,'Type', 'Score'])
+    print(df)
 
