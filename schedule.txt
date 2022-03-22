@@ -33,3 +33,10 @@ e studio regular expressions in python
 #18 Marzo 
 Fine lavoro estrazione informazioni e primo approccio a come salvare i dati su database
 
+#21 Marzo 10:30-12:30
+Meeting con tutor, correzione errori codice e inizio nuovo step
+
+#22 Marzo 8:30-12:30
+Correzzione e pulizia del codice telGuard e tellows e inizio codice per estrarre informazioni da twitter
+
+

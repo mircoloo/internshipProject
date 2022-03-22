@@ -7,6 +7,9 @@ import tweepy
 
 client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
 
+r = client.get_tweet(id='1503723497356509188',media_fields=['preview_image_url'],expansions=['attachments.media_keys'])
+
+
 def getTweets(maxResults=10):
 
     query = "SMS truffa -isRetweet"
@@ -16,17 +19,14 @@ def dFtoJSON(file_name: str, df):
     df.to_json(file_name, orient='records', lines=True, force_ascii=True)
 
 
-columns = ['Time', 'Tweet', 'Lang']
-data = []
-response = getTweets()
-for tweet in response.data:
-    data.append([str(tweet.created_at)[:10], str(tweet.text), tweet.lang])#tweet.entities['mentions']  if 'mentions' in tweet.entities else "--"])
-    #print(tweet.text)
-df = pd.DataFrame(data,columns=columns)
+# columns = ['Time', 'Tweet', 'Lang']
+# data = []
+# response = getTweets()
+# for tweet in response.data:
+#     data.append([str(tweet.created_at)[:10], str(tweet.text), tweet.lang])#tweet.entities['mentions']  if 'mentions' in tweet.entities else "--"])
+#     #print(tweet.text)
+# df = pd.DataFrame(data,columns=columns)
 
-
-for tweet in getTweets().data:
-    print(tweet.attachments, tweet.text, "\n")
 
 
 #dFtoJSON('tweets.json', df""" )
@@ -37,3 +37,5 @@ with open('tweets.txt', 'a+') as fh:
     for r in risposta.data:
         print(r.text)
         fh.write(r.text) """
+
+print(r.includes['media'])

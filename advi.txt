@@ -1,0 +1,5 @@
+not close the browser, reuse same driver
+more descriptive error exception
+
+
+twitter comment | tweet id | tweet image text | ... | time | image url  
