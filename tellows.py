@@ -19,81 +19,94 @@ scores = []
 
 
 
-
+#adding arguments to Firefox options in order to avoid the opening of the windows 
 opt = webdriver.FirefoxOptions()
 opt.add_argument("--headless")  
 
 tellowsUrl = "https://www.tellows.it/"
 driver = webdriver.Firefox(options=opt)
-#driver = webdriver.Firefox()
-driver.implicitly_wait(10)
 driver.get(tellowsUrl)
-success = False
+success = True
 
-#Accept cookies
-WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "fc-button-label")))
-driver.find_element(by=By.CLASS_NAME, value='fc-button-label').click()
+#Accept cookies scripts 
+try:
+    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "fc-button-label")))
+    driver.find_element(by=By.CLASS_NAME, value='fc-button-label').click()
+except:
+    print('Error in cookie accept')
+    success = False
 
-#get recent numbers
+#iterate for all the 5 recent comments and retrieve the numbers 
+count = 0
 for i in range(1,7):
+    count += 1
     if i == 5: 
         continue
     try: 
-        row_text = driver.find_element(by=By.XPATH, value='/html/body/main/div/div[1]/div[1]/section/div[8]/ol/li[{}]/div[1]/div[2]/p[1]'.format(i)).text
-        num_pattern= re.compile(r'[i|I]l\snumero\s(\+?\d+)')
+        row_text = driver.find_element(by=By.XPATH, value='(//ol[@id="singlecomments"])[2]/li[{}]/div[1]/div[2]/p[1]'.format(i)).text
+        num_pattern= re.compile(r'[i|I]l\snumero\s(\+?\d+)')  
         num = num_pattern.search(row_text).group(1)
         numbers.append(num)
         success = True
     except:
         #driver.close()
-        print(f'Problema nel trovare il {i} commento più recente')
+        print("Probem in retrieving the {} number".format(count))
+        success = False
 
-driver.get(tellowsUrl)
+#iterate for all the 5 numbers and retrieve the | comment | type | score informations
 for num in numbers:
-
     try:
-        sb = driver.find_element(by=By.ID, value='searchbox')
-        sb.clear()
-        sb.send_keys(str(num), Keys.ENTER)
-        cb = driver.find_element(by=By.CLASS_NAME, value='card-body')
-        #print('\n',cb.text, '\n')
-         
-        
-        img = cb.find_element(by=By.CLASS_NAME, value='scoreimage')
-        imgText = img.get_attribute('alt')
-        description = cb.text
-         
+        #search the web page of any number
+        driver.get(f"{tellowsUrl}/num/{num}")
+        WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CLASS_NAME, "card-body")))
 
-        #print("{}\n{}\n{}\n\n".format(num,imgText,description))
+        #find the card board and the score image and retrieve the attribute alt in order to obtain the score later
+        card_board = driver.find_element(by=By.CLASS_NAME, value='card-body')
+        score_img = card_board.find_element(by=By.CLASS_NAME, value='scoreimage')
+        img_text = score_img.get_attribute('alt')
+        description = card_board.text
 
+        #find the first comment of the number
         try:
-            fComment = driver.find_element(by=By.XPATH, value='//ol[@id="singlecomments"]/li[1]/div[1]/div[2]/p[2]').text
-            comments.append(fComment)
+            first_Comment = driver.find_element(by=By.XPATH, value='//ol[@id="singlecomments"]/li[1]/div[1]/div[2]/p[2]').text
+            comments.append(first_Comment)
             driver.back()                             
         except:
-            print('Commento non trovato') 
-        #extract informations  
-        scorePatt = re.compile(r'Score\s([\d])')
-        score = scorePatt.search(imgText).group(1)
-        typePatt = re.compile(r'Tipo di chiamata:\s(\w+)')
-        type = typePatt.search(description).group(1)
+         print('Comment not found')
+         success = False
+        #extract score and type from the text
+        
+        try: 
+            scorePatt = re.compile(r"Score\s([\d])")
+            score = scorePatt.search(img_text).group(1)
+            typePatt = re.compile(r"Tipo di chiamata:\s(.*)")
+            #typePatt = re.compile(r"Tipo di chiamata:\s(\w+)")
+            type = typePatt.search(description).group(1)
+        except:
+            print('Error in retrieving information form text: Regex error')
+            success = False
 
-
-        #build vectors
+        #build vectors of type | score | 
         types.append(type)      #unicodedata.normalize('NFD', type).encode('ascii', 'ignore'))
         scores.append(score)    
         driver.back() 
     except:
-        print('Error...')
+        print('Error in retrieving informations from the number: {}'.format(num))
+        success = False
 
-        
+#close the firefox driver       
 driver.close()
+#list of number data 
 data = []
 
+
+#if all the steps goes succesfully
 if success:
     #build dataFrame
+    print("Building dataFrame...")
     for i in range(len(numbers)):
         data.append([numbers[i], comments[i], types[i], scores[i]])
         df = pd.DataFrame(data, columns=['Number','Comment' ,'Type', 'Score'])
     print(df)
-
+else:
+    print('Error in building dataFrame: missing informations')
