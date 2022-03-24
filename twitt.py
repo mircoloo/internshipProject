@@ -7,7 +7,7 @@ import tweepy
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
-pd.set_option('display.max_colwidth', -1)
+pd.set_option('display.max_colwidth', None)
 
 """    ######PROVE RETREIVING IMMAGINI######
 
@@ -53,7 +53,7 @@ creationTimes = []
 
 client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
 #query = 'sms truffa -is:retweet has:media'
-query = 'SMS truffa '
+query = 'SMS truffa'
 
 #results of the query
 results = client.search_recent_tweets(query=query,  tweet_fields=['geo', 'created_at', 'attachments', 'id', 'entities'], 
@@ -76,7 +76,7 @@ for i,tweet in enumerate(results.data):
     if not inserted:
         data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14], 'NI'])
 
-#1506665344395452418
+
 df = pd.DataFrame(data, columns=['ID', 'Comment', 'Creation', 'ImageUrl'])
 print(df)
 
