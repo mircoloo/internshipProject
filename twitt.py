@@ -55,12 +55,14 @@ query = 'SMS truffa '
 
 #results of the query
 results = client.search_recent_tweets(query=query,  tweet_fields=['geo', 'created_at', 'attachments', 'id'], 
-                            media_fields=['preview_image_url'],expansions=['attachments.media_keys'])
+                            media_fields=['preview_image_url', 'url'],expansions=['attachments.media_keys'])
 
+
+print(type(results))
 #iterate from all the tweet and retrieve information | twitter comment | tweet id | tweet image text | ... | time | image url 
 data = []
 for tweet in results.data:
-    print(tweet.text, '\n')
+    print(tweet, '\n')
     #print(tweet['geo'])
     #print(tweet.data['context_annotations'])
     #data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14]])
