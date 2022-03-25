@@ -1,74 +1,58 @@
 #!python3
 import pandas as pd
 import Prove.pyScripts.ApiKeys.apiKey as k
-import pandas as pd
 import tweepy
+import pytesseract
+import urllib.request
+import cv2
+import numpy as np
+
+#number of maxResults from the query (min:10 - max:100)
+MAX_RESULTS = 15
+
+#DATAFRAME PRINTING OPTION 
+# pd.set_option('display.max_rows', None)
+# pd.set_option('display.max_columns', None)
+# pd.set_option('display.width', None)
+# pd.set_option('display.max_colwidth', None)
 
 
-
-
-"""    ######PROVE RETREIVING IMMAGINI######
-
-#id -> tweet.data['id']
-#created at -> tweet.data['created']
-
-client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
-
-#tweet = client.get_tweet(id='1503723497356509188',tweet_fields=['context_annotations', 'created_at', 'attachments', 'id'], 
-                            # media_fields=['preview_image_url'],expansions=['attachments.media_keys'])
-
-
-tweet = client.get_tweet(id='1505547745578336261',tweet_fields=['context_annotations', 'created_at', 'attachments', 'id'],  media_fields=['preview_image_url'],expansions=['attachments.media_keys'])
-
-# attachments = tweet.data['attachments']
-# media_keys = attachments['media_keys']
-# print(media.text)
-# if media[media_keys[0]].preview_image_url:
-#     print(media[media_keys[0]].preview_image_url)
-
-query = 'sms truffa -is:retweet has:media'
-
-tweets = client.search_recent_tweets(query=query, tweet_fields=['context_annotations', 'created_at'],  media_fields=['preview_image_url'], expansions='attachments.media_keys',max_results=100)
-
-# Get list of media from the includes object
-media = {m["media_key"]: m for m in tweets.includes['media']}
-
-
-#print(media)
-
-for tweet in tweets.data:
-    attachments = tweet.data['attachments']
-    media_keys = attachments['media_keys']
-    #if media[media_keys[0]].preview_image_url:
-    print(tweet.data['id'], media_keys ,media[media_keys[0]].preview_image_url)
-
-
-"""
-
-ids = []
-comments = []
-creationTimes = []
 
 client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
 #query = 'sms truffa -is:retweet has:media'
-query = 'SMS truffa '
+query = 'SMS truffa'
 
 #results of the query
-results = client.search_recent_tweets(query=query,  tweet_fields=['geo', 'created_at', 'attachments', 'id'], 
-                            media_fields=['preview_image_url', 'url'],expansions=['attachments.media_keys'])
-
-
-print(type(results))
-#iterate from all the tweet and retrieve information | twitter comment | tweet id | tweet image text | ... | time | image url 
+results = client.search_recent_tweets(query=query,  tweet_fields=['geo', 'created_at', 'attachments', 'id', 'entities'], 
+                            media_fields=['preview_image_url', 'url'],expansions=['attachments.media_keys'], max_results=MAX_RESULTS)
+#data list with | tweetID | tweetComment | tweetCreationTime | imgUrl | imgText |
 data = []
-for tweet in results.data:
-    print(tweet, '\n')
-    #print(tweet['geo'])
-    #print(tweet.data['context_annotations'])
-    #data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14]])
+
+#build the set of media_key -> url in order to use it later for a faster research
+imgUrls = {u['media_key']: u.url for u in results.includes['media'] if u.type == 'photo'}
 
 
-#df = pd.DataFrame(data, columns=['ID', 'Comment', 'Creation'])
+#iterate for all the tweets in results
+for i,tweet in enumerate(results.data):
+    inserted = False
+    #if tweet has media and url is in the set (if is a photo beacause sometimes could be a video, GIF ecc...)
+    if(tweet.attachments and tweet.attachments['media_keys'][0] in imgUrls):
+        #retrieve media_key
+        media_key = tweet.attachments['media_keys']
+        #retrieve url from imgUrl set with the media_key
+        url = imgUrls[media_key[0]]
+        url_response = urllib.request.urlopen(url)
+        img_array = np.array(bytearray(url_response.read()), dtype=np.uint8)
+        img = cv2.imdecode(img_array, -1)
+        text = pytesseract.image_to_string(img)
+        #print(f"####TESTO IMG TWEET {i}####\n{text}\n")
+        data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14], url, text])
+        #Set inserted as true so the tweet will not be inserted 2 times 
+        inserted=True
+    #if the tweet was not inserted before 
+    if not inserted:
+        data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14], 'IMG NOT PRESENT', "TEXT NOT PRESENT"])
 
-#print(df)
-
+#build the dataframe
+df = pd.DataFrame(data, columns=['ID', 'Comment', 'Creation', 'ImageUrl', 'ImageText'])
+print(df)
