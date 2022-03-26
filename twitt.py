@@ -16,43 +16,46 @@ MAX_RESULTS = 15
 # pd.set_option('display.width', None)
 # pd.set_option('display.max_colwidth', None)
 
+def extractInformation(maxResults: int=10) -> pd.DataFrame: 
+
+    client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
+    #query = 'sms truffa -is:retweet has:media'
+    query = 'SMS truffa'
+
+    #results of the query
+    results = client.search_recent_tweets(query=query,  tweet_fields=['geo', 'created_at', 'attachments', 'id', 'entities'], 
+                                media_fields=['preview_image_url', 'url'],expansions=['attachments.media_keys'], max_results=maxResults)
+    #data list with | tweetID | tweetComment | tweetCreationTime | imgUrl | imgText |
+    data = []
+
+    #build the set of media_key -> url in order to use it later for a faster research
+    imgUrls = {u['media_key']: u.url for u in results.includes['media'] if u.type == 'photo'}
 
 
-client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
-#query = 'sms truffa -is:retweet has:media'
-query = 'SMS truffa'
+    #iterate for all the tweets in results
+    for i,tweet in enumerate(results.data):
+        inserted = False
+        #if tweet has media and url is in the set (if is a photo beacause sometimes could be a video, GIF ecc...)
+        if(tweet.attachments and tweet.attachments['media_keys'][0] in imgUrls):
+            #retrieve media_key
+            media_key = tweet.attachments['media_keys']
+            #retrieve url from imgUrl set with the media_key
+            url = imgUrls[media_key[0]]
+            url_response = urllib.request.urlopen(url)
+            img_array = np.array(bytearray(url_response.read()), dtype=np.uint8)
+            img = cv2.imdecode(img_array, -1)
+            text = pytesseract.image_to_string(img)
+            print(f"####TESTO IMG TWEET {i}####\n{text}\n")
+            data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14], url, text])
+            #Set inserted as true so the tweet will not be inserted 2 times 
+            inserted=True
+        #if the tweet was not inserted before 
+        if not inserted:
+            data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14], '', ''])
 
-#results of the query
-results = client.search_recent_tweets(query=query,  tweet_fields=['geo', 'created_at', 'attachments', 'id', 'entities'], 
-                            media_fields=['preview_image_url', 'url'],expansions=['attachments.media_keys'], max_results=MAX_RESULTS)
-#data list with | tweetID | tweetComment | tweetCreationTime | imgUrl | imgText |
-data = []
+    #build the dataframe
+    df = pd.DataFrame(data, columns=['ID', 'Comment', 'Creation', 'ImageUrl', 'ImageText'])
+    return df
 
-#build the set of media_key -> url in order to use it later for a faster research
-imgUrls = {u['media_key']: u.url for u in results.includes['media'] if u.type == 'photo'}
-
-
-#iterate for all the tweets in results
-for i,tweet in enumerate(results.data):
-    inserted = False
-    #if tweet has media and url is in the set (if is a photo beacause sometimes could be a video, GIF ecc...)
-    if(tweet.attachments and tweet.attachments['media_keys'][0] in imgUrls):
-        #retrieve media_key
-        media_key = tweet.attachments['media_keys']
-        #retrieve url from imgUrl set with the media_key
-        url = imgUrls[media_key[0]]
-        url_response = urllib.request.urlopen(url)
-        img_array = np.array(bytearray(url_response.read()), dtype=np.uint8)
-        img = cv2.imdecode(img_array, -1)
-        text = pytesseract.image_to_string(img)
-        #print(f"####TESTO IMG TWEET {i}####\n{text}\n")
-        data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14], url, text])
-        #Set inserted as true so the tweet will not be inserted 2 times 
-        inserted=True
-    #if the tweet was not inserted before 
-    if not inserted:
-        data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14], 'IMG NOT PRESENT', "TEXT NOT PRESENT"])
-
-#build the dataframe
-df = pd.DataFrame(data, columns=['ID', 'Comment', 'Creation', 'ImageUrl', 'ImageText'])
-print(df)
+if __name__ == '__main__':
+    pass
