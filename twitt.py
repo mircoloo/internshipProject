@@ -11,10 +11,10 @@ import numpy as np
 MAX_RESULTS = 15
 
 #DATAFRAME PRINTING OPTION 
-# pd.set_option('display.max_rows', None)
-# pd.set_option('display.max_columns', None)
-# pd.set_option('display.width', None)
-# pd.set_option('display.max_colwidth', None)
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', None)
+pd.set_option('display.max_colwidth', None)
 
 def extractInformation(maxResults: int=10) -> pd.DataFrame: 
 
@@ -45,7 +45,7 @@ def extractInformation(maxResults: int=10) -> pd.DataFrame:
             img_array = np.array(bytearray(url_response.read()), dtype=np.uint8)
             img = cv2.imdecode(img_array, -1)
             text = pytesseract.image_to_string(img)
-            print(f"####TESTO IMG TWEET {i}####\n{text}\n")
+            #print(f"####TESTO IMG TWEET {i}####\n{text}\n")
             data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14], url, text])
             #Set inserted as true so the tweet will not be inserted 2 times 
             inserted=True
@@ -58,4 +58,4 @@ def extractInformation(maxResults: int=10) -> pd.DataFrame:
     return df
 
 if __name__ == '__main__':
-    pass
+    print(extractInformation())

@@ -8651,3 +8651,57 @@ DevTools listening on ws://localhost:49597/devtools/browser/c1e98ea0-c2de-411d-8
 1648200075175	Marionette	INFO	Listening on port 49602
 1648200075209	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1648200099918	Marionette	INFO	Stopped listening on port 49602
+1648283297140	geckodriver	INFO	Listening on 127.0.0.1:48707
+1648283297576	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "39783" "-no-remote" "-profile" "/tmp/rust_mozprofileT9DIhH"
+*** You are running in headless mode.
+1648283299581	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT9DIhH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39783/devtools/browser/5ec2dbf4-b485-4faf-9c82-5a1c8f96b5a9
+1648283304364	Marionette	INFO	Listening on port 35707
+1648283304526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648283319820	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648283326718	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.telguarder.com/it/numero/0282900445, line 1: TypeError: globalThis.googletag.defineSlot is not a function
+JavaScript error: https://www.telguarder.com/it/numero/0282900445, line 1: TypeError: globalThis.googletag.defineSlot is not a function
+JavaScript error: https://www.telguarder.com/it/numero/0282900445, line 1: TypeError: globalThis.googletag.defineSlot is not a function
+JavaScript error: https://www.telguarder.com/it/numero/0282900445, line 1: TypeError: globalThis.googletag.defineSlot is not a function
+1648283344048	Marionette	INFO	Stopped listening on port 35707
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1648283360964	geckodriver	INFO	Listening on 127.0.0.1:57279
+1648283360969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "58409" "-no-remote" "-profile" "/tmp/rust_mozprofile0sDvaS"
+*** You are running in headless mode.
+1648283362930	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0sDvaS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58409/devtools/browser/a7cbe248-e13b-4739-8bf0-38c6cc916cfd
+1648283365746	Marionette	INFO	Listening on port 44995
+1648283366302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3278-1647865231987/adngin.js, line 1: TypeError: r is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://www.tellows.it//num/+393501093109 line 17 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 786 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 5245 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 3949 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1969 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-LSynECPyRS4LW&moatClientLevel2=qfm&moatClientLevel3=9718a72a-a617-46ed-84d1-4dec446e6489&moatClientLevel4=90a8191f-982b-4c31-9d29-0762f8474abe&uid=KOlbCC22XAxksVoMcP1dWHu1RFgv4gwUcbNQXSzhWFt-tgoAP45DCQ==, line 240: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 4030 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648283394793	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648283408743	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3278-1647865231987/adngin.js, line 1: TypeError: r is undefined
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3278-1647865231987/adngin.js, line 1: TypeError: r is undefined
+1648283413571	Marionette	INFO	Stopped listening on port 44995
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
