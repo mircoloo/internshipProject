@@ -114,5 +114,5 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
         print('Error in bulding dataFrame: missing informations')
         return None
 
-
-print(extract_data())
+if __name__ == '__main__':
+    print(extract_data())
