@@ -1,6 +1,6 @@
 #!python3
 import pandas as pd
-import Prove.pyScripts.ApiKeys.apiKey as k
+import ApiKeys.apiKey as k
 import tweepy
 import pytesseract
 import urllib.request

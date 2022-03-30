@@ -225,3 +225,169 @@ aside .sidebar a:hover span{
 
 /*========================= MAIN =========================*/
 
+main .recent-comments{
+    margin-top: 2rem;
+
+}
+
+main .recent-comments h2{
+    margin-bottom: 0.8rem;
+}
+
+main .recent-comments table{
+    background-color: var(--color-white);
+    width: 100%;
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+main .recent-comments table:hover{
+    box-shadow: none;
+}
+
+main table tbody td{
+    height: 2.8rem;
+    border-bottom: 1px solid var(--color-light);
+    color: var(--color-dark-variant);
+}
+
+main table tbody tr:last-child td{
+    border: none;
+}
+
+main .recent-comments a{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-primary);
+}
+
+/* ===================== RIGHT ========================== */
+.right{
+    margin-top: 1.4rem;
+}
+
+.right .top{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.right .top button{
+    display: none;
+}
+
+.right .theme-toggler{
+    background-color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
+
+.right .theme-toggler span{
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .theme-toggler span.active{
+  background: var(--color-primary);
+  color: white;
+  border-radius: var(--border-radius-1);
+}
+
+
+/* =============================== MEDIA QUERIES ====================== */
+
+@media screen and (max-width :800px){
+
+    .container{
+        width: 94%;
+        grid-template-columns: 7rem auto 23rem;
+    }
+
+    aside .logo h2{
+        display: none;
+    }
+
+    aside .sidebar h3{
+        display: none;
+    }
+
+    aside .sidebar a{
+        width: 5.6rem;
+    }
+
+    aside .sidebar a:last-child{
+        position: relative;
+        margin-top: 1.8rem;
+    }
+
+    main .recent-comments{
+        width: 94%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 2rem 0rem 0 8.8rem;
+    }
+
+    main .recent-comments table{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width :592px){
+    .container{
+        width: 100%;
+    }
+    
+    aside{
+        position: fixed;
+        left: 0;
+        background: --color-white;
+        width: 18rem;
+        z-index: 3;
+        box-shadow: 1rem 3rem 4rem var(--color-light);
+        height: 100vh;
+        padding-right: var(--card-padding);
+        display: none;
+
+    }
+
+    aside .logo{
+        margin-left: 1rem;
+    }
+
+    aside .logo h2{
+        display: inline;
+    }
+
+    aside .sidebar h3{
+        display: inline;
+    }
+
+    aside .sidebar a{
+        width: 100%;
+        height: 3.4rem;
+    }
+
+    aside .sidebar a:last-child{
+        position: absolute;
+        bottom: 5rem;
+    }
+
+    aside .close{
+        display: inline-block;
+        cursor: pointer;
+    }
+}
