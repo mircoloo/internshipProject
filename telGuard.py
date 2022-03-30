@@ -73,8 +73,6 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
     
         for comment in numComments:
             if comment.text != '':
-                #cleanedComment = remove_suffix(comment.text, "\nCommento dell'utente (Italia,  web)")
-                #cleanedComment = remove_suffix(cleanedComment, "\nCommento dell'utente (Italia,  app)")
                 comments.append(comment.text[:-36])
     except:
         print("Error in retrieving comments")
@@ -115,4 +113,4 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
         return None
 
 
-print(extract_data())
+print(extract_data()['Comment'],'\n')

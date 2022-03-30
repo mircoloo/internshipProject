@@ -39,4 +39,8 @@ Meeting con tutor, correzione errori codice e inizio nuovo step
 #22 Marzo 8:30-12:30
 Correzzione e pulizia del codice telGuard e tellows e inizio codice per estrarre informazioni da twitter
 
+#25 Marzo 8:30-12:30
+Fine codice estrazione twitter con aggiunta dell'URL immmagine e testo dell'immage
 
+#28 Marzo 10:30-12:30
+...
