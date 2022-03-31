@@ -112,10 +112,7 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
         print('Error in bulding dataFrame: missing informations')
         return None
 
-<<<<<<< HEAD
 
-print(extract_data()['Comment'],'\n')
-=======
+
 if __name__ == '__main__':
     print(extract_data())
->>>>>>> 52023aa4b7ad7c631007bb72cb9462d259e38331

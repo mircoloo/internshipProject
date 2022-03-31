@@ -1,17 +1,15 @@
-<?php
-    $conn = mysqli_connect('localhost', 'mirco', '123', 'smishingDB');
 
-    $sql = "SELECT * FROM 'numeri'";
-
-    $result = msqli_query($conn, );
+<?php 
+    ini_set('display_errors', '1'); 
+    include 'connection.php';
 ?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        
+        <script src="./index.js"></script>
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +22,7 @@
     </head>
 
     <body>
+        
         <div class="container">
             <aside>
                 <div class="top">
@@ -46,6 +45,10 @@
                         <span class="material-icons-round">query_stats</span>
                         <h3>Analytics</h3>
                     </a>
+                    <a href="#" id="runpy">
+                        <span class="material-icons-round">refresh</span>
+                        <h3>Refresh</h3>
+                    </a>
 
                     <a href="#">
                         <span class="material-icons-round">logout</span>
@@ -57,7 +60,7 @@
             </aside>
             <!-------------------------------------- END OF ASIDE ------------------------------------->
             <main>
-                <div class="recent-comments">
+                <div class="recent-comments tables">
                     <h1>Recents comments</h1>
                     <table>
                         <thead>
@@ -70,39 +73,39 @@
                             
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>3458382843</td>
-                                <td>Numero pericoloso</td>
-                                <td>Truffa</td>
-                                <td class="danger">2</td>
-                            </tr>
-                            <tr>
-                                <td>3458382843</td>
-                                <td>Numero pericoloso</td>
-                                <td>Truffa</td>
-                                <td class="danger">2</td>
-                            </tr>
-                            <tr>
-                                <td>3458382843</td>
-                                <td>Numero pericoloso</td>
-                                <td>Truffa</td>
-                                <td class="danger">2</td>
-                            </tr>
-                            <tr>
-                                <td>3458382843</td>
-                                <td>Numero pericoloso</td>
-                                <td>Truffa</td>
-                                <td class="danger">2</td>
-                            </tr>
-                            <tr>
-                                <td>3458382843</td>
-                                <td>Numero pericoloso</td>
-                                <td>Truffa</td>
-                                <td class="danger">2</td>
-                            </tr>
+                            <?php
+                                
+                                $query = "SELECT * FROM tellows";
+                                #$insert_query = "INSERT INTO num VALUES ('345')";
+                                $result = mysqli_query($conn, $query);
+
+                                $resultCheck =  mysqli_num_rows($result);
+                                #$res = mysqli_fetch_array($result);
+                                
+                                    $i = 0;
+                                    while($rows = mysqli_fetch_assoc($result) and $i <= 100){
+                                        $i++;
+                            ?>
+                                        <tr>
+                                            <td><?php echo $rows['Number']; ?></td>
+                                            <td><?php echo $rows['Comment']; ?></td>
+                                            <td><?php echo $rows['Type']; ?></td>
+                                            <td><?php echo $rows['Score']; ?></td>
+                                        </tr>
+                                <?php
+                                    }
+                                ?>
                         </tbody>
                     </table>
                 </div>
+                <div class="recents-updates tables">
+                <h1>Indicators of compromises</h1>
+                <div class="updates">
+                    <div class="update">
+                        
+                    </div>
+                </div>
+            </div>
                 
             </main>
             <!----------------------------END OF MAIN-------------------------------->
@@ -118,14 +121,7 @@
                 </div>
             </div>
             <!-- END OF TOP -->
-            <div class="recents-updates">
-                <h2>Recents Updates</h2>
-                <div class="updates">
-                    <div class="update">
-                        
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
         

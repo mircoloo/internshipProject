@@ -1,35 +1,25 @@
 #!python3
 import mysql.connector
 import telGuard as tG
-
+import tellows
 mydb = mysql.connector.connect(
   host="localhost",
-  user="mirco",
-  password="123",
+  user="root",
+  password="",
   database="smishingDB"
-)
+)   
 mycursor = mydb.cursor()
 
-try:
-    mycursor.execute("CREATE DATABASE smishingDB")
-except:
-    print('Database already exists')
+def update_tellows_data():
+    sql = "INSERT IGNORE tellows VALUES ( %s , %s , %s, %s)"  
+    df = tellows.extract_data()
+    df_list = df.values.tolist()
+    values = [(el[0], el[1], el[2], el[3]) for el in df_list]
+    mycursor.executemany(sql, values)
+    mydb.commit()
+    print(mycursor.rowcount, "was inserted.") 
 
 
-#mycursor.execute("CREATE TABLE numeri (numer INT PRIMARY KEY, commento VARCHAR(255))")
-sql = "INSERT INTO numeri VALUES ( %s , %s )"
-"""
-val = (1234, "insert da python")
-mycursor.execute(sql, val)
-mydb.commit()
-response = mycursor.execute("SELECT * FROM numeri")
-for x in response:
-    print(x) """
+if __name__ == '__main__':
 
-
-df = tG.extract_data()
-df_list = df.values.tolist()
-values = [(el[0], el[1]) for el in df_list]
-mycursor.executemany(sql, values)
-mydb.commit()
-print(mycursor.rowcount, "was inserted.") 
+    update_tellows_data()
