@@ -7,9 +7,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
-        <script src="./index.js"></script>
-
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,11 +58,11 @@
             <!-------------------------------------- END OF ASIDE ------------------------------------->
             <main>
                 <div class="recent-comments tables">
-                    <h1>Recents comments</h1>
+                    <h1 class="table-title">Tellows</h1>
                     <table>
                         <thead>
                             <tr>
-                                <th>Number</th>
+                                <th class="number-th">Number</th>
                                 <th>Comment</th>
                                 <th>Type</th>
                                 <th>Score</th>
@@ -83,7 +80,7 @@
                                 #$res = mysqli_fetch_array($result);
                                 
                                     $i = 0;
-                                    while($rows = mysqli_fetch_assoc($result) and $i <= 100){
+                                    while($rows = mysqli_fetch_assoc($result) and $i < 5){
                                         $i++;
                             ?>
                                         <tr>
@@ -98,14 +95,46 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="recents-updates tables">
-                <h1>Indicators of compromises</h1>
-                <div class="updates">
-                    <div class="update">
+                <div class="indicators-compromise tables">
+                    <h1 class="table-title">Telguard</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="number-th">Number</th>
+                                <th>Comment</th>
+                                <th>Type</th>
+                                <th>Researchs</th>
+                            </tr>
+                            
+                        </thead>
+                        <tbody>
+                            <?php
+                                
+                                $query = "SELECT * FROM telguard";
+                                #$insert_query = "INSERT INTO num VALUES ('345')";
+                                $result = mysqli_query($conn, $query);
+
+                                $resultCheck =  mysqli_num_rows($result);
+                                #$res = mysqli_fetch_array($result);
+                                
+                                    $i = 0;
+                                    while($rows = mysqli_fetch_assoc($result) and $i < 5){
+                                        $i++;
+                            ?>
+                                        <tr>
+                                            <td><?php echo $rows['Number']; ?></td>
+                                            <td><?php echo $rows['Comment']; ?></td>
+                                            <td><?php echo $rows['Type']; ?></td>
+                                            <td><?php echo $rows['Researchs']; ?></td>
+                                        </tr>
+                                <?php
+                                    }
+                                ?>
                         
-                    </div>
+                        </tbody>
+                    </table>
                 </div>
-            </div>
+            
                 
             </main>
             <!----------------------------END OF MAIN-------------------------------->
@@ -125,7 +154,7 @@
         </div>
 
         
-
+    <script src="./index.js"></script>
     </body>
 
 </html>

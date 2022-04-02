@@ -44,3 +44,7 @@ Fine codice estrazione twitter con aggiunta dell'URL immmagine e testo dell'imma
 
 #28 Marzo 10:30-12:30
 ...
+
+
+#1 Aprile 8:30-12:30
+Rimodellazione tabelle database 

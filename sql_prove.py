@@ -8,9 +8,10 @@ mydb = mysql.connector.connect(
   password="",
   database="smishingDB"
 )   
-mycursor = mydb.cursor()
+
 
 def update_tellows_data():
+    mycursor = mydb.cursor()
     sql = "INSERT IGNORE tellows VALUES ( %s , %s , %s, %s)"  
     df = tellows.extract_data()
     df_list = df.values.tolist()
@@ -20,6 +21,15 @@ def update_tellows_data():
     print(mycursor.rowcount, "was inserted.") 
 
 
-if __name__ == '__main__':
+def update_telguard_data():
+    mycursor = mydb.cursor()
+    sql = "INSERT IGNORE telguard VALUES ( %s , %s , %s, %s)"  
+    df = tG.extract_data()
+    df_list = df.values.tolist()
+    values = [(el[0], el[1], el[2], el[3]) for el in df_list]
+    mycursor.executemany(sql, values)
+    mydb.commit()
+    print(mycursor.rowcount, "was inserted.") 
 
-    update_tellows_data()
+if __name__ == '__main__':
+    update_telguard_data()
