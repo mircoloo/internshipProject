@@ -33,6 +33,7 @@
     --color-white: #202528;
     --color-dark: #edeffd;
     --color-dark-variant: #a3bdcc;
+    --color-info-dark: #dce1eb;   
     --color-light: rgba(0,0,0,0.4);
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
@@ -144,7 +145,7 @@ aside{
 }
 
 aside .top{
-    background: white;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -157,6 +158,8 @@ aside .logo{
 }
 
 aside .logo img{
+    background-color: var(--color-background);
+    border-radius: var(--border-radius-1);
     width: 2rem;
     height: 2rem;
     
@@ -166,28 +169,37 @@ aside .close{
     display: none;
 }
 
+aside .logo h2{
+    color: var(--color-dark);
+}
+
 
 /* ============================= SIDEBAR =================================== */
 
 
-aside .sidebar {
-    background: white;
+
+
+.sidebar {
+    background: var(--color-light);
     display: flex;
     flex-direction: column;
     height: 86vh;
     position: relative;
     top: 3rem;
+    border-radius: var(--border-radius-3);
+    
     
 }
 
-aside h3{
+h3{
     font-weight: 500;
     
 }
 
-aside .sidebar a{
+.sidebar a{
+    margin-top: 1rem;
     display: flex;
-    color: var(--color-info-dark );    
+    color: var(--color-info-dark);    
     margin-left: 2rem;
     gap: 1rem;
     align-items: center;
@@ -195,42 +207,44 @@ aside .sidebar a{
     height: 3.7rem;
     transition: all 300ms ease;
     
+    
 }
 
-aside .sidebar a span{
+.sidebar a span{
     font-size: 1.6rem;
     transition: all 300ms ease;
 }
 
-aside .sidebar a:last-child{
+
+.sidebar a:last-child{
     position: absolute;
     bottom: 2rem;
     width: 100%;
 }
 
-aside .sidebar a:active{
+.sidebar a:active{
     background: var(--color-light);
     color: var(--color-primary);
     margin-left: 0;
 }
 
-aside .sidebar a:active:before{
+.sidebar a:active:before{
     content: '';
     width: 6px;
     height: 100%;
     background: var(--color-primary);
 }
 
-aside .sidebar a.active span{
+.sidebar a.active span{
     color: var(--color-primary);
     margin-left: calc(1rem - 3px);
 }
 
-aside .sidebar a:hover{
+.sidebar a:hover{
     color: var(--color-primary);
 }
 
-aside .sidebar a:hover span{
+.sidebar a:hover span{
     margin-left: 1rem;
 }
 
@@ -240,7 +254,12 @@ aside .sidebar a:hover span{
     color: var(--color-primary);
 }
 
-main .tables{
+.tables thead, .table-title{
+    color: var(--color-dark);
+}
+
+
+.tables{
     margin-top: 2rem;
 
 }
