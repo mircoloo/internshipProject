@@ -3,7 +3,7 @@ import mysql.connector
 import telGuard as tG
 import tellows
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="192.168.1.116",
   user="root",
   password="",
   database="smishingDB"
