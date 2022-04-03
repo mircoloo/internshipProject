@@ -4,6 +4,8 @@ ini_set('display_errors', '1');
 include 'connection.php';
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +40,7 @@ include 'connection.php';
                     <h3>Dashboard</h3>
                 </a>
 
-                <a href="#">
+                <a href="./stats.php">
                     <span class="material-icons-round">query_stats</span>
                     <h3>Analytics</h3>
                 </a>
@@ -66,8 +68,7 @@ include 'connection.php';
                             <th>Comment</th>
                             <th>Type</th>
                             <th>Score</th>
-                        </tr>
-                        
+                        </tr> 
                     </thead>
                     <tbody>
                         <?php
@@ -80,7 +81,7 @@ include 'connection.php';
                             #$res = mysqli_fetch_array($result);
                             
                                 $i = 0;
-                                while($rows = mysqli_fetch_assoc($result) and $i < 5){
+                                while($rows = mysqli_fetch_assoc($result) and $i < 10){
                                     $i++;
                         ?>
                                     <tr>
@@ -109,7 +110,6 @@ include 'connection.php';
                     </thead>
                     <tbody>
                         <?php
-                            
                             $query = "SELECT * FROM telguard";
                             #$insert_query = "INSERT INTO num VALUES ('345')";
                             $result = mysqli_query($conn, $query);
@@ -118,7 +118,7 @@ include 'connection.php';
                             #$res = mysqli_fetch_array($result);
                             
                                 $i = 0;
-                                while($rows = mysqli_fetch_assoc($result) and $i < 5){
+                                while($rows = mysqli_fetch_assoc($result) and $i < 10){
                                     $i++;
                         ?>
                                     <tr>
@@ -130,7 +130,7 @@ include 'connection.php';
                             <?php
                                 }
                             ?>
-                    
+                      
                     </tbody>
                 </table>
             </div>
@@ -146,6 +146,29 @@ include 'connection.php';
                 <div class="theme-toggler">
                     <span class="material-icons-round active">light_mode</span>
                     <span class="material-icons-round">dark_mode</span>
+                </div>
+            </div>
+            <div class="ioc-div">
+                <h2>IOC</h2>
+                <div class="ioc-table tables">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="ioc-th">IOC</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>342</td>
+                            </tr>
+                            <tr>
+                                <td>Poste</td>
+                                <td>23</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

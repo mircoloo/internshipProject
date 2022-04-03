@@ -3,12 +3,11 @@ import mysql.connector
 import telGuard as tG
 import tellows
 mydb = mysql.connector.connect(
-  host="192.168.1.116",
+  host="localhost",
   user="root",
   password="",
   database="smishingDB"
 )   
-
 
 def update_tellows_data():
     mycursor = mydb.cursor()
@@ -33,3 +32,4 @@ def update_telguard_data():
 
 if __name__ == '__main__':
     update_telguard_data()
+    update_tellows_data()
