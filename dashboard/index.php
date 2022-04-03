@@ -66,8 +66,7 @@ include 'connection.php';
                             <th>Comment</th>
                             <th>Type</th>
                             <th>Score</th>
-                        </tr>
-                        
+                        </tr> 
                     </thead>
                     <tbody>
                         <?php
@@ -109,7 +108,6 @@ include 'connection.php';
                     </thead>
                     <tbody>
                         <?php
-                            
                             $query = "SELECT * FROM telguard";
                             #$insert_query = "INSERT INTO num VALUES ('345')";
                             $result = mysqli_query($conn, $query);
@@ -130,7 +128,7 @@ include 'connection.php';
                             <?php
                                 }
                             ?>
-                    
+                      
                     </tbody>
                 </table>
             </div>
@@ -146,6 +144,29 @@ include 'connection.php';
                 <div class="theme-toggler">
                     <span class="material-icons-round active">light_mode</span>
                     <span class="material-icons-round">dark_mode</span>
+                </div>
+            </div>
+            <div class="ioc-div">
+                <h2>IOC</h2>
+                <div class="ioc-table tables">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="ioc-th">IOC</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>342</td>
+                            </tr>
+                            <tr>
+                                <td>Poste</td>
+                                <td>23</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

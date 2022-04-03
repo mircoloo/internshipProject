@@ -1,7 +1,7 @@
 <?php   
-$username = "root";
-$password = "";
-$server = "localhost";
+$username = "mirco";
+$password = "123";
+$server = "192.168.1.108";
 $db = "smishingDB";
 
 $conn = mysqli_connect($server, $username, $password, $db);
