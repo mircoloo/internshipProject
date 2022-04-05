@@ -1,14 +1,28 @@
 #!python3
-import mysql.connector
+
 import telGuard as tG
 import tellows
+import mysql.connector  
 
-mydb = mysql.connector.connect(
+connection_config_dict = {
+        'user': 'root',
+        'password': '',
+        'host': 'localhost',
+        'database': 'smishingDB',
+        'raise_on_warnings': True,
+        'use_pure': False,
+        'autocommit': True,
+        'pool_size': 5
+    }
+
+""" mydb = mysql.connector.connect(
   host="localhost",
   user="root",
   password="",
   database="smishingDB"
-)   
+)    """
+
+mydb = mysql.connector.connect(**connection_config_dict)
 
 def update_tellows_data():
     mycursor = mydb.cursor()
