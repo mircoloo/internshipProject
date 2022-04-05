@@ -120,8 +120,8 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
     if success:
         data = []
         for i in range(len(numbers)):
-            data.append([numbers[i],comments[i], reasons[i],researchs[i]])
-        df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs'])
+            data.append([numbers[i],comments[i], reasons[i],researchs[i]], "telguarder")
+        df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs', 'Score', 'Source'])
         return df
     else:
         print('Error in bulding dataFrame: missing informations')
@@ -129,4 +129,4 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
 
 
 if __name__ == '__main__':
-    extract_data()
+    print(extract_data())

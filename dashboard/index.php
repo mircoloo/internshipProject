@@ -1,6 +1,6 @@
 <?php
 ini_set('display_errors', '1');
-include 'dashboard/connection.php';
+include 'connection.php';
 $slider_value = 1
 ?>
 
@@ -18,7 +18,7 @@ $slider_value = 1
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 
     <!-- STYLESHEET -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -79,50 +79,15 @@ $slider_value = 1
                                 <th class="number-th">Number</th>
                                 <th>Comment</th>
                                 <th>Type</th>
-                                <th>Score</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php
-
-                            $query = "SELECT * FROM tellows WHERE Score >= " . $_POST["passengers"];
-                            #$insert_query = "INSERT INTO num VALUES ('345')";
-                            $result = mysqli_query($conn, $query);
-
-                            $resultCheck =  mysqli_num_rows($result);
-                            #$res = mysqli_fetch_array($result);
-
-                            $i = 0;
-                            while ($rows = mysqli_fetch_assoc($result) and $i < 10) {
-                                $i++;
-                            ?>
-                                <tr>
-                                    <td><?php echo $rows['Number']; ?></td>
-                                    <td><?php echo $rows['Comment']; ?></td>
-                                    <td><?php echo $rows['Type']; ?></td>
-                                    <td><?php echo $rows['Score']; ?></td>
-                                </tr>
-                            <?php
-                            }
-                            ?>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="indicators-compromise tables">
-                    <h1 class="table-title">Telguard</h1>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th class="number-th">Number</th>
-                                <th>Comment</th>
-                                <th>Type</th>
                                 <th>Researchs</th>
+                                <th>Score</th>
+                                <th>Source</th>
                             </tr>
-
                         </thead>
                         <tbody>
                             <?php
-                            $query = "SELECT * FROM telguard";
+
+                            $query = "SELECT * FROM teldata WHERE Score >= " . $_POST["passengers"];
                             #$insert_query = "INSERT INTO num VALUES ('345')";
                             $result = mysqli_query($conn, $query);
 
@@ -134,15 +99,16 @@ $slider_value = 1
                                 $i++;
                             ?>
                                 <tr>
-                                    <td><?php echo $rows['Number']; ?></td>
-                                    <td><?php echo $rows['Comment']; ?></td>
-                                    <td><?php echo $rows['Type']; ?></td>
-                                    <td><?php echo $rows['Researchs']; ?></td>
+                                    <td><?php echo $rows['number']; ?></td>
+                                    <td><?php echo $rows['comment']; ?></td>
+                                    <td><?php echo $rows['type']; ?></td>
+                                    <td><?php echo $rows['researchs']; ?></td>
+                                    <td><?php echo $rows['score']; ?></td>
+                                    <td><?php echo $rows['source']; ?></td>
                                 </tr>
                             <?php
                             }
                             ?>
-
                         </tbody>
                     </table>
                 </div>
