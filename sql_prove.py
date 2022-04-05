@@ -2,11 +2,13 @@
 import mysql.connector
 import telGuard as tG
 import tellows
+from flask import Flask
+
 mydb = mysql.connector.connect(
   host="localhost",
-  user="root",
+  user="smishingdash",
   password="",
-  database="smishingDB"
+  database="my_smishingdash"
 )   
 
 def update_tellows_data():
@@ -31,5 +33,5 @@ def update_telguard_data():
     print(mycursor.rowcount, "was inserted.") 
 
 if __name__ == '__main__':
-    update_telguard_data()
+    #update_telguard_data()
     update_tellows_data()

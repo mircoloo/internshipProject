@@ -253,6 +253,20 @@ h3{
 
 /*========================= MAIN =========================*/
 
+.section{
+    text-align: center;
+}
+
+.range-bar{
+    display: inline;
+}
+
+
+.section h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: var(--color-dark);
+}
 
 
 .number-th, .ioc-th{
@@ -366,12 +380,50 @@ main .tables a{
 }
 
 
-/* =============================== MEDIA QUERIES ====================== */
+/* =============================== SLIDER  ====================== */
+
+
+
+#rs-range-line{
+    background: var(--color-primary);
+    border-radius: var(--border-radius-1);
+}
+
+.range-slider {
+      margin-top: 30vh;
+}
+.rs-range {
+      margin-top: 15px;
+      width: 600px;
+      -webkit-appearance: none;
+  }
 
 
 
 
-
-
-
+  .rs-label {
+      
+      position: relative;
+      transform-origin: center center;
+      display: block;
+      width: 98px;
+      height: 98px;
+      background: transparent;
+      border-radius: 50%;
+      line-height: 30px;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 22px;
+      box-sizing: border-box;
+      border: 2px solid var(--color-dark);
+      margin-top: 20px;
+      margin-left: -38px;
+      left: attr(value);
+      color: var(--color-dark);
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      font-size: 36px;
+      
+  }
 

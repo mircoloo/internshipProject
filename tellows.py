@@ -9,10 +9,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 def extract_data():
-    #get the recents comments [Number,Comment, Type, Score]
+    #get the recents comments [Number,Comment, Type, Researchs, Score]
     numbers = []
     comments = []
     types = []
+    researchs = []
     scores = []
 
     #adding arguments to Firefox options in order to avoid the opening of the windows 
@@ -61,6 +62,7 @@ def extract_data():
             score_img = card_board.find_element(by=By.CLASS_NAME, value='scoreimage')
             img_text = score_img.get_attribute('alt')
             description = card_board.text
+            
 
             #find the first comment of the number
             try:
@@ -70,13 +72,22 @@ def extract_data():
             except:
                 print('Comment not found')
                 success = False
-            #extract score and type from the text
+            #extract score, researchs and type from the text
             try: 
                 scorePatt = re.compile(r"Score\s([\d])")
                 score = scorePatt.search(img_text).group(1)
                 typePatt = re.compile(r"Tipo di chiamata:\s(.*)")
                 #typePatt = re.compile(r"Tipo di chiamata:\s(\w+)")
                 type = typePatt.search(description).group(1)
+                #retreive number od researchs, if present
+                try:
+                    researchsPatt = re.compile(r"Ricerche:\s(\d+)")
+                    research = researchsPatt.search(description).group(1)
+                except:
+                    research = "--"
+                    pass
+                
+                
             except:
                 print('Error in retrieving information form text: Regex error')
                 success = False
@@ -84,7 +95,9 @@ def extract_data():
             #build vectors of type | score | 
             types.append(type)      #unicodedata.normalize('NFD', type).encode('ascii', 'ignore'))
             scores.append(score)    
+            researchs.append(research)
             driver.back() 
+            
         except:
             print('Error in retrieving informations from the number: {}'.format(num))
             success = False
@@ -100,8 +113,8 @@ def extract_data():
         #build dataFrame
         print("Building dataFrame...")
         for i in range(len(numbers)):
-            data.append([numbers[i], comments[i], types[i], scores[i]])
-            df = pd.DataFrame(data, columns=['Number','Comment' ,'Type', 'Score'])
+            data.append([numbers[i], comments[i], types[i],researchs[i],scores[i], "tellows"])
+            df = pd.DataFrame(data, columns=['Number','Comment' ,'Type','Researchs','Score', 'Source'])
         #print(df)
         return df
     else:

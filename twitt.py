@@ -16,7 +16,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 pd.set_option('display.max_colwidth', None)
 
-def extractInformation(maxResults: int=10) -> pd.DataFrame: 
+def extract_data(maxResults: int=10) -> pd.DataFrame: 
 
     client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
     #query = 'sms truffa -is:retweet has:media'
@@ -58,4 +58,4 @@ def extractInformation(maxResults: int=10) -> pd.DataFrame:
     return df
 
 if __name__ == '__main__':
-    print(extractInformation())
+    print(extract_data())
