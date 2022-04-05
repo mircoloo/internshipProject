@@ -1,7 +1,6 @@
 <?php
 ini_set('display_errors', '1');
 include 'connection.php';
-$slider_value = 1
 ?>
 
 
@@ -50,10 +49,7 @@ $slider_value = 1
                     <h3>Refresh</h3>
                 </a>
 
-                <a href="#">
-                    <span class="material-icons-round">logout</span>
-                    <h3>Logout</h3>
-                </a>
+             
 
             </div>
 
@@ -63,16 +59,9 @@ $slider_value = 1
             <div class="section">
                 <h1>Dashboard</h1>
 
-                <div class="recent-comments tables">
+                <div class="teldata-div tables">
                     <h1 class="table-title">Tellows</h1>
-                    <div class="range-bar">
-                        <form action="" method="POST">
-                            <input type="range" min="1" max="10" step="1" value="1" id="foo" name="passengers" onchange='document.getElementById("bar").value = document.getElementById("foo").value' />
-                            <input type="text" name="bar" id="bar" value="1" disabled />
-                            <br />
-                            <input type=submit value=Submit />
-                        </form>
-                    </div>
+
                     <table>
                         <thead>
                             <tr>
@@ -86,14 +75,10 @@ $slider_value = 1
                         </thead>
                         <tbody>
                             <?php
-
-                            $query = "SELECT * FROM teldata WHERE Score >= " . $_POST["passengers"];
-                            #$insert_query = "INSERT INTO num VALUES ('345')";
+                            //show databse rows MAX 10
+                            $query = "SELECT * FROM teldata";
                             $result = mysqli_query($conn, $query);
-
                             $resultCheck =  mysqli_num_rows($result);
-                            #$res = mysqli_fetch_array($result);
-
                             $i = 0;
                             while ($rows = mysqli_fetch_assoc($result) and $i < 10) {
                                 $i++;
@@ -102,7 +87,8 @@ $slider_value = 1
                                     <td><?php echo $rows['number']; ?></td>
                                     <td><?php echo $rows['comment']; ?></td>
                                     <td><?php echo $rows['type']; ?></td>
-                                    <td><?php echo $rows['researchs']; ?></td>
+                                    <td><?php if($rows['researchs'] != -1){echo $rows['researchs'];}
+                                                else{echo "--";}; ?></td>
                                     <td><?php echo $rows['score']; ?></td>
                                     <td><?php echo $rows['source']; ?></td>
                                 </tr>
@@ -112,6 +98,10 @@ $slider_value = 1
                         </tbody>
                     </table>
                 </div>
+
+                
+            </div>
+
 
 
         </main>

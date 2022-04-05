@@ -1,7 +1,7 @@
 <?php
     
-    $USERNAME = "root"
-    $PASSWORD = "";
+    $USERNAME = "root";
+    $PASS = "";
     $SERVER = "localhost";
     $DB = "smishingDB";
 

@@ -84,7 +84,7 @@ def extract_data():
                     researchsPatt = re.compile(r"Ricerche:\s(\d+)")
                     research = researchsPatt.search(description).group(1)
                 except:
-                    research = "--"
+                    research = "-1"
                     pass
                 
                 
