@@ -1,9 +1,9 @@
 <?php   
 include 'config.php';
-$username = "root";
-$password = "";
-$server = "localhost";
-$db = "smishingDB";
+$username = $GLOBALS['USERNAME'];
+$password = $GLOBALS['PASSWORD'];
+$server = $GLOBALS['SERVER'];
+$db = $GLOBALS['DB'];
 
 $conn = mysqli_connect($server, $username, $password, $db);
 

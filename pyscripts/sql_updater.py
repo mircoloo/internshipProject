@@ -1,8 +1,9 @@
 #!python3
 
-import telGuard as tG
+import telGuarder as tG
 import tellows
-import mysql.connector  
+import mysql.connector
+import twitt  
 
 connection_config_dict = {
         'user': 'root',
@@ -35,7 +36,7 @@ def update_tellows_data():
     print(mycursor.rowcount, "was inserted.") 
 
 
-def update_telguard_data():
+def update_telguarder_data():
     mycursor = mydb.cursor()
     sql = "INSERT IGNORE teldata VALUES ( %s , %s , %s, %s, %s, %s)"  
     df = tG.extract_data()
@@ -45,6 +46,18 @@ def update_telguard_data():
     mydb.commit()
     print(mycursor.rowcount, "was inserted.") 
 
+def update_twitter_data():
+    mycursor = mydb.cursor()
+    sql = "INSERT INTO twittdata VALUES ( %s , %s , %s, %s, %s, %s)"  
+    df = twitt.extract_data()
+    df_list = df.values.tolist()
+    values = [(el[0], el[1], el[2], el[3], el[4], el[5]) for el in df_list]
+    mycursor.executemany(sql, values)
+    mydb.commit()
+    print(mycursor.rowcount, "was inserted.") 
+
+
 if __name__ == '__main__':
-    #update_telguard_data()
+    update_telguarder_data()
     update_tellows_data()
+    update_twitter_data()

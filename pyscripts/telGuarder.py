@@ -97,7 +97,7 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
             nSearch = driver.find_element(by=By.CLASS_NAME, value='ai-row-info-value')
             researchs.append(nSearch.text)  
             #try to find score
-            try:
+            """ try:
                 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "ratingFormOuterPanel")))
                 ratingPanel = driver.find_element(by=By.ID, value="ratingFormOuterPanel")
                 #ratingPanel = driver.find_element(by=By.XPATH, value="//div[@id='ratingFormOuterPanel']")
@@ -108,7 +108,7 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
                 #rate = ratingPanel.get_attribute("column-id")
                 print(num + ": " + rect.tag_name)
             except:
-                print("score not found")
+                print("score not found") """
         except:
             researchs.append('Not Found')
 
@@ -120,7 +120,7 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
     if success:
         data = []
         for i in range(len(numbers)):
-            data.append([numbers[i],comments[i], reasons[i],researchs[i]], "telguarder")
+            data.append([numbers[i],comments[i], reasons[i],researchs[i], -1 ,"telguarder"])
         df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs', 'Score', 'Source'])
         return df
     else:

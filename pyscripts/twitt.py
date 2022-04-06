@@ -1,4 +1,5 @@
 #!python3
+from xml.etree.ElementInclude import include
 import pandas as pd
 import ApiKeys.apiKey as k
 import tweepy
@@ -20,17 +21,18 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
 
     client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
     #query = 'sms truffa -is:retweet has:media'
-    query = 'SMS truffa'
+    query = 'SMS truffa -retweet'
 
     #results of the query
     results = client.search_recent_tweets(query=query,  tweet_fields=['geo', 'created_at', 'attachments', 'id', 'entities'], 
-                                media_fields=['preview_image_url', 'url'],expansions=['attachments.media_keys'], max_results=maxResults)
+                                media_fields=['preview_image_url', 'url'],expansions=['attachments.media_keys', 'author_id'], max_results=maxResults)
     #data list with | tweetID | tweetComment | tweetCreationTime | imgUrl | imgText |
     data = []
 
     #build the set of media_key -> url in order to use it later for a faster research
     imgUrls = {u['media_key']: u.url for u in results.includes['media'] if u.type == 'photo'}
-
+    users = {u['id']: u for u in results.includes['users']}
+    
 
     #iterate for all the tweets in results
     for i,tweet in enumerate(results.data):
@@ -46,15 +48,15 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
             img = cv2.imdecode(img_array, -1)
             text = pytesseract.image_to_string(img)
             #print(f"####TESTO IMG TWEET {i}####\n{text}\n")
-            data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14], url, text])
+            data.append([tweet.id, tweet['text'], users[tweet.author_id].username , tweet.data['created_at'][:-14], url, text])
             #Set inserted as true so the tweet will not be inserted 2 times 
             inserted=True
         #if the tweet was not inserted before 
         if not inserted:
-            data.append([tweet.id, tweet['text'], tweet.data['created_at'][:-14], '', ''])
+            data.append([tweet.id, tweet['text'], users[tweet.author_id].username ,tweet.data['created_at'][:-14], '', ''])
 
     #build the dataframe
-    df = pd.DataFrame(data, columns=['ID', 'Comment', 'Creation', 'ImageUrl', 'ImageText'])
+    df = pd.DataFrame(data, columns=['ID', 'Comment', 'Nickname' ,'Creation', 'ImageUrl', 'ImageText'])
     return df
 
 if __name__ == '__main__':

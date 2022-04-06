@@ -1,11 +1,13 @@
-
-<?php 
-ini_set('display_errors', '1'); 
+<?php
+ini_set('display_errors', '1');
 include 'connection.php';
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,11 +17,11 @@ include 'connection.php';
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 
     <!-- STYLESHEET -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
+
     <div class="container">
         <aside>
             <div class="top">
@@ -38,7 +40,7 @@ include 'connection.php';
                     <h3>Dashboard</h3>
                 </a>
 
-                <a href="#">
+                <a href="./stats.php">
                     <span class="material-icons-round">query_stats</span>
                     <h3>Analytics</h3>
                 </a>
@@ -47,106 +49,67 @@ include 'connection.php';
                     <h3>Refresh</h3>
                 </a>
 
-                <a href="#">
-                    <span class="material-icons-round">logout</span>
-                    <h3>Logout</h3>
-                </a>
+             
 
             </div>
 
         </aside>
         <!-------------------------------------- END OF ASIDE ------------------------------------->
         <main>
-            
             <div class="section">
                 <h1>Dashboard</h1>
-            </div>
-            <div class="recent-comments tables">
-                <h1 class="table-title">Tellows</h1>
-                <div class="range-slider">
-                    <span id="rs-bullet" class="rs-label">0</span>
-                    <input id="rs-range-line" class="rs-range" type="range" value="0" min="0" max="10">
-                  </div>  
-                <table>
-                    <div class="container">
-  
-                        
-                    <thead>
-                        <tr>
-                            <th class="number-th">Number</th>
-                            <th>Comment</th>
-                            <th>Type</th>
-                            <th>Score</th>
-                        </tr>
-                        
-                    </thead>
-                    <tbody>
-                        <?php
-                            
-                            $query = "SELECT * FROM tellows";
-                            #$insert_query = "INSERT INTO num VALUES ('345')";
-                            $result = mysqli_query($conn, $query);
+                <div class="teldata-div tables">
+                    <h1 class="table-title">Tellows</h1>
 
-                            $resultCheck =  mysqli_num_rows($result);
-                            #$res = mysqli_fetch_array($result);
-                            
-                                $i = 0;
-                                while($rows = mysqli_fetch_assoc($result) and $i < 5){
-                                    $i++;
-                        ?>
-                                    <tr>
-                                        <td><?php echo $rows['Number']; ?></td>
-                                        <td><?php echo $rows['Comment']; ?></td>
-                                        <td><?php echo $rows['Type']; ?></td>
-                                        <td><?php echo $rows['Score']; ?></td>
-                                    </tr>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="number-th">Number</th>
+                                <th>Comment</th>
+                                <th>Type</th>
+                                <th>Researchs</th>
+                                <th>Score</th>
+                                <th>Source</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <?php
-                                }
-                            ?>
-                    </tbody>
-                </table>
-            </div>
-            <div class="indicators-compromise tables">
-                <h1 class="table-title">Telguard</h1>
-                <table>
-                    <thead>
-                        <tr>
-                            <th class="number-th">Number</th>
-                            <th>Comment</th>
-                            <th>Type</th>
-                            <th>Researchs</th>
-                        </tr>
-                        
-                    </thead>
-                    <tbody>
-                        <?php
-                            
-                            $query = "SELECT * FROM telguard";
-                            #$insert_query = "INSERT INTO num VALUES ('345')";
+                            //show databse rows 
+                            $query = "SELECT * FROM teldata";
                             $result = mysqli_query($conn, $query);
-
                             $resultCheck =  mysqli_num_rows($result);
-                            #$res = mysqli_fetch_array($result);
-                            
-                                $i = 0;
-                                while($rows = mysqli_fetch_assoc($result) and $i < 5){
-                                    $i++;
-                        ?>
-                                    <tr>
-                                        <td><?php echo $rows['Number']; ?></td>
-                                        <td><?php echo $rows['Comment']; ?></td>
-                                        <td><?php echo $rows['Type']; ?></td>
-                                        <td><?php echo $rows['Researchs']; ?></td>
-                                    </tr>
-                            <?php
-                                }
+                            $i = 0;
+                            while ($rows = mysqli_fetch_assoc($result) and $i < 100) {
+                                $i++;
                             ?>
+                                <tr>
+                                    <td><?php echo $rows['number']; ?></td>
+                                    <td><?php echo $rows['comment']; ?></td>
+                                    <td><?php echo $rows['type']; ?></td>
+                                    <td><?php if($rows['researchs'] != -1){echo $rows['researchs'];}
+                                                else{echo "--";}; ?></td>
+                                    <td><?php echo $rows['score']; ?></td>
+                                    <td><?php echo $rows['source']; ?></td>
+                                </tr>
+                            <?php
+                            }
+                            ?>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- #endregion telData -->
+                <!-- #region twitter cards-->
+
+                <div class="cards">
                     
-                    </tbody>
-                </table>
+
+                </div>
+
+                
             </div>
-        
-            
+
+
+
         </main>
         <!----------------------------END OF MAIN-------------------------------->
         <div class="right">
@@ -166,15 +129,40 @@ include 'connection.php';
                         <thead>
                             <tr>
                                 <th class="ioc-th">IOC</th>
-                                <th>Number</th>
+                                <th>Total</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Amazon</td>
+                                <td>342</td>
                             </tr>
                             <tr>
                                 <td>Poste</td>
+                                <td>23</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="ioc-div">
+                <h2>Entities</h2>
+                <div class="ioc-table tables">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="ioc-th">IOC</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>342</td>
+                            </tr>
+                            <tr>
+                                <td>Poste</td>
+                                <td>23</td>
                             </tr>
                         </tbody>
                     </table>
@@ -182,11 +170,11 @@ include 'connection.php';
             </div>
         </div>
         <!-- END OF TOP -->
-        
+
     </div>
 
-    
-<script src="./index.js"></script>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>

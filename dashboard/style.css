@@ -313,9 +313,6 @@ main .tables a{
 }
 
 /* ===================== RIGHT ========================== */
-.right{
-    margin-top: 1.4rem;
-}
 
 .right .top{
     display: flex;
@@ -336,6 +333,7 @@ main .tables a{
     width: 4.2rem;
     cursor: pointer;
     border-radius: var(--border-radius-1);
+    margin-top: 1.4rem;
 }
 
 .right .theme-toggler span{
@@ -353,13 +351,21 @@ main .tables a{
   border-radius: var(--border-radius-1);
 }
 
+
+.ioc-div{
+    margin-top: 7rem;
+}
+
 .ioc-div h2{
     text-align: center;
     color: var(--color-dark);
 }
 
-.right table tbody td{
-    padding: 0.8rem;
+.right .tables{
+    margin-top: 1rem;
+}
+
+.right .tables td{
     border-bottom: 1px solid var(--color-light);
     color: var(--color-dark-variant);
 }
@@ -374,4 +380,57 @@ main .tables a{
     transition: all 300ms ease;
 }
 
+.right .tables table:hover{
+    box-shadow: none;
+}
+
+.cards{
+    display: flex;
+    color: var(--color-dark);
+    vertical-align:auto;
+
+   
+}
+
+.cards .card{
+    min-width: 10rem;
+    margin: 0.8rem;
+    background-color: var(--color-white);
+    width: 100%;
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.cards .card:hover{
+    box-shadow: none;
+}
+
+.cards .creation-date{
+    background-color: var(--color-info-light);
+    border-radius: var(--border-radius-1);
+    color: black;
+}
+
+.cards .nickname{
+    font-size: large;
+}
+
+.cards div{
+    margin: 0.8rem;
+}
+
+.cards .card img{
+    max-width: 5rem;
+    height: auto;
+    transition: all 300ms ease;
+    border-radius: var(--border-radius-2);
+}
+
+
+.cards .card img:hover{
+    max-width: 40rem;
+}
 

@@ -58,9 +58,8 @@ include 'connection.php';
         <main>
             <div class="section">
                 <h1>Dashboard</h1>
-
                 <div class="teldata-div tables">
-                    <h1 class="table-title">Tellows</h1>
+                    <h1 class="table-title">Teldata</h1>
 
                     <table>
                         <thead>
@@ -75,12 +74,12 @@ include 'connection.php';
                         </thead>
                         <tbody>
                             <?php
-                            //show databse rows MAX 10
+                            //show databse rows 
                             $query = "SELECT * FROM teldata";
                             $result = mysqli_query($conn, $query);
                             $resultCheck =  mysqli_num_rows($result);
                             $i = 0;
-                            while ($rows = mysqli_fetch_assoc($result) and $i < 10) {
+                            while ($rows = mysqli_fetch_assoc($result) and $i < 5) {
                                 $i++;
                             ?>
                                 <tr>
@@ -98,6 +97,10 @@ include 'connection.php';
                         </tbody>
                     </table>
                 </div>
+                <!-- #endregion telData -->
+                <!-- #region twitter cards-->
+
+                <?php include 'cards.php' ?>
 
                 
             </div>

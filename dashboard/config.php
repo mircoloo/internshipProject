@@ -1,8 +1,10 @@
 <?php
     
     $USERNAME = "root";
-    $PASS = "";
+    $PASSWORD = "";
     $SERVER = "localhost";
     $DB = "smishingDB";
 
+
+    $CARDS_TO_DISPLAY = 4;
 ?>

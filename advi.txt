@@ -10,7 +10,7 @@ reg. expr: Negativo\s\((\d+)\%\) telGuarder
 
 take number and put in a range of [0-10]
 
-put source column (tellows, telguarder)
+put source column (tellows, telguarder) -
 
 sidebar to select which row to show
 
