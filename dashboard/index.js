@@ -21,9 +21,11 @@ const sideMenu = document.querySelector("aside");
 const themeToggler = document.querySelector(".theme-toggler");
 
 
+
+
 // controlling night mode cookie
 
-let night_mode = getCookie("night_mode");
+var night_mode = getCookie("night_mode");
 if(night_mode == "1"){
     document.body.classList.toggle('dark-theme-variables');  
     themeToggler.querySelector('span:nth-child(1)').classList.toggle('active')
