@@ -42,5 +42,30 @@ themeToggler.addEventListener('click', () => {
         themeToggler.querySelector('span:nth-child(2)').classList.toggle('active')
         document.cookie = "night_mode=0"
     }
-})
+});
 
+//Swiper JS 
+src="https://unpkg.com/swiper/swiper-bundle.min.js"
+
+//Initialize Swiper -->
+
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 3,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  
+function clickcard(){
+  document.getElementsByClassName("card").style.display="none";
+}

@@ -15,7 +15,6 @@ include 'connection.php';
     <title>Smishing dashboard</title>
     <!-- MATERIAL ICONS -->
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -40,7 +39,7 @@ include 'connection.php';
                     <h3>Dashboard</h3>
                 </a>
 
-                <a href="./stats.php">
+                <a href="#">
                     <span class="material-icons-round">query_stats</span>
                     <h3>Analytics</h3>
                 </a>
@@ -56,54 +55,13 @@ include 'connection.php';
         </aside>
         <!-------------------------------------- END OF ASIDE ------------------------------------->
         <main>
-            <div class="section">
-                <h1>Dashboard</h1>
-                <div class="teldata-div tables">
-                    <h1 class="table-title">Teldata</h1>
-
-                    <table>
-                        <thead>
-                            <tr>
-                                <th class="number-th">Number</th>
-                                <th>Comment</th>
-                                <th>Type</th>
-                                <th>Researchs</th>
-                                <th>Score</th>
-                                <th>Source</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php
-                            //show databse rows 
-                            $query = "SELECT * FROM teldata";
-                            $result = mysqli_query($conn, $query);
-                            $resultCheck =  mysqli_num_rows($result);
-                            $i = 0;
-                            while ($rows = mysqli_fetch_assoc($result) and $i < 5) {
-                                $i++;
-                            ?>
-                                <tr>
-                                    <td><?php echo $rows['number']; ?></td>
-                                    <td><?php echo $rows['comment']; ?></td>
-                                    <td><?php echo $rows['type']; ?></td>
-                                    <td><?php if($rows['researchs'] != -1){echo $rows['researchs'];}
-                                                else{echo "--";}; ?></td>
-                                    <td><?php echo $rows['score']; ?></td>
-                                    <td><?php echo $rows['source']; ?></td>
-                                </tr>
-                            <?php
-                            }
-                            ?>
-                        </tbody>
-                    </table>
-                </div>
-                <!-- #endregion telData -->
-                <!-- #region twitter cards-->
-
-                <?php include 'cards.php' ?>
-
+            <div class="section"><h1>Dashboard</h1>
+                    
+                    <?php require 'teldata.php' ?>
                 
-            </div>
+                    <?php require 'cards.php' ?>
+                
+                </div>
 
 
 
@@ -171,7 +129,8 @@ include 'connection.php';
     </div>
 
 
-    <script src="./index.js"></script>
+<script src="./index.js"></script>
+   
 </body>
 
 </html>
