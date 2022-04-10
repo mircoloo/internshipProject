@@ -6,4 +6,5 @@ pytesseract
 pandas
 selenium
 flask
+mysql-connector
 

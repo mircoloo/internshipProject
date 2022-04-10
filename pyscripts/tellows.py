@@ -19,7 +19,6 @@ def extract_data():
     #adding arguments to Firefox options in order to avoid the opening of the windows 
     opt = webdriver.FirefoxOptions()
     opt.add_argument("--headless")  
-
     tellowsUrl = "https://www.tellows.it/"
     driver = webdriver.Firefox(options=opt)
     driver.get(tellowsUrl)

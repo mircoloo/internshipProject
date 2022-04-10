@@ -169,7 +169,7 @@ aside .logo img{
 }
 
 aside .close{
-    display: none;
+    /*display: none;*/
 }
 
 aside .logo h2{
@@ -385,11 +385,10 @@ main .tables a{
 }
 
 .cards{
-    display: flex;
-    color: var(--color-dark);
-    vertical-align:auto;
-
-   
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 
+   minmax(200px, 1fr));
+   gap: 20px;
 }
 
 .cards .card{
@@ -399,7 +398,7 @@ main .tables a{
     width: 100%;
     border-radius: var(--card-border-radius);
     padding: var(--card-padding);
-    text-align: center;
+    text-align: left;
     box-shadow: var(--box-shadow);
     transition: all 300ms ease;
 }
@@ -412,10 +411,16 @@ main .tables a{
     background-color: var(--color-info-light);
     border-radius: var(--border-radius-1);
     color: black;
+    text-align: center;
 }
 
-.cards .nickname{
+.cards .nickname a{
     font-size: large;
+    color: var(--color-danger)
+}
+
+.cards .nickname a:hover{
+    font-size: larger;
 }
 
 .cards div{
@@ -431,6 +436,11 @@ main .tables a{
 
 
 .cards .card img:hover{
-    max-width: 40rem;
+    max-width: 10rem;
+}
+
+.cards .buttons{
+    max-height: 2rem;
+
 }
 
