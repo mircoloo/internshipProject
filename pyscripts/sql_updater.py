@@ -5,7 +5,7 @@ import tellows
 import mysql.connector
 import twitt  
 import sys
-#
+
 connection_config_dict = {
         'user': 'root',
         'password': '',
@@ -17,9 +17,9 @@ connection_config_dict = {
         'pool_size': 5
     }
 mydb = mysql.connector.connect(
-  host="192.168.1.116",
-  user="mirco",
-  password="123",
+  host="localhost",
+  user="root",
+  password="",
   database="smishingDB"
 )    
 
@@ -58,6 +58,6 @@ def update_twitter_data():
 
 
 if __name__ == '__main__':
-    update_telguarder_data()
-    update_tellows_data()
+   # update_telguarder_data()
+   # update_tellows_data()
     update_twitter_data()

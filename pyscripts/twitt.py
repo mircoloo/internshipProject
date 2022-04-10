@@ -21,7 +21,7 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
 
     client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
     #query = 'sms truffa -is:retweet has:media'
-    query = 'SMS truffa -retweet'
+    query = 'Smishing -retweet'
 
     #results of the query
     results = client.search_recent_tweets(query=query,  tweet_fields=['geo', 'created_at', 'attachments', 'id', 'entities'], 
