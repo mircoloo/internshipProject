@@ -16,14 +16,14 @@ connection_config_dict = {
         'pool_size': 5
     }
 
-""" mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  password="",
+mydb = mysql.connector.connect(
+  host="192.168.1.116",
+  user="mirco",
+  password="123",
   database="smishingDB"
-)    """
+)    
 
-mydb = mysql.connector.connect(**connection_config_dict)
+#mydb = mysql.connector.connect(**connection_config_dict)
 
 def update_tellows_data():
     mycursor = mydb.cursor()
@@ -58,6 +58,6 @@ def update_twitter_data():
 
 
 if __name__ == '__main__':
-    update_telguarder_data()
-    update_tellows_data()
+    #update_telguarder_data()
+    #update_tellows_data()
     update_twitter_data()
