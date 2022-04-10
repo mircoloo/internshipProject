@@ -6,6 +6,6 @@
     $DB = "smishingDB";
 
 
-    $CARDS_TO_DISPLAY = 3;
+    $CARDS_TO_DISPLAY = 20;
     $TELDATA_TO_DISPLAY = 5;
 ?>

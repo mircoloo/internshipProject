@@ -1,9 +1,11 @@
+
 #!python3
 
 import telGuarder as tG
 import tellows
 import mysql.connector
 import twitt  
+import sys
 
 connection_config_dict = {
         'user': 'root',
@@ -15,7 +17,6 @@ connection_config_dict = {
         'autocommit': True,
         'pool_size': 5
     }
-
 mydb = mysql.connector.connect(
   host="192.168.1.116",
   user="mirco",
@@ -58,6 +59,7 @@ def update_twitter_data():
 
 
 if __name__ == '__main__':
-    #update_telguarder_data()
-    #update_tellows_data()
+    update_telguarder_data()
+    update_tellows_data()
     update_twitter_data()
+

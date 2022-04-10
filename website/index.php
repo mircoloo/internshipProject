@@ -14,6 +14,9 @@ require 'connection.php';
     <!-- MATERIAL ICONS -->
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cardStyle.css">
+    <!-- SWEEPER -->
+   
 </head>
 
 <body>
@@ -24,7 +27,7 @@ require 'connection.php';
                 <li>
                     <a href="#">
                         <span class="icon"><span class="material-icons-round">security_update_warning</span></span>
-                        <span class="title">Smis<span style="color: #d43;">hing</span></span>
+                        <span class="title">Smis<span style="color: #ff7782;">hing</span></span>
                     </a>
 
                 </li>
@@ -48,17 +51,47 @@ require 'connection.php';
                 </li>
             </ul>
         </div>
+        <!-- main -->
         <div class="main">
             <div class="topbar">
                 <div class="toggle">
                     <span class="material-icons-round">menu</span>
                 </div>
             </div>
-        </div>
-        <div class="right">
+<!-- cardBoxes -->
+                <?php require 'cards.php' ?>
 
+                <?php require 'teldata.php' ?>
+                
+            
+
+           
         </div>
+
     </div>
+    <script src="index.js"></script>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
 </body>
 
 </html>
