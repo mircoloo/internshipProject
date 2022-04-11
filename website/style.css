@@ -27,6 +27,8 @@ body{
     position: relative;
     width: 100%;
 }
+
+
 .left{
     position: fixed;
     width: 300px;
@@ -43,7 +45,7 @@ body{
 
 .left ul{
     position: absolute;
-    top: 0;
+    top: 10;
     left: 0;
     width: 100%;
 }
@@ -130,6 +132,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+    background-color: var(--grey);
 }
 
 .toggle{
@@ -148,15 +151,14 @@ body{
 /* cardBoxes */
 
 .swiper{
-    max-width: 80%;
-    
+    max-width: 90%;
 }
 
 .cardBox{
     display: flex;
     position: relative;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -165,9 +167,13 @@ body{
     background: var(--white);
     box-shadow: 0 7px 25px rgba(0,0,0,0.08);
     border-radius: 0.8rem;
-    max-width: 700px;
+    width: max-content;
     text-align: center;
     transition: 0.5s;
+}
+
+.swiper-slide{
+    margin: 0;
 }
 
 .cardBox .card:hover{
@@ -176,8 +182,8 @@ body{
 
 .cardBox .card .creation-date{
     background-color: var(--blue);
-    border-top-left-radius: 0.8rem;
-    border-top-right-radius: 0.8rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     font-size: larger;
     
 }
@@ -186,7 +192,9 @@ body{
     text-decoration: none;
     color: var(--blue);
     padding: 0.5rem;
+    font-size: large;
 }
+
 
 .cardBox .card .comment{
     text-align: left;
@@ -194,12 +202,39 @@ body{
 }
 
 .cardBox .card img{
-    border-radius: 2rem;
+    width: 100px;
+    height: auto;
     transition: 0.5s;
-
+    border-radius: 0.5rem;
 }
 
 .cardBox .card img:hover{
+    width: 250px;
     box-shadow: 0 7px 25px var(--blue);
 
 }
+
+
+/* TABLEZ */
+
+
+
+
+/* RESPONSIVE */
+
+
+@media screen and (max-width: 600px) {
+    .left{
+        width: 80px;
+    }
+    .cardBox{
+        display: block;
+    }
+    .main{
+        width: calc(100% - 80px);
+        left: 80px;
+    }
+    .toggle{
+        display: none;
+    }
+  }

@@ -14,11 +14,9 @@ require 'connection.php';
     <!-- MATERIAL ICONS -->
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cardStyle.css">
     <!-- SWEEPER -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+   
 </head>
 
 <body>
@@ -70,23 +68,20 @@ require 'connection.php';
            
         </div>
 
-
-        <div class="right">
-
-        </div>
     </div>
     <script src="index.js"></script>
-     <!-- Swiper JS -->
-     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
     spaceBetween: 30,
-    slidesPerGroup: 1,
-    loop: true,
-    loopFillGroupWithBlank: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

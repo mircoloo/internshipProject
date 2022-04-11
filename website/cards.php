@@ -11,7 +11,7 @@
         $resultCheck =  mysqli_num_rows($result);
         while ($rows = mysqli_fetch_assoc($result)) {
         ?>
-            <div class=" swiper-slide card">
+            <div class="swiper-slide card">
                 <div class="creation-date"><?php echo $rows['creation']; ?></div>
                 <div class="comment"><?php echo $rows['comment']; ?></div>
                 <div class="nickname"><a href="<?php echo  "https://twitter.com/MarkTabNet/status/" . $rows['ID'] ?>" target="_blank"><?php echo $rows['nickname']; ?></a></div>  
