@@ -1,5 +1,5 @@
 <?php
-    
+
     $USERNAME = "root";
     $PASSWORD = "";
     $SERVER = "localhost";
@@ -8,4 +8,10 @@
 
     $CARDS_TO_DISPLAY = 20;
     $TELDATA_TO_DISPLAY = 5;
+
+
+
+
+    $GLOBALS['QUERY'] = "select * from teldata LIMIT 5";
+
 ?>

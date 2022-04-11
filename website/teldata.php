@@ -1,46 +1,40 @@
 
-<div class="teldata-div tables">
+<div class="teldata-div">
     <h1 class="table-title">Teldata</h1>
 
-    <table>
+    <table class="teldata-table">
         <thead>
-            <tr>
                 <th class="number-th">Number</th>
                 <th>Comment</th>
                 <th>Type</th>
                 <th>Researchs</th>
                 <th>Score</th>
                 <th>Source</th>
-            </tr>
         </thead>
         <tbody>
             <?php
             //show databse rows 
-            $query = "SELECT * FROM teldata ORDER BY comment DESC LIMIT " . $GLOBALS['TELDATA_TO_DISPLAY'];
+            $query = $GLOBALS['QUERY'];  
             $result = mysqli_query($conn, $query);
             $resultCheck =  mysqli_num_rows($result);
+            $i = 0;
             while ($rows = mysqli_fetch_assoc($result)) {
             ?>
                 <tr>
-                    <td><?php echo $rows['number']; ?></td>
-                    <td><?php echo $rows['comment']; ?></td>
-                    <td><?php echo $rows['type']; ?></td>
-                    <td><?php if ($rows['researchs'] != -1) {
+                    <td data-label="Number"><?php echo $rows['number']; ?></td>
+                    <td data-label="Comment"><?php echo $rows['comment']; ?></td>
+                    <td data-label="Type"><?php echo $rows['type']; ?></td>
+                    <td data-label="Researchs"><?php if ($rows['researchs'] != -1) {
                             echo $rows['researchs'];
                         } else {
                             echo "--";
                         }; ?></td>
-                    <td><?php echo $rows['score']; ?></td>
-                    <td><?php echo $rows['source']; ?></td>
+                    <td data-label="Score"><?php echo $rows['score']; ?></td>
+                    <td data-label="Source"><?php echo $rows['source']; ?></td>
                 </tr>
             <?php
             }
             ?>
-
         </tbody>
     </table>
-    <form id="search-form" action="search_num.php" method="POST">
-        <input type="text" placeholder="Number" name="number">
-        <input type="submit" value="Search">
-    </form>
 </div>
