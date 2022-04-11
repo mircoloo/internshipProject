@@ -126,13 +126,14 @@ body{
 }
 
 .topbar{
+    position: fixed;
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    background-color: var(--grey);
+    background-color: var(--white);
 }
 
 .toggle{
@@ -152,6 +153,7 @@ body{
 
 .swiper{
     max-width: 90%;
+    text-align: center;
 }
 
 .cardBox{
@@ -165,10 +167,9 @@ body{
 .cardBox .card{
     position: relative;
     background: var(--white);
-    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
-    border-radius: 0.8rem;
     width: max-content;
     text-align: center;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
     transition: 0.5s;
 }
 
@@ -182,10 +183,7 @@ body{
 
 .cardBox .card .creation-date{
     background-color: var(--blue);
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
     font-size: larger;
-    
 }
 
 .cardBox .card a{
@@ -218,12 +216,56 @@ body{
 /* TABLEZ */
 
 
+.teldata-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teldata-div .table-title{
+    margin: 20px;
+}
+
+.teldata-table{
+    width: 70%;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.3);
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    max-width: fit-content;
+}
+
+.teldata-table thead{
+    color: var(--blue);
+    margin-bottom: 10px;
+}
+
+.teldata-table thead th{
+    padding: 1rem
+}
+
+.teldata-table:hover{
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+}
+
+
+
+.teldata-table td{
+    border-top: 1px solid var(--black1);
+    padding: 15px;
+    text-align: center;
+}
+
+.teldata-table{
+    border-collapse: collapse;
+}
 
 
 /* RESPONSIVE */
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 970px) {
     .left{
         width: 80px;
     }
@@ -236,5 +278,35 @@ body{
     }
     .toggle{
         display: none;
+    }
+  }
+
+  @media screen and (max-width: 780px) {
+    .teldata-table thead{
+        display: none;
+    }
+
+    .teldata-table, .teldata-table tbody, .teldata-table tr, .teldata-table td{
+        display: block;
+        width: 100%;
+    } 
+    .teldata-table tr{
+        margin-bottom: 15px;
+    }
+
+    .teldata-table td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    .teldata-table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight:bold;
+        text-align: left;
+        color: var(--blue);
     }
   }

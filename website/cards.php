@@ -3,6 +3,7 @@
 ?>
 
 <div class="swiper mySwiper">
+<h1 class="table-title">Twitter</h1>
     <div class="swiper-wrapper cardBox">
         <?php
         //show databse rows 

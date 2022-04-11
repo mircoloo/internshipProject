@@ -56,7 +56,7 @@ require 'connection.php';
             <div class="topbar">
                 <div class="toggle">
                     <span class="material-icons-round">menu</span>
-                </div>
+                </div>       
             </div>
 <!-- cardBoxes -->
                 <?php require 'cards.php' ?>
