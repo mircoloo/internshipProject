@@ -66,6 +66,7 @@ body{
 .left ul li:nth-child(1){
     margin-bottom: 40px;
     pointer-events: none;
+    font-size:2em;
 }
 
 .left ul li a{
@@ -96,7 +97,7 @@ body{
 }
 
 .left ul li a .span{
-    font-size: 1.75rem;
+    font-size: 3rem;
 }
 
 .left ul li a .title{
@@ -133,7 +134,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    background-color: var(--white);
+    background: transparent;
 }
 
 .toggle{
@@ -161,21 +162,21 @@ body{
     position: relative;
     width: 100%;
     padding: 10px;
+    
 }
 
 
 .cardBox .card{
     position: relative;
     background: var(--white);
-    width: max-content;
+    width: 100%;
     text-align: center;
     box-shadow: 0 7px 25px rgba(0,0,0,0.08);
     transition: 0.5s;
+    border-radius: 0.8rem;
 }
 
-.swiper-slide{
-    margin: 0;
-}
+
 
 .cardBox .card:hover{
     box-shadow: 0 7px 25px rgba(0,0,0,0.3);
@@ -217,10 +218,58 @@ body{
 
 
 .teldata-div{
-    text-align: center;
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.teldata-div .selector{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.teldata-div .selector select, .teldata-div .selector input{
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+    margin: 0.3rem;
+    transition: 0.5s;
+    font-weight: bold;
+    border: none;
+}
+.teldata-div .selector select:hover, .teldata-div .selector input:hover{
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+.teldata-div .selector select{
+    background: var(--white);
+    font-weight: bold;
+}
+
+.teldata-div .submit{
+    
+    background: var(--white);
+}
+
+
+.teldata-div .submit:hover{
+    
+    background-color: var(--blue);
+}
+
+.slider{
+    width: 100%
+}
+
+.teldata-div span{
+    margin-bottom: 0.8em;
+    font-size:3em;
+    font-weight: bold;
+    width: 
 }
 
 .teldata-div .table-title{
@@ -239,6 +288,11 @@ body{
 .teldata-table thead{
     color: var(--blue);
     margin-bottom: 10px;
+}
+
+.teldata-table thead .number-th, .teldata-table .number-label{
+    color: var(--blue);
+    font-weight: bold;
 }
 
 .teldata-table thead th{

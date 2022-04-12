@@ -59,5 +59,5 @@ def update_twitter_data():
 
 if __name__ == '__main__':
    # update_telguarder_data()
-   # update_tellows_data()
+    update_tellows_data()
     update_twitter_data()

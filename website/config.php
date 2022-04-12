@@ -12,6 +12,6 @@
 
 
 
-    $GLOBALS['QUERY'] = "select * from teldata LIMIT 5";
+    $GLOBALS['QUERY'] = "select * from teldata";
 
 ?>
