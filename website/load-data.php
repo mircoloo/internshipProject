@@ -68,6 +68,14 @@ if ($_SERVER['REQUEST_METHOD'] == "GET") {
                 $query = "SELECT * FROM teldata  WHERE Type='Sconosciuto (1)'";
                 getData($conn, $query);
                 break;
+            case "score-slider":
+                ?>
+                <script>
+                    alert("score slider")
+                    $("#score-slider").hide();
+                </script>
+                <?php
+                break;
 
         }
     }
