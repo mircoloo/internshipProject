@@ -19,8 +19,56 @@ $(document).on('input', '#slider', function() {
 });
 
 
+$(document).ready(function(){
+    var commentCount = 0;
+    $(".show-more-btn").click(function(){
+        commentCount += 4;
+        $.ajax({
+            method: 'POST',
+            url: "website/load-data.php",
+            data: {"commentCount": commentCount},
+            success: function(resultData) {  
+                $(".teldata-table-tbody").html(resultData);
+            
+             }
+      });
+
+    });
+    $(".show-less-btn").click(function(){
+        if(commentCount >= 4){commentCount -= 4
+        $.ajax({
+            method: 'POST',
+            url: "website/load-data.php",
+            data: {"commentCount": commentCount},
+            success: function(resultData) {  
+                $(".teldata-table-tbody").html(resultData);
+            
+             }
+      });
+        }
+    });
+
+    $('select').on('change', function() {
+        $select = $('.select[name=choice] option').filter(':selected').val();
+        $.ajax({
+            method: 'POST',
+            url: "website/load-data.php",
+            data: {"query": $select},
+            success: function(resultData) {  
+                if($select != 'all'){
+                    $(".show-buttons").hide();
+                }else{
+                    $(".show-buttons").show();
+                }
+                $(".teldata-table-tbody").html(resultData);
+                
+        }
+      });
+    });      
+
+});
 
 
 
 
-
+ 

@@ -223,6 +223,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .teldata-div .selector{
@@ -240,7 +241,7 @@ body{
     font-weight: bold;
     border: none;
 }
-.teldata-div .selector select:hover, .teldata-div .selector input:hover{
+.teldata-div .selector select:hover, .teldata-div .selector input:hover, .btn:hover{
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
@@ -250,26 +251,26 @@ body{
     font-weight: bold;
 }
 
-.teldata-div .submit{
-    
+.btn{
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
     background: var(--white);
 }
 
 
 .teldata-div .submit:hover{
-    
+    color: white;
     background-color: var(--blue);
 }
-
-.slider{
-    width: 100%
+#score-slider{
+    display: none;
+    width: 30%;
+    background-color: red;
 }
 
 .teldata-div span{
     margin-bottom: 0.8em;
     font-size:3em;
     font-weight: bold;
-    width: 
 }
 
 .teldata-div .table-title{
@@ -315,6 +316,27 @@ body{
     border-collapse: collapse;
 }
 
+
+.show-buttons{
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+
+.show-buttons *{
+    padding: 0.8em;
+    margin: 0.8rem;
+    border-radius: 0.8rem;
+    border: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.show-buttons *:hover{
+    background: var(--blue);
+    color: var(--white);
+
+}
 
 /* RESPONSIVE */
 
@@ -364,3 +386,6 @@ body{
         color: var(--blue);
     }
   }
+
+
+

@@ -1,6 +1,6 @@
 <?php
 ini_set('display_errors', '1');
-require 'connection.php';
+    require 'website/DBconnection.php';
 ?>
 
 <!DOCTYPE html>
@@ -13,8 +13,8 @@ require 'connection.php';
     <title>Smishing dashboard</title>
     <!-- MATERIAL ICONS -->
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cardStyle.css">
+    <link rel="stylesheet" href="website/style.css">
+    <link rel="stylesheet" href="website/cardStyle.css">
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    
@@ -23,7 +23,6 @@ require 'connection.php';
 <body>
     <div class="containter">
         <div class="left">
-
             <ul>
                 <li>
                     <a href="#">
@@ -59,18 +58,15 @@ require 'connection.php';
                     <span class="material-icons-round">menu</span>
                 </div>       
             </div>
-<!-- cardBoxes -->
-                <?php require 'cards.php' ?>
-
-                <?php require 'teldata.php' ?>
-                
-            
-
+        <!-- cardBoxes -->
+                <?php require 'website/cards.php' ?>
+        <!-- teldata -->
+                <?php require 'website/teldata.php' ?>
            
         </div>
 
     </div>
-    <script src="index.js"></script>
+    <script src="website/index.js"></script>
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -93,6 +89,7 @@ require 'connection.php';
     },
   });
 </script>
+
 </body>
 
 </html>

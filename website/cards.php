@@ -1,5 +1,5 @@
-<?php require 'connection.php'; 
-        require 'config.php';
+<?php 
+    require 'DBconnection.php'; 
 ?>
 
 <div class="swiper mySwiper">
