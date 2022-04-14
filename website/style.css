@@ -1,0 +1,398 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;1,400&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --blue: #287bff;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+    --danger: #ff7782; 
+}
+
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+
+.left{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: var(--blue);
+    border-left: 10px solid var(--blue);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.left.active{
+    width: 80px;
+}
+
+.left ul{
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+}
+
+.left ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+
+.left ul li:hover{
+    background-color: var(--white);
+}
+
+.left ul li:nth-child(1){
+    margin-bottom: 40px;
+    pointer-events: none;
+    font-size:2em;
+}
+
+.left ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: var(--white);
+
+}
+
+.left ul li:hover a{
+    color: var(--blue);
+}
+
+.left ul li a span{
+    line-height: 60px;
+}
+
+.left ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;   
+    text-align: center; 
+
+}
+
+.left ul li a .span{
+    font-size: 3rem;
+}
+
+.left ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
+
+/* MAIN */
+
+.main{
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background: var(--white);
+    transition: 0.5s;
+}
+
+.main.active{
+    width: calc(100% - 80px);
+    left: 80px;
+}
+
+.topbar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background: transparent;
+}
+
+.toggle{
+    position: relative;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+
+/* cardBoxes */
+
+.swiper{
+    max-width: 90%;
+    text-align: center;
+}
+
+.cardBox{
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+.cardBox .card{
+    position: relative;
+    background: var(--white);
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+    transition: 0.5s;
+    border-radius: 0.8rem;
+}
+
+
+
+.cardBox .card:hover{
+    box-shadow: 0 7px 25px rgba(0,0,0,0.3);
+}
+
+.cardBox .card .creation-date{
+    background-color: var(--blue);
+    font-size: larger;
+}
+
+.cardBox .card a{
+    text-decoration: none;
+    color: var(--blue);
+    padding: 0.5rem;
+    font-size: large;
+}
+
+
+.cardBox .card .comment{
+    text-align: left;
+    padding: 2rem;
+}
+
+.cardBox .card img{
+    width: 100px;
+    height: auto;
+    transition: 0.5s;
+    border-radius: 0.5rem;
+}
+
+.cardBox .card img:hover{
+    width: 250px;
+    box-shadow: 0 7px 25px var(--blue);
+
+}
+
+
+/* TABLEZ */
+
+
+.teldata-div{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.teldata-div .selector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.teldata-div .selector select, .teldata-div .selector input{
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+    margin: 0.3rem;
+    transition: 0.5s;
+    font-weight: bold;
+    border: none;
+}
+.teldata-div .selector select:hover, .teldata-div .selector input:hover, .btn:hover{
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+.teldata-div .selector select{
+    background: var(--white);
+    font-weight: bold;
+}
+
+.btn{
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+    background: var(--white);
+}
+
+
+.teldata-div .submit:hover{
+    color: white;
+    background-color: var(--blue);
+}
+#score-slider{
+    display: none;
+    width: 100%;
+}
+
+#show-score-value{
+    font-size:2em;
+    font-weight: bold;
+    color: var(--black1);
+}
+
+.teldata-div .table-title{
+    margin: 20px;
+}
+
+.teldata-table{
+    width: 70%;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.3);
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    max-width: fit-content;
+}
+
+.teldata-table thead{
+    color: var(--blue);
+    margin-bottom: 10px;
+}
+
+.teldata-table thead .number-th, .teldata-table .number-label{
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.teldata-table thead th{
+    padding: 1rem
+}
+
+.teldata-table:hover{
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+}
+
+
+
+.teldata-table td{
+    border-top: 1px solid var(--black1);
+    padding: 15px;
+    text-align: center;
+}
+
+.teldata-table{
+    border-collapse: collapse;
+}
+
+
+.show-buttons{
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+
+.show-buttons *{
+    padding: 0.8em;
+    margin: 0.8rem;
+    border-radius: 0.8rem;
+    border: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.show-buttons *:hover{
+    background: var(--blue);
+    color: var(--white);
+
+}
+
+/* RESPONSIVE */
+
+
+@media screen and (max-width: 970px) {
+    .left{
+        width: 80px;
+    }
+    .cardBox{
+        display: block;
+    }
+    .main{
+        width: calc(100% - 80px);
+        left: 80px;
+    }
+    .toggle{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 780px) {
+    .teldata-table thead{
+        display: none;
+    }
+
+    .teldata-table, .teldata-table tbody, .teldata-table tr, .teldata-table td{
+        display: block;
+        width: 100%;
+    } 
+    .teldata-table tr{
+        margin-bottom: 15px;
+    }
+
+    .teldata-table td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    .teldata-table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight:bold;
+        text-align: left;
+        color: var(--blue);
+    }
+  }
+
+
+

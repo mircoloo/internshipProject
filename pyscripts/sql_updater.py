@@ -4,6 +4,7 @@ import telGuarder as tG
 import tellows
 import mysql.connector
 import twitt  
+import sys
 
 connection_config_dict = {
         'user': 'root',
@@ -15,15 +16,14 @@ connection_config_dict = {
         'autocommit': True,
         'pool_size': 5
     }
-
-""" mydb = mysql.connector.connect(
+mydb = mysql.connector.connect(
   host="localhost",
   user="root",
   password="",
   database="smishingDB"
-)    """
+)    
 
-mydb = mysql.connector.connect(**connection_config_dict)
+#mydb = mysql.connector.connect(**connection_config_dict)
 
 def update_tellows_data():
     mycursor = mydb.cursor()
@@ -58,6 +58,6 @@ def update_twitter_data():
 
 
 if __name__ == '__main__':
-    update_telguarder_data()
+   # update_telguarder_data()
     update_tellows_data()
     update_twitter_data()
