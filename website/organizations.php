@@ -1,8 +1,9 @@
 <?php 
     require 'DBconnection.php'; 
 ?>
-
+<h1 class="table-title" style="text-align: center;">IOC & Organizations</h1>
 <div class="org-container">
+
                 <table>
                     <thead>
                         <tr>

@@ -56,7 +56,7 @@ body{
     list-style: none;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    
+    transition: 0.15s;
 }
 
 .left ul li:hover{
@@ -91,13 +91,9 @@ body{
     position: relative;
     display: block;
     min-width: 60px;
-    height: 60px;   
+    height: 60px;  
     text-align: center; 
 
-}
-
-.left ul li a .span{
-    font-size: 3rem;
 }
 
 .left ul li a .title{
@@ -108,9 +104,12 @@ body{
     line-height: 60px;
     text-align: start;
     white-space: nowrap;
+
 }
 
-/* MAIN */
+/*============== 
+    MAIN 
+==========*/
 
 .main{
     position: absolute;
@@ -284,9 +283,16 @@ body{
     color: var(--black1);
 }
 
-.teldata-div .table-title{
-    margin: 20px;
+.table-title{
+    margin-top: 40px;
+    font-size: 2.5rem;
+    transition: width 2s, height 2s, transform 2s, font-size 1s;
+
 }
+
+.table-title:hover {
+    font-size: 3rem;
+  }
 
 /* ==============
     TELDATA TABLE
@@ -398,7 +404,10 @@ IOC & ORGANIZATIONS
     border-bottom: 1px var(--black2) solid;
 }
 
-/* RESPONSIVE */
+
+/* ==============
+    RESPONSIVE 
+================*/
 
 
 @media screen and (max-width: 1030px) {
