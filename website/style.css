@@ -283,15 +283,16 @@ body{
     color: var(--black1);
 }
 
+/* TITLESSSS */
 .table-title{
     margin-top: 40px;
     font-size: 2.5rem;
-    transition: width 2s, height 2s, transform 2s, font-size 1s;
+    transition: width 2s, height 2s, transform 1s, font-size 1s;
 
 }
 
 .table-title:hover {
-    font-size: 3rem;
+    transform: scale(1.2);
   }
 
 /* ==============
