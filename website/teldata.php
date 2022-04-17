@@ -35,9 +35,6 @@
             <th>Source</th>
         </thead>
         <tbody class="teldata-table-tbody">
-
-
-
         </tbody>
     </table>
     <div class="show-buttons">

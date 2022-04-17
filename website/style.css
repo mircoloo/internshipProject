@@ -150,7 +150,9 @@ body{
 }
 
 
-/* cardBoxes */
+/* =========
+ cardBoxes 
+ ============*/
 
 .swiper{
     max-width: 90%;
@@ -214,7 +216,9 @@ body{
 }
 
 
-/* TABLEZ */
+/* =========
+    TABLES 
+ ============*/
 
 
 .teldata-div{
@@ -284,6 +288,10 @@ body{
     margin: 20px;
 }
 
+/* ==============
+    TELDATA TABLE
+ ================*/
+
 .teldata-table{
     width: 70%;
     box-shadow: 0 7px 25px rgba(0,0,0,0.3);
@@ -314,7 +322,7 @@ body{
 
 
 .teldata-table td{
-    border-top: 1px solid var(--black1);
+    border-top: 1px solid var(--black2);
     padding: 15px;
     text-align: center;
 }
@@ -345,10 +353,55 @@ body{
 
 }
 
+
+/* =============
+IOC & ORGANIZATIONS 
+ ===============*/
+
+.org-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.org-container table{
+    box-shadow: 0 7px 25px rgba(0,0,0,0.3);
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 1rem;
+    transition: 0.5s;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.org-container table:hover{
+    box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+}
+
+.org-container table thead{
+    font-weight: bold;
+}
+
+.org-container table thead:nth-child(1){
+    color: var(--blue);
+}
+
+.org-container table td{
+    padding: 0.8rem;
+ 
+}
+
+.org-container table td{
+    border-bottom: 1px var(--black2) solid;
+}
+
 /* RESPONSIVE */
 
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1030px) {
     .left{
         width: 80px;
     }

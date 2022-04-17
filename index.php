@@ -1,6 +1,6 @@
 <?php
 ini_set('display_errors', '1');
-    require 'website/DBconnection.php';
+require 'website/DBconnection.php';
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +17,7 @@ ini_set('display_errors', '1');
     <link rel="stylesheet" href="website/cardStyle.css">
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-   
+
 </head>
 
 <body>
@@ -56,39 +56,42 @@ ini_set('display_errors', '1');
             <div class="topbar">
                 <div class="toggle">
                     <span class="material-icons-round">menu</span>
-                </div>       
+                </div>
             </div>
-        <!-- cardBoxes -->
-                <?php require 'website/cards.php' ?>
-        <!-- teldata -->
-                <?php require 'website/teldata.php' ?>
-           
+            <!-- cardBoxes -->
+            <?php require 'website/cards.php' ?>
+            <!-- teldata -->
+            <?php require 'website/teldata.php' ?>
+            <!-- ioc / organizations -->
+            <?php require 'website/organizations.php' ?>
         </div>
+
+
 
     </div>
     <script src="website/index.js"></script>
-<!-- Swiper JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-</script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 
 </body>
 

@@ -1,7 +1,7 @@
 <?php 
     require 'DBconnection.php'; 
 ?>
-
+<!-- Cards of twitter datas -->
 <div class="swiper mySwiper">
 <h1 class="table-title">Twitter</h1>
     <div class="swiper-wrapper cardBox">
@@ -26,7 +26,7 @@
         ?>
 
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
     <div class="swiper-pagination"></div>
 </div>
