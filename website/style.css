@@ -274,7 +274,7 @@ body{
 }
 #score-slider{
     display: none;
-    width: 100%;
+    width: 102ì0%;
 }
 
 #show-score-value{
@@ -287,12 +287,12 @@ body{
 .table-title{
     margin-top: 40px;
     font-size: 2.5rem;
-    transition: width 2s, height 2s, transform 1s, font-size 1s;
+    transition: width 2s, height 2s, transform .3s, font-size 1s;
 
 }
 
 .table-title:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
 
 /* ==============
@@ -379,21 +379,24 @@ IOC & ORGANIZATIONS
     max-width: 300px;
     border-radius: 1rem;
     transition: 0.5s;
-    margin: 1rem;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
+
+    
 }
 
 .org-container table:hover{
     box-shadow: 0 7px 25px rgba(0,0,0,0.08);
+  
 }
-
 .org-container table thead{
     font-weight: bold;
 }
 
 .org-container table thead:nth-child(1){
     color: var(--blue);
+
 }
 
 .org-container table td{

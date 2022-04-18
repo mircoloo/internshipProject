@@ -20,7 +20,7 @@
             <?php
             ?>
             <input id="score-slider" type="range" min="1" max="10">
-            <span id="show-score-value">-</span>
+            <span id="show-score-value"></span>
         </form>
         
     </div>
