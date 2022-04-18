@@ -15,6 +15,7 @@
     --black1: #222;
     --black2: #999;
     --danger: #ff7782; 
+    --gradient:  linear-gradient(45deg, #287bff, #fff);
 }
 
 
@@ -265,16 +266,12 @@ body{
 .btn{
     box-shadow: 0 7px 25px rgba(0,0,0,0.08);
     background: var(--white);
+    
 }
 
-
-.teldata-div .submit:hover{
-    color: white;
-    background-color: var(--blue);
-}
 #score-slider{
     display: none;
-    width: 102ì0%;
+    width: 100%;
 }
 
 #show-score-value{
@@ -340,12 +337,25 @@ body{
 
 
 .show-buttons{
+    
     display: flex;
     justify-content: space-between;
     transition: 0.5s;
 }
 
+@keyframes bg-animation{
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
+}
+
 .show-buttons *{
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: bg-animation 5s infinite alternate;
     padding: 0.8em;
     margin: 0.8rem;
     border-radius: 0.8rem;
