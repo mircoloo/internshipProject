@@ -1,5 +1,5 @@
 <?php 
-    require 'DBconnection.php'; 
+    include 'DBconnection.php'; 
 ?>
 <!-- Cards of twitter datas -->
 <div class="swiper mySwiper">

@@ -1,6 +1,6 @@
 <?php
 ini_set('display_errors', '1');
-require 'website/DBconnection.php';
+include 'website/DBconnection.php';
 ?>
 
 <!DOCTYPE html>

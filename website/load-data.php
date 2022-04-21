@@ -1,7 +1,7 @@
 <?php
 
 ini_set('display_errors', '1');
-require "DBconnection.php";
+include "DBconnection.php";
 
 
 function getData($conn, $query)
