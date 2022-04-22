@@ -50,5 +50,6 @@ Fine codice estrazione twitter con aggiunta dell'URL immmagine e testo dell'imma
 Rimodellazione tabelle database 
 
 #6 Aprile 8:00-12:30
-
 Modifica script twitt.py per prendere anche l'id dell'autore e creazione cards in php
+
+#7 Aprile 8:00-12:30
