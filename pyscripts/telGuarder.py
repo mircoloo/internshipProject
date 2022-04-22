@@ -1,5 +1,7 @@
 #!python3
+import re
 import sys
+from time import sleep
 from urllib.parse import scheme_chars
 from selenium.webdriver.firefox.options import Options
 from selenium import webdriver
@@ -23,14 +25,14 @@ def remove_suffix(input_string, suffix):
 
 #adding options to firefox driver
 opt = webdriver.FirefoxOptions()
-opt.add_argument("--headless")
+#opt.add_argument("--headless")
 
 #defining the extract data function -> refreshPage is use to load more numbers retrieving more informations
 def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
     telGuarderUrl = "https://www.telguarder.com/it"
     success = True
     #starting telguarder site wait 1 second#
-    driver = webdriver.Firefox(options=opt)
+    driver = webdriver.Firefox()
     driver.get(telGuarderUrl)
 
 
@@ -97,19 +99,25 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
             nSearch = driver.find_element(by=By.CLASS_NAME, value='ai-row-info-value')
             researchs.append(nSearch.text)  
             #try to find score
-            """ try:
-                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "ratingFormOuterPanel")))
+            try:
+                #WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "latestCommentPanelOuter")))
+                """
                 ratingPanel = driver.find_element(by=By.ID, value="ratingFormOuterPanel")
                 #ratingPanel = driver.find_element(by=By.XPATH, value="//div[@id='ratingFormOuterPanel']")
                 rect = ratingPanel.find_element(by=By.XPATH, value="/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]")
-                #rect = ratingPanel.find_element(by=By.XPATH, value="//div[2]/div/div/div[3]/div/div/div[1]/div/svg/g[1]/rect")
-
+                #rect = ratingPanel.find_element(by=By.XPATH, value="//div[2]/div/div/div[3]/div/div/div[1]/div/svg/g[1]/rect") """
                 
+                pageSource = driver.page_source
+                scorePatt = re.compile(r"Negativo\s\((\d+)%\)")
+                score = scorePatt.search(pageSource).group(1)  
+                print(score)
                 #rate = ratingPanel.get_attribute("column-id")
-                print(num + ": " + rect.tag_name)
-            except:
-                print("score not found") """
-        except:
+                #print(num + ": " + rect.tag_name)
+            except Exception as e: 
+                print(e)
+                print("score not found") 
+        except Exception as e:
+            
             researchs.append('Not Found')
 
 

@@ -9,7 +9,7 @@ $GLOBALS['PASSWORD'] = "";
 $GLOBALS['SERVER'] = "localhost";
 $GLOBALS['DB'] = "smishingDB";
 
-$GLOBALS['CARDS_TO_DISPLAY'] = 20;
+$GLOBALS['CARDS_TO_DISPLAY'] = 10;
 
 $GLOBALS['COMMENT_COUNT'] = 0;
 

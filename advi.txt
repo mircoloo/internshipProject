@@ -15,4 +15,20 @@ put source column (tellows, telguarder) -
 sidebar to select which row to show
 
 TWITTER:
-display a card 
+display a card
+
+
+
+
+================
+22/04/2022
+=================
+add empty column with organization detected after the analysis
+
+-show 2 twitt, change slider colour
+
+-collect images and test ocr   | link to the image | image | text
+
+
+
+-open twitt links and extract informations about the fake site

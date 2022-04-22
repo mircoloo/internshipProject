@@ -13,10 +13,7 @@ toggle.onclick = function(){
     main.classList.toggle('active');
 }
 
-//take slider value and display it
-$(document).on('input', '#slider', function() {
-    $('#slider_value').html( $(this).val() );
-});
+
 
 
 $(document).ready(function(){
@@ -75,6 +72,8 @@ $(document).ready(function(){
       });
     });      
 
+
+    // ================ SCORE SLIDER CODE =========================
     $('#score-slider').on('change', function() {
         $score = $(this).val()
         $.ajax({
@@ -84,9 +83,25 @@ $(document).ready(function(){
             success: function(resultData) {
                 $(".teldata-table-tbody").html(resultData);
                 $("#show-score-value").text($score); 
+                if($score <= 4){
+                    $('#score-slider').css('accent-color', 'green');
+                }else if($score >= 5 && $score <=7){
+                    $('#score-slider').css('accent-color', 'yellow');
+                }else{
+                    $('#score-slider').css('accent-color', 'red');
+                }   
+
+                
             }
         });
     });
+
+    //take slider value and display it
+$(document).on('input', '#slider', function() {
+    $('#slider_value').html( $(this).val() );
+});
+
+
 
 });
 

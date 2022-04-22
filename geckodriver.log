@@ -6439,3 +6439,638 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1650623448120	geckodriver	INFO	Listening on 127.0.0.1:54867
+1650623451182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "54868" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileCWpjnQ"
+*** You are running in headless mode.
+1650623451701	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileCWpjnQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54868/devtools/browser/9879e20f-8c8e-4140-bf6e-240a770dcb19
+1650623453271	Marionette	INFO	Listening on port 54874
+1650623453373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/8168735814977783071/index.html#t=18433620236217233570&p=https%3A%2F%2F8f97b939d4c7a19a9a8126620106ab79.safeframe.googlesyndication.com, line 248: TypeError: studio.Enabler is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 7640 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/6688437985007175407/index.html#t=15190053912937864082&p=https%3A%2F%2F77f06b361d9b836d8a20d334f6b3b538.safeframe.googlesyndication.com, line 246: TypeError: studio.Enabler is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 6116 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1409 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 2084 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1650623513982	Marionette	INFO	Stopped listening on port 54874
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1650623515164	geckodriver	INFO	Listening on 127.0.0.1:55200
+1650623518210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55201" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileDF7bTf"
+*** You are running in headless mode.
+1650623518563	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileDF7bTf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55201/devtools/browser/f88e3839-8192-4717-b1a4-bf5efb1d1dcb
+1650623519975	Marionette	INFO	Listening on port 55206
+1650623520248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3535-1650550341312/adngin.js, line 1: TypeError: r is undefined
+1650623533486	Marionette	INFO	Stopped listening on port 55206
+1650624021044	geckodriver	INFO	Listening on 127.0.0.1:60173
+1650624024088	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60174" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilemRF5lF"
+*** You are running in headless mode.
+1650624024455	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilemRF5lF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60174/devtools/browser/db3cd2d1-b4d4-425a-9ce0-57cf6cc58b10
+1650624025909	Marionette	INFO	Listening on port 60180
+1650624026160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/6688437985007175407/index.html?v=b208246486#t=10545468994148183061&p=https%3A%2F%2Fa32f67c63ecefe765f92fd71485c5796.safeframe.googlesyndication.com, line 246: TypeError: studio.Enabler is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 5733 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650624057373	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1650624063983	geckodriver	INFO	Listening on 127.0.0.1:60390
+1650624067042	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60391" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileDE4AKb"
+*** You are running in headless mode.
+1650624067486	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileDE4AKb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60391/devtools/browser/635304f2-59f9-49e8-8f2e-133a938326d1
+1650624069005	Marionette	INFO	Listening on port 60397
+1650624069096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650624116558	geckodriver	INFO	Listening on 127.0.0.1:60558
+1650624119622	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60559" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile164ilm"
+*** You are running in headless mode.
+1650624119955	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile164ilm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60559/devtools/browser/1166803f-5997-40a9-9b10-199d77916990
+1650624121596	Marionette	INFO	Listening on port 60565
+1650624121694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650624135112	geckodriver	INFO	Listening on 127.0.0.1:60594
+1650624138168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60595" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilewzI3aL"
+*** You are running in headless mode.
+1650624138591	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilewzI3aL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60595/devtools/browser/0ec4c097-943e-46fd-86c4-b91f61397e58
+1650624139941	Marionette	INFO	Listening on port 60600
+1650624140233	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+1650625012837	geckodriver	INFO	Listening on 127.0.0.1:60822
+1650625015891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60823" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileq4iTqm"
+*** You are running in headless mode.
+1650625016233	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileq4iTqm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60823/devtools/browser/7abeac72-020b-4b68-84bf-6b3c650d25e1
+1650625017675	Marionette	INFO	Listening on port 60828
+1650625017934	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650625040534	geckodriver	INFO	Listening on 127.0.0.1:60970
+1650625043587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60971" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilekzUsHn"
+*** You are running in headless mode.
+1650625043966	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilekzUsHn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60971/devtools/browser/9f66234f-4fad-467a-918f-f32e02e459d2
+1650625045313	Marionette	INFO	Listening on port 60977
+1650625045649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650625069436	Marionette	INFO	Stopped listening on port 60977
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1650625102289	geckodriver	INFO	Listening on 127.0.0.1:61141
+1650625105333	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61142" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile2CQEtV"
+*** You are running in headless mode.
+1650625105766	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile2CQEtV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61142/devtools/browser/f7107bed-1884-4348-a886-c78a8e456684
+1650625107425	Marionette	INFO	Listening on port 61147
+1650625107498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=3113ab2b-7c6b-45cb-8d4d-1edb6b7b3523&uid=5GHdor5i0vDwN47xv3_e_rtgx_7tMIzq5GqO9Oxg3P67N9ylOnU5zA==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 7159 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-LSynECPyRS4LW&moatClientLevel2=qfm&moatClientLevel3=988541c9-fad9-4a97-bf8d-f25bbf01dd3a&moatClientLevel4=bc3fd6b0-2042-4f19-9841-dfbf5f804a70&uid=aN5Um2jeB5B92wmbNMMFxmKLHMBmigWPMYhTwWbdBsE0iAXDkqxCtg==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 6352 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 3463 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3202432819 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3202432819 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://s0.2mdn.net/879366/Enabler_01_248.js, line 118: TypeError: b.document.body is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1841 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 7103 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3424072209 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3424072209 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 3004 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/0289741436 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/0289741436 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-NFxazWA7hnaYb&moatClientLevel2=qfm&moatClientLevel3=e6820f0c-4c5c-4ce6-8f4e-21fe1daba209&moatClientLevel4=6d801811-17c2-4297-953c-cdc4dee556eb&uid=xGhEQsQ5QUnROhFGzCBASMw1WRGaOhVdzD0VQchuQUjONRIT71c2nQ==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650625137587	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 7718 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3515261447 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-fHFepEQud3Q-h&moatClientLevel2=qfm&moatClientLevel3=4916a5b6-68ea-4d6b-ae13-d673cf86605e&moatClientLevel4=7b51681e-114c-4469-b061-af65b912dc13&uid=ajxKnjA_SplpPR2YaW4ZyDk_GJgxNRaaPTUbnT09GMo8OE2Yaz9IzbLVgwk=, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=3113ab2b-7c6b-45cb-8d4d-1edb6b7b3523&uid=2LUxdY_nZnjE4TwlivoxctjuKHiK42Rt3udncNjmMHPasTNws6-QBw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1700 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3334540016 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3334540016 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=3113ab2b-7c6b-45cb-8d4d-1edb6b7b3523&uid=2LUxdY_nZnjE4TwlivoxctjuKHiK42Rt3udncNjmMHPasTNws6-QBw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=3113ab2b-7c6b-45cb-8d4d-1edb6b7b3523&uid=2LUxdY_nZnjE4TwlivoxctjuKHiK42Rt3udncNjmMHPasTNws6-QBw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=3113ab2b-7c6b-45cb-8d4d-1edb6b7b3523&uid=2LUxdY_nZnjE4TwlivoxctjuKHiK42Rt3udncNjmMHPasTNws6-QBw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650625145780	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1650625145783	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1650625145853	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1437 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=3113ab2b-7c6b-45cb-8d4d-1edb6b7b3523&uid=2LUxdY_nZnjE4TwlivoxctjuKHiK42Rt3udncNjmMHPasTNws6-QBw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3420300391 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/6688437985007175407/index.html#t=3037450799234282720&p=https%3A%2F%2F4ae5db9f1ad6054cac9d8a00b2980c3b.safeframe.googlesyndication.com, line 246: TypeError: studio.Enabler is undefined
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=3113ab2b-7c6b-45cb-8d4d-1edb6b7b3523&uid=2LUxdY_nZnjE4TwlivoxctjuKHiK42Rt3udncNjmMHPasTNws6-QBw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650625149830	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1650625149833	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 3158 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 5496 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1068 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 5315 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3499300302 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=3113ab2b-7c6b-45cb-8d4d-1edb6b7b3523&uid=2LUxdY_nZnjE4TwlivoxctjuKHiK42Rt3udncNjmMHPasTNws6-QBw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 71 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/8168735814977783071/index.html#t=1854677222034958474&p=https%3A%2F%2F43b62a680d683b7a2310219fb0cdd371.safeframe.googlesyndication.com, line 248: TypeError: studio.Enabler is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 267 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+1650625173772	geckodriver	INFO	Listening on 127.0.0.1:61717
+1650625176830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61718" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileGqy188"
+1650625177353	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileGqy188\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61718/devtools/browser/09893e23-edff-4ff0-9a2f-61ff03891392
+1650625179914	Marionette	INFO	Listening on port 61723
+1650625180010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=dcf1ae8b-00af-4dd9-95e5-326f0c12419c&uid=cBa2xn0VsMRpErG2BX3GsgUT37sAEcSvBhLKsnISxMMAZ7a1rN7c0A==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 6875 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pix.adrta.com/cdnf.js?v=22.90, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pix.adrta.com/cdnf.js?v=22.90, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=dcf1ae8b-00af-4dd9-95e5-326f0c12419c&uid=SdCM_R2DiK0F14n_Sp6M_RiClacY0oqzG4aOqRuC2fge1YqrioZXSA==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 5124 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 357 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-VW6jXvrp8FPYj&moatClientLevel2=qfm&moatClientLevel3=e7440ba3-fa80-4c5b-89e4-1cb4128248a3&moatClientLevel4=96bd08a0-745d-4305-848d-790f4835304a&uid=PsZvzTvHashSym7GO9JsyEbKdcZKyxnSTs4cyDvPHrlJzGvO92_zzQ==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 4996 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 150 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-NFxazWA7hnaYb&moatClientLevel2=qfm&moatClientLevel3=057c32bb-92b3-46d2-a843-87ae43400209&moatClientLevel4=b90912c2-c431-48a2-b617-1086d634e2fa&uid=DUQsElhEKBkQQ34ZW199QA1HZENbRHoMWEoqQA1DfhNZQS1A49BD9Q==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650625205245	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 5825 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 2437 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 3451 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 4944 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-NFxazWA7hnaYb&moatClientLevel2=qfm&moatClientLevel3=057c32bb-92b3-46d2-a843-87ae43400209&moatClientLevel4=b90912c2-c431-48a2-b617-1086d634e2fa&uid=DUQsElhEKBkQQ34ZW199QA1HZENbRHoMWEoqQA1DfhNZQS1A49BD9Q==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 2592 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 4843 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-NFxazWA7hnaYb&moatClientLevel2=qfm&moatClientLevel3=057c32bb-92b3-46d2-a843-87ae43400209&moatClientLevel4=b90912c2-c431-48a2-b617-1086d634e2fa&uid=DUQsElhEKBkQQ34ZW199QA1HZENbRHoMWEoqQA1DfhNZQS1A49BD9Q==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 553 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 4470 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 3267 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-NFxazWA7hnaYb&moatClientLevel2=qfm&moatClientLevel3=057c32bb-92b3-46d2-a843-87ae43400209&moatClientLevel4=b90912c2-c431-48a2-b617-1086d634e2fa&uid=DUQsElhEKBkQQ34ZW199QA1HZENbRHoMWEoqQA1DfhNZQS1A49BD9Q==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 3980 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 701 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 406 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650625240847	geckodriver	INFO	Listening on 127.0.0.1:62205
+1650625243918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62206" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile0lcDMD"
+1650625244321	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile0lcDMD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62206/devtools/browser/c0e9213e-961a-4420-88db-eb23d45b188e
+1650625246531	Marionette	INFO	Listening on port 62212
+1650625246606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 3015 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 624 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=4197a7ad-8395-4982-bd4b-c167801709b4&uid=G-sr9GyaKYNy6l3yZ_Je827mR4Ia6lLtaOgp-RznUoZnmy72Yeau1A==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pix.adrta.com/cdnf.js?v=22.90, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 5804 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-NFxazWA7hnaYb&moatClientLevel2=qfm&moatClientLevel3=057c32bb-92b3-46d2-a843-87ae43400209&moatClientLevel4=b90912c2-c431-48a2-b617-1086d634e2fa&uid=5eND4-mTQu7xkTDm6f817uyTLO7olzP77ZAwkuXjM5PulkPma5KUTg==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 3176 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 6061 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1650625313001	geckodriver	INFO	Listening on 127.0.0.1:62571
+1650625316055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62572" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilejSPVCd"
+1650625316449	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilejSPVCd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62572/devtools/browser/c655e5c7-f872-46c2-a8da-10bc565d84de
+1650625318733	Marionette	INFO	Listening on port 62577
+1650625319228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 2004 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1356 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1650625346210	geckodriver	INFO	Listening on 127.0.0.1:62803
+1650625349260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62804" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile8wD3xu"
+1650625349611	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile8wD3xu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62804/devtools/browser/3b12a51a-f5fb-48c7-a599-65ce4077c1c1
+1650625351868	Marionette	INFO	Listening on port 62809
+1650625351933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 4124 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 7493 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650625526205	geckodriver	INFO	Listening on 127.0.0.1:63069
+1650625529260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63070" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileRXuTgS"
+1650625529628	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileRXuTgS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63070/devtools/browser/5827ebe4-6141-4ee4-87b9-831ffd5340af
+1650625532489	Marionette	INFO	Listening on port 63075
+1650625532945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+1650625576670	geckodriver	INFO	Listening on 127.0.0.1:63313
+1650625579729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63314" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileA7B0ZV"
+1650625580128	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileA7B0ZV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63314/devtools/browser/b3549157-fd19-4471-a5dc-6287e70a9e1f
+1650625582450	Marionette	INFO	Listening on port 63321
+1650625582911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/charts/51/js/jsapi_compiled_graphics_module.js, line 5: ReferenceError: gvjs_B is not defined
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=e9f2e726-aae7-4c88-8922-53a7c2002e82&uid=qhU5y_hEMZbiEDGb_Vk8nakVJc2rTGmCqhZry6sXbsn5RDDMV10YlQ==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 7171 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 4261 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650625725390	geckodriver	INFO	Listening on 127.0.0.1:63671
+1650625728472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63672" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilexjruf6"
+1650625728921	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilexjruf6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63672/devtools/browser/99b80bbd-61f7-4bb3-abe9-f36df1be292f
+1650625731446	Marionette	INFO	Listening on port 63677
+1650625731639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650625734511	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1650625758935	Marionette	INFO	Stopped listening on port 63677
+1650625806640	geckodriver	INFO	Listening on 127.0.0.1:63742
+1650625809702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63743" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileSYySPG"
+1650625810037	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileSYySPG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63743/devtools/browser/d1d7ca23-6933-4305-bf7b-4a2c0d8f8907
+1650625812324	Marionette	INFO	Listening on port 63748
+1650625812376	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1650625838864	Marionette	INFO	Stopped listening on port 63748
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1650625855026	geckodriver	INFO	Listening on 127.0.0.1:64065
+1650625858080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64066" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilenMCftG"
+1650625858399	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilenMCftG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64066/devtools/browser/55ce92a4-fc7e-40f7-9580-102ced27bd73
+1650625860636	Marionette	INFO	Listening on port 64072
+1650625860748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650625864055	Marionette	INFO	Stopped listening on port 64072
+1650625869122	geckodriver	INFO	Listening on 127.0.0.1:64131
+1650625872163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64132" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileDrUmM0"
+1650625872590	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileDrUmM0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64132/devtools/browser/f4460627-21d0-4d6c-9b34-ba7818d8eef9
+1650625874983	Marionette	INFO	Listening on port 64138
+1650625875358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650625888034	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1650625893993	Marionette	INFO	Stopped listening on port 64138
+1650625935689	geckodriver	INFO	Listening on 127.0.0.1:64274
+1650625938751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64275" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilerBN57X"
+1650625939125	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofilerBN57X\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64275/devtools/browser/20b4f626-16db-498a-a72d-0c1b8d5205a9
+1650625941300	Marionette	INFO	Listening on port 64281
+1650625941425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650625985701	Marionette	INFO	Stopped listening on port 64281
+1650626029413	geckodriver	INFO	Listening on 127.0.0.1:64407
+1650626032483	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64408" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofiletPRX5i"
+1650626032889	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofiletPRX5i\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64408/devtools/browser/391276d6-a614-43b4-b1f4-80f2c28cb2f3
+1650626035079	Marionette	INFO	Listening on port 64413
+1650626035142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650626037581	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1650626061137	Marionette	INFO	Stopped listening on port 64413
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1650626086201	geckodriver	INFO	Listening on 127.0.0.1:64479
+1650626089259	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64480" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofiley6SHCb"
+1650626089662	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofiley6SHCb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64480/devtools/browser/9bdd6b6b-8af2-4862-b40d-5205ebce0bd2
+1650626091846	Marionette	INFO	Listening on port 64485
+1650626091927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1650626388564	geckodriver	INFO	Listening on 127.0.0.1:64594
+1650626391628	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64595" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile4DOY8F"
+1650626391964	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofile4DOY8F\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64595/devtools/browser/ea39bbea-eeff-403d-9477-b4602127198d
+1650626394257	Marionette	INFO	Listening on port 64600
+1650626394304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650626430453	Marionette	INFO	Stopped listening on port 64600
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1650626434561	geckodriver	INFO	Listening on 127.0.0.1:64671
+1650626437633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64672" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileDPOHtx"
+1650626438015	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileDPOHtx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64672/devtools/browser/f15286cc-4a43-4b81-82d0-8fd4043fa204
+1650626440399	Marionette	INFO	Listening on port 64677
+1650626440821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 6522 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1057 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1022 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-2gDHkyBxg72cx&moatClientLevel2=qfm&moatClientLevel3=e4f26d9c-691b-4ee8-abeb-693ef21d9f3f&moatClientLevel4=4197a7ad-8395-4982-bd4b-c167801709b4&uid=SPcPmT39fuwhiwKYP-IPmT_5Fu05_w6CPY146kn7Ce5J_36fTvIs9Q==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 7702 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 3668 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 6142 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1870 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 4524 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 3729 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 6395 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1744 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 300 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/LE6A1jkwhzHIveaC2PWdXlafu4EKGxRoxiYl273qJjE.js line 1 > eval line 1289 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1650626660690	geckodriver	INFO	Listening on 127.0.0.1:50931
+1650626663763	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50932" "-no-remote" "-profile" "C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileUXs5V0"
+1650626664104	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bismi\\AppData\\Local\\Temp\\rust_mozprofileUXs5V0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50932/devtools/browser/9ad8560c-4eec-4dec-9192-1c3d14f63440
+1650626666349	Marionette	INFO	Listening on port 50938
+1650626666425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650626693785	Marionette	INFO	Stopped listening on port 50938
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
