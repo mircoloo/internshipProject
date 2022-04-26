@@ -99,20 +99,21 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
             researchs.append(nSearch.text)  
             #try to find score
             try:
-                
-                #WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "latestCommentPanelOuter")))
-                ratingPanel = driver.find_element(by=By.ID, value="ratingFormOuterPanel")
-                page_source = driver.text
-                print(type(page_source), page_source)
+                WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "ratingFormOuter")))
+                WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "ratingchart")))
+                ratingChart = driver.find_element(by=By.ID, value="ratingchart")
+                WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "_ABSTRACT_RENDERER_ID_4")))
+                #print(ratingChart.text)
                 scorePatt = re.compile(r"Negativo\s\((\d+)%\)")
-                score = scorePatt.search(page_source).group(1)  
-                print(score)
-
+                score = scorePatt.search(ratingChart.text).group(1) 
+                dec_score = int(int(score)/10)
+                #print(dec_score)
+                scores.append(dec_score)
             except Exception as e: 
-                print(e)
-                print("score not found") 
-        except Exception as e:
-            
+                #print(e)
+                scores.append(4)
+                #print("score not found") 
+        except Exception as e: 
             researchs.append('Not Found')
 
 
@@ -123,7 +124,7 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
     if success:
         data = []
         for i in range(len(numbers)):
-            data.append([numbers[i],comments[i], reasons[i],researchs[i], -1 ,"telguarder"])
+            data.append([numbers[i],comments[i], reasons[i],researchs[i], scores[i] ,"telguarder"])
         df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs', 'Score', 'Source'])
         return df
     else:
