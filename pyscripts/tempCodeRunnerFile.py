@@ -1,7 +1,0 @@
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "ratingchart")))
-    ratingChart = driver.find_element(by=By.ID, value="ratingchart")
-    WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "_ABSTRACT_RENDERER_ID_4")))
-    print(ratingChart.text)
-    scorePatt = re.compile(r"Negativo\s\((\d+)%\)")
-    score = scorePatt.search(ratingChart.text).group(1) 
-    print(score)
