@@ -1,5 +1,4 @@
 #!python3
-from xml.etree.ElementInclude import include
 import pandas as pd
 import ApiKeys.apiKey as k
 import tweepy

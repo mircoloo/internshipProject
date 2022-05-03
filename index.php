@@ -80,7 +80,7 @@ include 'website/DBconnection.php';
             centeredSlides: true,
             autoplay: {
                 delay: 2500,
-                disableOnInteraction: false,
+                disableOnInteraction: true,
             },
             pagination: {
                 el: ".swiper-pagination",
