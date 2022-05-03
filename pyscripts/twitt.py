@@ -3,9 +3,10 @@ import pandas as pd
 import ApiKeys.apiKey as k
 import tweepy
 import pytesseract
-import urllib.request
 import cv2
+import urllib.request
 import numpy as np
+import requests
 
 #number of maxResults from the query (min:10 - max:100)
 MAX_RESULTS = 15
@@ -31,7 +32,15 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
     #build the set of media_key -> url in order to use it later for a faster research
     imgUrls = {u['media_key']: u.url for u in results.includes['media'] if u.type == 'photo'}
     users = {u['id']: u for u in results.includes['users']}
-    
+    urls = {u.url for u in results.includes['media'] if u.type == 'photo'}
+
+
+    for i,url in enumerate(urls):
+        req = requests.get(url)
+        file = open(f"images/sample_image{i}.png", "wb")
+        file.write(req.content)
+        file.close()
+
 
     #iterate for all the tweets in results
     for i,tweet in enumerate(results.data):
@@ -59,4 +68,5 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
     return df
 
 if __name__ == '__main__':
-    print(extract_data())
+    #print(extract_data())
+    extract_data(100)
