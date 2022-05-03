@@ -47,15 +47,15 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
             img = cv2.imdecode(img_array, -1)
             text = pytesseract.image_to_string(img)
             #print(f"####TESTO IMG TWEET {i}####\n{text}\n")
-            data.append([tweet.id, tweet['text'], users[tweet.author_id].username , tweet.data['created_at'][:-14], url, text])
+            data.append([tweet.id, tweet['text'], users[tweet.author_id].username , tweet.data['created_at'][:-14], url, text, ''])
             #Set inserted as true so the tweet will not be inserted 2 times 
             inserted=True
         #if the tweet was not inserted before 
         if not inserted:
-            data.append([tweet.id, tweet['text'], users[tweet.author_id].username ,tweet.data['created_at'][:-14], '', ''])
+            data.append([tweet.id, tweet['text'], users[tweet.author_id].username ,tweet.data['created_at'][:-14], '', '', ''])
 
     #build the dataframe
-    df = pd.DataFrame(data, columns=['ID', 'Comment', 'Nickname' ,'Creation', 'ImageUrl', 'ImageText'])
+    df = pd.DataFrame(data, columns=['ID', 'Comment', 'Nickname' ,'Creation', 'ImageUrl', 'ImageText', 'Organization'])
     return df
 
 if __name__ == '__main__':

@@ -15,7 +15,8 @@ connection_config_dict = {
         'use_pure': False,
         'autocommit': True,
         'pool_size': 5
-    }
+}
+
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
@@ -48,16 +49,16 @@ def update_telguarder_data():
 
 def update_twitter_data():
     mycursor = mydb.cursor()
-    sql = "INSERT INTO twittdata VALUES ( %s , %s , %s, %s, %s, %s)"  
+    sql = "INSERT INTO twittdata VALUES ( %s , %s , %s, %s, %s, %s, %s)"  
     df = twitt.extract_data()
     df_list = df.values.tolist()
-    values = [(el[0], el[1], el[2], el[3], el[4], el[5]) for el in df_list]
+    values = [(el[0], el[1], el[2], el[3], el[4], el[5], el[6]) for el in df_list]
     mycursor.executemany(sql, values)
     mydb.commit()
     print(mycursor.rowcount, "was inserted.") 
 
 
 if __name__ == '__main__':
-    update_tellows_data()
+    #update_tellows_data()
     update_twitter_data()
     #update_telguarder_data()

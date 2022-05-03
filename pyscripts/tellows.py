@@ -66,7 +66,7 @@ def extract_data():
 
             #find the first comment of the number
             try:
-                first_Comment = driver.find_element(by=By.XPATH, value='//ol[@id="singlecomments"]/li[1]/div[1]/div[2]/p[2]').text
+                first_Comment = driver.find_element(by=By.XPATH, value='//ol[@id="singlecomments"]//div[@class="col comment-body"]/p[2]').text
                 comments.append(first_Comment)
                 driver.back()                             
             except:
@@ -96,8 +96,7 @@ def extract_data():
             types.append(type)      #unicodedata.normalize('NFD', type).encode('ascii', 'ignore'))
             scores.append(score)    
             researchs.append(research)
-            driver.back() 
-            
+            driver.back()  
         except:
             print('Error in retrieving informations from the number: {}'.format(num))
             success = False

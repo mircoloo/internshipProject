@@ -14,7 +14,7 @@
         ?>
             <div class="swiper-slide card">
                 <div class="creation-date"><?php echo $rows['creation']; ?>
-                    <span class="organization">ORG</span>
+                    <span class="organization"><?php echo $rows['organization']; ?></span>
                  </div>
                 <div class="comment"><?php echo $rows['comment']; ?></div>
                 <div class="nickname"><a href="<?php echo  "https://twitter.com/MarkTabNet/status/" . $rows['ID'] ?>" target="_blank"><?php echo $rows['nickname']; ?></a></div>  

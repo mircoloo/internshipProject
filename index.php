@@ -79,8 +79,8 @@ include 'website/DBconnection.php';
             spaceBetween: 30,
             centeredSlides: true,
             autoplay: {
-                delay: 2500,
-                disableOnInteraction: true,
+                delay: 5000,
+                disableOnInteraction: false,
             },
             pagination: {
                 el: ".swiper-pagination",

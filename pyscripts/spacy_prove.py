@@ -40,7 +40,7 @@ Gentile cliente la sua utenza é
 sospesa a causa frode, a breve
 sara contattato da un nostro
 operatore dell’ufficio sicurezza
-""")
+""")
 
 
 doc = nlp(text)
