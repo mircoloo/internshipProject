@@ -11235,3 +11235,792 @@ JavaScript error: https://adengine.snigelweb.com/tellows.de/3557-1650975135050/a
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1651139592557	geckodriver	INFO	Listening on 127.0.0.1:50091
+1651139593070	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "50092" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilev6WbzB"
+*** You are running in headless mode.
+1651139593542	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilev6WbzB/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:50092/devtools/browser/073033fc-6cbc-4c70-9342-160d41ebec75
+1651139594708	Marionette	INFO	Listening on port 50109
+Read port: 50109
+1651139594827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 29 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 2595 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 6892 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 6628 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 6857 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 1435 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1651139608730	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1651139609127	Marionette	INFO	Stopped listening on port 50109
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651139615332	geckodriver	INFO	Listening on 127.0.0.1:50346
+1651139615342	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "50347" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileczTIQN"
+*** You are running in headless mode.
+1651139615669	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileczTIQN/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:50347/devtools/browser/50f53228-b661-4e2b-b6c1-a2938dcd8d52
+1651139616589	Marionette	INFO	Listening on port 50361
+Read port: 50361
+1651139616691	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 4921 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 465 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 7352 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/899014955 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 2661 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 5925 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 5169 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/polar822lQSh10/moatad.js?moatClientLevel1=UNKNOWN&moatClientLevel2=Deliveroo&moatClientLevel3=Social%20Creative&moatClientLevel4=&moatClientSlicer1=Fallback%20rule%20for%20542600f1d4ae43b888941379b5a435e2., line 241: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 7127 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 3273 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 7111 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 3874 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 1980 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 3116 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 2968 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1651139935858	geckodriver	INFO	Listening on 127.0.0.1:50888
+1651139936383	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "50889" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileXzZGHd"
+*** You are running in headless mode.
+1651139936713	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileXzZGHd/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:50889/devtools/browser/be8867ba-21f5-40e9-ae6e-71337eff0f3b
+1651139937704	Marionette	INFO	Listening on port 50907
+Read port: 50907
+1651139937736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 2442 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 3995 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 608 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 3595 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 463 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 1097 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 6266 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 205 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 4303 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1651140292979	geckodriver	INFO	Listening on 127.0.0.1:51466
+1651140293500	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "51467" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileNZIixC"
+*** You are running in headless mode.
+1651140293861	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileNZIixC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51467/devtools/browser/d7b7716a-8636-4025-92b0-62235d01c53e
+1651140294876	Marionette	INFO	Listening on port 51486
+Read port: 51486
+1651140294931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+
+###!!! [Child][PCanvasManagerChild] Error: SendAndWait(msgname=PWebGL::Msg_Initialize) Channel error: cannot send/recv
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 5848 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL actor Initialize failed
+Exiting due to channel error.
+Exiting due to channel error.
+1651140315017	geckodriver	INFO	Listening on 127.0.0.1:51690
+1651140315535	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "51691" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofile0Du1WL"
+*** You are running in headless mode.
+1651140315853	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofile0Du1WL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51691/devtools/browser/5f357441-0d9b-42aa-8a36-565f7594bec1
+1651140316786	Marionette	INFO	Listening on port 51708
+Read port: 51708
+1651140316877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://adengine.snigelweb.com/tellows.de/3561-1651048735245/adngin.js, line 1: TypeError: r is undefined
+JavaScript warning: https://www.tellows.it//num/3505097832 line 17 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 4943 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 4498 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-fHFepEQud3Q-h&moatClientLevel2=qfm&moatClientLevel3=8d9f3f48-a0dc-4143-9d29-04481396d724&moatClientLevel4=47d9a4b6-8956-45ed-bdc6-3e62f1d8a6b3&uid=41QSbLcMQmX5UUNutRhEb7BWXT2yBRFx4gcROLEASTjsBxNuWA30Nw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 6477 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 3800 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/d_XgMe7_8DX3JscHlpumBxzOcHqlAtWKp75Cu0r3_I4.js line 1 > eval line 2103 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1651140326919	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1651140330861	Marionette	INFO	Stopped listening on port 51708
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=<unknown IPC msg name>) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWindowGlobal::Msg_SetContainerFeaturePolicy) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1651140594807	geckodriver	INFO	Listening on 127.0.0.1:52153
+1651140595320	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "52154" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileLEhmb6"
+*** You are running in headless mode.
+1651140595655	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileLEhmb6/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52154/devtools/browser/73eb0c8f-d9cd-4da5-a054-bfee857c5a41
+1651140596678	Marionette	INFO	Listening on port 52171
+Read port: 52171
+1651140596779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1651526993814	geckodriver	INFO	Listening on 127.0.0.1:53494
+1651526994324	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "53495" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilekIjTcO"
+*** You are running in headless mode.
+1651526994831	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilekIjTcO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:53495/devtools/browser/f869a9a0-c3a8-4b20-9d6c-40c3afff38be
+1651526995952	Marionette	INFO	Listening on port 53511
+Read port: 53511
+1651526995982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7229 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4085 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 1220 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 1095 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 2211 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3662 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3476327331 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3476327331 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3055 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7031 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 6958 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 5248 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 5859 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3764 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 1418 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3773 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 6962 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3334002590 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4305 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-4fc9NHhQBUj8p&moatClientLevel2=qfm&moatClientLevel3=7eecde12-1ea2-44a0-8fda-e595b9ca5955&moatClientLevel4=2e755b15-d7b9-4852-b65a-c93f87822244&uid=kCc8Jpgna3SEJz0lyDg5dJAnIHLNJjk9z3NoKM0maXHKITQmBDOpHA==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-4fc9NHhQBUj8p&moatClientLevel2=qfm&moatClientLevel3=7eecde12-1ea2-44a0-8fda-e595b9ca5955&moatClientLevel4=2e755b15-d7b9-4852-b65a-c93f87822244&uid=iAFw6o0Hc7qRU3S5ixh0740DbbLaDSKm3gZ0so4DcenZAHnvP1PApw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4478 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7818 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 43 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4772 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 5046 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-4fc9NHhQBUj8p&moatClientLevel2=qfm&moatClientLevel3=acc737c6-f7b9-42c8-8760-8dcb231e32d5&moatClientLevel4=d12e6115-24f6-4b93-9409-8ae0735c2cdf&uid=MzQbMDRgGWF4Ykg0ZXpJZTRiUDQ2Mkx4Nm4ZYzFnSGFiYxszYZ-WtQ==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 6533 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 1825 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3300 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-fHFepEQud3Q-h&moatClientLevel2=qfm&moatClientLevel3=6857e040-fc58-4c3b-86aa-35230c3df1ce&moatClientLevel4=8f850f0b-99e7-494c-9a31-5d2ae759c81c&uid=QbINrEriXalf5gv-F6kI-hC0Ef1KsVqxQeEMqRflXf5D5Qn4Wge6PA==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4240 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7290 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4618 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/0686788615 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-fHFepEQud3Q-h&moatClientLevel2=qfm&moatClientLevel3=6857e040-fc58-4c3b-86aa-35230c3df1ce&moatClientLevel4=8f850f0b-99e7-494c-9a31-5d2ae759c81c&uid=QbINrEriXalf5gv-F6kI-hC0Ef1KsVqxQeEMqRflXf5D5Qn4Wge6PA==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-fHFepEQud3Q-h&moatClientLevel2=qfm&moatClientLevel3=6857e040-fc58-4c3b-86aa-35230c3df1ce&moatClientLevel4=8f850f0b-99e7-494c-9a31-5d2ae759c81c&uid=QbINrEriXalf5gv-F6kI-hC0Ef1KsVqxQeEMqRflXf5D5Qn4Wge6PA==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 2957 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3378 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 200 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:135:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:875:13
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-config Signature failed  InvalidSignatureError: Invalid content signature (main/search-config)
+console.error: services.settings: 
+  main/search-config local data was corrupted
+console.warn: services.settings: main/search-config Signature verified failed. Retry from scratch
+1651527396989	Marionette	INFO	Stopped listening on port 53511
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651527398208	geckodriver	INFO	Listening on 127.0.0.1:54315
+1651527398217	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "54316" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofile6hUzCn"
+*** You are running in headless mode.
+1651527398626	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofile6hUzCn/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:54316/devtools/browser/d8abb64e-df93-4b28-8f05-98bf6f48c184
+1651527399647	Marionette	INFO	Listening on port 54330
+Read port: 54330
+1651527399773	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 264 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4134 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 730 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 310 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4314 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3827 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 2810 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 5687 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7626 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 1530 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-4fc9NHhQBUj8p&moatClientLevel2=qfm&moatClientLevel3=7eecde12-1ea2-44a0-8fda-e595b9ca5955&moatClientLevel4=2e755b15-d7b9-4852-b65a-c93f87822244&uid=PVCxxTlQvsAgUrHFNE2yyT9Wq5NsUbLcNVixl2lTscBvBrLIZKJ6qA==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 30 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4114 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 2166 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 6168 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=3a578355-151b-41ca-aa42-3a531ac917f4&moatClientLevel4=584c76be-f396-4adb-a795-c8d5f81f117d&uid=CvWV1l7yw9EV9cTQAO6R3Q6liIUKpZHJXKXG1w7wloAL85XUchI7Og==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7016 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-4fc9NHhQBUj8p&moatClientLevel2=qfm&moatClientLevel3=acc737c6-f7b9-42c8-8760-8dcb231e32d5&moatClientLevel4=567c6bf8-9535-4dd3-88a7-4a7bd4e8424b&uid=7x2rSOoe_03xHPob6AWqS-lLs0W6H6hQ6kv_SL4e-k6-Hv9KZiKd5Q==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/0399745414 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4382 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 2807 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3810 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-fHFepEQud3Q-h&moatClientLevel2=qfm&moatClientLevel3=6857e040-fc58-4c3b-86aa-35230c3df1ce&moatClientLevel4=8f850f0b-99e7-494c-9a31-5d2ae759c81c&uid=TXWeHEt7xBgDe5EYT2GTSh94ihFLdZIETH-WEBp-wRgXe5Qd35hBSw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 5163 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3479304895 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=73c38408-f875-4b12-9414-1de547ffef21&moatClientLevel4=a6f19fc2-251c-42d8-9cbf-672df2b3525d&uid=fvtIG32hT0xhqh5Kf7UfG3SpBkUq_hNQf6EaSnj-TUx5_Rwc8bIjOw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 2664 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4360 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://www.telguarder.com/it/numero/0686788615 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 6118 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3005 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=73c38408-f875-4b12-9414-1de547ffef21&moatClientLevel4=a6f19fc2-251c-42d8-9cbf-672df2b3525d&uid=fvtIG32hT0xhqh5Kf7UfG3SpBkUq_hNQf6EaSnj-TUx5_Rwc8bIjOw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=73c38408-f875-4b12-9414-1de547ffef21&moatClientLevel4=a6f19fc2-251c-42d8-9cbf-672df2b3525d&uid=fvtIG32hT0xhqh5Kf7UfG3SpBkUq_hNQf6EaSnj-TUx5_Rwc8bIjOw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=73c38408-f875-4b12-9414-1de547ffef21&moatClientLevel4=a6f19fc2-251c-42d8-9cbf-672df2b3525d&uid=fvtIG32hT0xhqh5Kf7UfG3SpBkUq_hNQf6EaSnj-TUx5_Rwc8bIjOw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3526 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=73c38408-f875-4b12-9414-1de547ffef21&moatClientLevel4=a6f19fc2-251c-42d8-9cbf-672df2b3525d&uid=fvtIG32hT0xhqh5Kf7UfG3SpBkUq_hNQf6EaSnj-TUx5_Rwc8bIjOw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://c.bannerflow.net/scripts/animated-creative.113bb23e864a7f983e9d.js, line 1: NS_ERROR_FAILURE
+JavaScript error: https://c.bannerflow.net/scripts/animated-creative.113bb23e864a7f983e9d.js, line 1: NS_ERROR_FAILURE
+JavaScript error: https://c.bannerflow.net/scripts/animated-creative.113bb23e864a7f983e9d.js, line 1: NS_ERROR_FAILURE
+JavaScript error: https://c.bannerflow.net/scripts/animated-creative.113bb23e864a7f983e9d.js, line 1: NS_ERROR_FAILURE
+JavaScript error: https://c.bannerflow.net/scripts/animated-creative.113bb23e864a7f983e9d.js, line 1: NS_ERROR_FAILURE
+JavaScript error: https://c.bannerflow.net/scripts/animated-creative.113bb23e864a7f983e9d.js, line 1: NS_ERROR_FAILURE
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7439 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4847 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 6923 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=73c38408-f875-4b12-9414-1de547ffef21&moatClientLevel4=a6f19fc2-251c-42d8-9cbf-672df2b3525d&uid=fvtIG32hT0xhqh5Kf7UfG3SpBkUq_hNQf6EaSnj-TUx5_Rwc8bIjOw==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 1243 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 4544 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1651527802975	Marionette	INFO	Stopped listening on port 54330
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1651559566981	geckodriver	INFO	Listening on 127.0.0.1:55438
+1651559567503	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "55439" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileadIoqq"
+*** You are running in headless mode.
+1651559568046	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileadIoqq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55439/devtools/browser/083ffec0-d3e3-45c1-82eb-c3873f94124e
+1651559569318	Marionette	INFO	Listening on port 55456
+Read port: 55456
+1651559569379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 2782 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3489 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 6671 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3800 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+1651559603175	Marionette	INFO	Stopped listening on port 55456
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651559640249	geckodriver	INFO	Listening on 127.0.0.1:55972
+1651559640260	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "55973" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileVev7MQ"
+*** You are running in headless mode.
+1651559640575	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileVev7MQ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:55973/devtools/browser/c036aa72-4970-4ffd-a9d5-394f8a5f8d4b
+1651559641471	Marionette	INFO	Listening on port 55988
+Read port: 55988
+1651559641499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651559663457	Marionette	INFO	Stopped listening on port 55988
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651559678976	geckodriver	INFO	Listening on 127.0.0.1:56473
+1651559678986	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "56474" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileriwzcP"
+*** You are running in headless mode.
+1651559679318	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileriwzcP/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:56474/devtools/browser/5fbe47ed-33ea-4f6e-a294-680e1b08e219
+1651559680219	Marionette	INFO	Listening on port 56488
+Read port: 56488
+1651559680328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 1445 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 5057 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 2092 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3476327331 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.telguarder.com/it/numero/3476327331 line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 6794 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 5849 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7250 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 1245 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 1578 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7051 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7774 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1651559749637	Marionette	INFO	Stopped listening on port 56488
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651559794015	geckodriver	INFO	Listening on 127.0.0.1:57137
+1651559794025	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "57138" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofiler6FDgU"
+*** You are running in headless mode.
+1651559794387	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofiler6FDgU/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:57138/devtools/browser/74c97875-20ab-4b33-b1e1-cd859b0a7ed2
+1651559795337	Marionette	INFO	Listening on port 57150
+Read port: 57150
+1651559795353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3723 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3234 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3177 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3414 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 7686 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 278 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 1672 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/openxdisplay970503469688/moatad.js#moatClientLevel1=537073246&moatClientLevel2=&moatClientLevel3=&moatClientSlicer1=543889372&moatClientSlicer2=543889412&moatClientSlicer3=556568376&zMoatOX3TRANS=42f0ba52-06a9-4dba-96c4-2fe3c5d29c53&zMoatOX3TRANSTIME=1651559847&zMoatADID=537171575&zMoatSZ=300x600&zMoatBUID=0&zMoatDEALID=, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 5319 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 5625 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1651559891594	geckodriver	INFO	Listening on 127.0.0.1:57722
+1651559891617	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "57723" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilebyA5Db"
+*** You are running in headless mode.
+1651559892036	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilebyA5Db/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:57723/devtools/browser/e67747e5-b39f-48b3-8b2f-35203e692b39
+1651559892952	Marionette	INFO	Listening on port 57737
+Read port: 57737
+1651559893068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 987 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 575 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 3060 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 2761 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 764 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 6214 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IgzTz77AOrXN1Rxxl6vifLkaj7bdZbRVkxAQRHJ0_jQ.js line 1 > eval line 6339 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1651559954215	Marionette	INFO	Stopped listening on port 57737
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1651560776681	geckodriver	INFO	Listening on 127.0.0.1:58251
+1651560776694	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "58252" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilexm6McA"
+*** You are running in headless mode.
+1651560777049	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilexm6McA/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58252/devtools/browser/fdcbc2b8-4c16-4224-836b-55c46e5fd22f
+1651560778055	Marionette	INFO	Listening on port 58267
+Read port: 58267
+1651560778125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651560781769	Marionette	INFO	Stopped listening on port 58267
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651560828502	geckodriver	INFO	Listening on 127.0.0.1:58303
+1651560828511	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "58304" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileEGdKfJ"
+*** You are running in headless mode.
+1651560828808	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileEGdKfJ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58304/devtools/browser/261cd70e-7315-4e6e-8ab0-c5d9a25a1c47
+1651560829804	Marionette	INFO	Listening on port 58320
+Read port: 58320
+1651560829872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651560834109	Marionette	INFO	Stopped listening on port 58320
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651560844264	geckodriver	INFO	Listening on 127.0.0.1:58349
+1651560844273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "58350" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilef6SZWn"
+*** You are running in headless mode.
+1651560844544	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilef6SZWn/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58350/devtools/browser/eba774cb-6ec5-4555-8fdc-9541c2cf2040
+1651560845421	Marionette	INFO	Listening on port 58365
+Read port: 58365
+1651560845514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651560848966	Marionette	INFO	Stopped listening on port 58365
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651560865508	geckodriver	INFO	Listening on 127.0.0.1:58398
+1651560865517	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "58399" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofile9e1xQI"
+*** You are running in headless mode.
+1651560865797	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofile9e1xQI/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58399/devtools/browser/45fb5d76-b2ce-44cc-8958-6705d8ae7889
+1651560866705	Marionette	INFO	Listening on port 58414
+Read port: 58414
+1651560866762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651560870226	Marionette	INFO	Stopped listening on port 58414
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651561506431	geckodriver	INFO	Listening on 127.0.0.1:58480
+1651561506439	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "58481" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileAA6mGR"
+*** You are running in headless mode.
+1651561506738	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileAA6mGR/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58481/devtools/browser/66b59d82-d878-4d0c-8f13-5c46c20c0967
+1651561507683	Marionette	INFO	Listening on port 58497
+Read port: 58497
+1651561507795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651561517612	Marionette	INFO	Stopped listening on port 58497
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651561525955	geckodriver	INFO	Listening on 127.0.0.1:58541
+1651561525967	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "58542" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilequKQhq"
+*** You are running in headless mode.
+1651561526324	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilequKQhq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58542/devtools/browser/216d2aa2-463d-47c5-8495-82353d249dcb
+1651561527340	Marionette	INFO	Listening on port 58557
+Read port: 58557
+1651561527400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651561535525	Marionette	INFO	Stopped listening on port 58557
+1651561596664	geckodriver	INFO	Listening on 127.0.0.1:58597
+1651561596675	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "58598" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilesLoPWi"
+*** You are running in headless mode.
+1651561597006	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofilesLoPWi/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58598/devtools/browser/9606a3ae-d763-4e39-9d63-124f98e9ed8c
+1651561597958	Marionette	INFO	Listening on port 58612
+Read port: 58612
+1651561598018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651561618409	Marionette	INFO	Stopped listening on port 58612
+1651561646966	geckodriver	INFO	Listening on 127.0.0.1:58661
+1651561646976	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "58662" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileRYuIHe"
+*** You are running in headless mode.
+1651561647342	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileRYuIHe/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58662/devtools/browser/adbdb2f8-2703-4ed2-96bf-1b99d22c0d62
+1651561648263	Marionette	INFO	Listening on port 58677
+Read port: 58677
+1651561648319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651561651879	Marionette	INFO	Stopped listening on port 58677

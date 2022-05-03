@@ -102,17 +102,19 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
                 WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "ratingFormOuter")))
                 WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "ratingchart")))
                 ratingChart = driver.find_element(by=By.ID, value="ratingchart")
-                WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "_ABSTRACT_RENDERER_ID_4")))
-                #print(ratingChart.text)
+                print(num, ratingChart.text)
+                """ THIS XPATH SHOULD WORKS BIT IT DOESN'T :') """
+                #WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, "//*[@id='_ABSTRACT_RENDERER_ID_36']/..")))
+                """ NOT RACCOMENDED TO USE SLEEP BUT WAS THE ONLY WAY I FOUND THIS SCRIPT TO WORK """
+                sleep(3)
                 scorePatt = re.compile(r"Negativo\s\((\d+)%\)")
                 score = scorePatt.search(ratingChart.text).group(1) 
                 dec_score = int(int(score)/10)
-                #print(dec_score)
                 scores.append(dec_score)
             except Exception as e: 
                 #print(e)
                 scores.append(4)
-                #print("score not found") 
+                print("score not found, default value is 4") 
         except Exception as e: 
             researchs.append('Not Found')
 
