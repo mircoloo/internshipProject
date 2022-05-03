@@ -41,7 +41,7 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
         if(tweet.attachments and tweet.attachments['media_keys'][0] in imgUrls):
             #retrieve media_key
             media_key = tweet.attachments['media_keys']
-            #retrieve url from imgUrl set with the media_key
+            #=========retrieve url from imgUrl set with the media_key=====
             url = imgUrls[media_key[0]]
             url_response = urllib.request.urlopen(url)
             img_array = np.array(bytearray(url_response.read()), dtype=np.uint8)

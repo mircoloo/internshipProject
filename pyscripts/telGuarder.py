@@ -112,7 +112,7 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
                 dec_score = int(int(score)/10)
                 scores.append(dec_score)
             except Exception as e: 
-                #print(e)
+                #print(e)]
                 scores.append(4)
                 print("score not found, default value is 4") 
         except Exception as e: 

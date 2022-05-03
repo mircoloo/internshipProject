@@ -12024,3 +12024,59 @@ DevTools listening on ws://localhost:58662/devtools/browser/adbdb2f8-2703-4ed2-9
 Read port: 58677
 1651561648319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1651561651879	Marionette	INFO	Stopped listening on port 58677
+1651569722038	geckodriver	INFO	Listening on 127.0.0.1:59682
+1651569722557	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "59683" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileK5pHJ8"
+*** You are running in headless mode.
+1651569722911	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rq/1yg0fch959b7fln1ssqpcv200000gn/T/rust_mozprofileK5pHJ8/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:59683/devtools/browser/c3f7b51d-d870-4a40-8805-e1a7b19c80fd
+1651569724059	Marionette	INFO	Listening on port 59699
+Read port: 59699
+1651569724134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 3885 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 6566 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 4216 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 1114 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 6438 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 7429 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 6506 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 960 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 5297 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-NFxazWA7hnaYb&moatClientLevel2=qfm&moatClientLevel3=05c123bd-08b5-4e6f-9671-7826cb9b4345&moatClientLevel4=08bf5600-da58-4c72-a33e-8e7721af31eb&uid=CbGP-Q7lifsT4Y-rCf2M_1qzlagJ5N3nCOaM-g_i2a4L6Yn5U3Mkcg==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 6381 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 2247 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 7204 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 6058 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-NFxazWA7hnaYb&moatClientLevel2=qfm&moatClientLevel3=05c123bd-08b5-4e6f-9671-7826cb9b4345&moatClientLevel4=b90912c2-c431-48a2-b617-1086d634e2fa&uid=vG0zdsgdNnWhHzd3zQM2Bc5qLwHJa0RtyW80ebkeRATPbDMDeL5SBg==, line 244: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 938 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 3190 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 4423 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/e8WcSG94vkM93ke5SjF29cSEjmyq7vfry6EL03wtuS4.js line 1 > eval line 4244 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1651569768785	Marionette	INFO	Stopped listening on port 59699

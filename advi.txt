@@ -21,14 +21,11 @@ display a card
 
 
 ================
-22/04/2022
+03/04/2022
 =================
-add empty column with organization detected after the analysis
 
--show 2 twitt, change slider colour
+-Twitter: collect images and test ocr from different kinds, put it on the database  
 
--collect images and test ocr   | link to the image | image | text
-
-
+-add empty column with organization detected after the analysis on twitter
 
 -open twitt links and extract informations about the fake site
