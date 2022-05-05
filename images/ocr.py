@@ -10,7 +10,7 @@ import os
 full_img_path = "/opt/lampp/htdocs/internshipProject/images/sample_image0.png"
 
 
-NUMBER_OF_IMAGES = 5
+NUMBER_OF_IMAGES = 4
 
 for i in range(NUMBER_OF_IMAGES):
     img_path = f"images/sample_image{i}.png"

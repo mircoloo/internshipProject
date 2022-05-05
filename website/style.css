@@ -210,9 +210,9 @@ body{
 
 .cardBox .card .image-text{
     pointer-events: none;
-    visibility: hidden;
     border-radius: 0.5rem;
-    /*transition: visibility .5s linear;*/
+    opacity: 0;
+    transition: opacity 0.5s ease-in opacity 0 ease-out;
 }
 
 .cardBox .card img{
@@ -231,7 +231,7 @@ body{
 
 .cardBox .card img:hover~.image-text{
     
-    visibility: visible;
+    opacity: 1;
     width: 70%;
 
 
