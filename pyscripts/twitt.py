@@ -1,4 +1,5 @@
 #!python3
+from time import sleep
 import pandas as pd
 import ApiKeys.apiKey as k
 import tweepy
@@ -7,10 +8,11 @@ import cv2
 import urllib.request
 import numpy as np
 import requests
+import re
 
 #number of maxResults from the query (min:10 - max:100)
 MAX_RESULTS = 15
-ORGANIZATIONS = ['UNICREDIT', 'POSTEID', 'POSTEINFO', 'AMAZON']
+ORGANIZATIONS = ['UNICREDIT', 'POSTEID','POSTEINFO', 'AMAZON']
 #DATAFRAME PRINTING OPTION 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
@@ -47,7 +49,10 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
             url_response = urllib.request.urlopen(url)
             img_array = np.array(bytearray(url_response.read()), dtype=np.uint8)
             img = cv2.imdecode(img_array, -1)
-            text = pytesseract.image_to_string(img)
+            img = cv2.resize(img, (0, 0), fx=2, fy=2)
+            hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+            msk = cv2.inRange(hsv, np.array([0, 0, 123]), np.array([179, 255, 255]))
+            text = pytesseract.image_to_string(msk)
             """ CHECK IF AN ORGANIZATION IS PRESENT IN THE TWEET """
             for keyword in ORGANIZATIONS:
                 if(keyword in text.upper()):
@@ -67,4 +72,4 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
     return df
 
 if __name__ == '__main__':
-    print(extract_data())
+    print(extract_data(100)['Organization'])
