@@ -1,5 +1,6 @@
 #!python3
 
+from distutils.log import error
 import telGuarder as tG
 import tellows
 import mysql.connector
@@ -47,18 +48,19 @@ def update_telguarder_data():
     mydb.commit()
     print(mycursor.rowcount, "was inserted.") 
 
-def update_twitter_data():
+def update_twitter_data(number=10):
     mycursor = mydb.cursor()
     sql = "INSERT INTO twittdata VALUES ( %s , %s , %s, %s, %s, %s, %s)"  
-    df = twitt.extract_data()
+    df = twitt.extract_data(number)
     df_list = df.values.tolist()
+    #df_list.encode('utf-8')
     values = [(el[0], el[1], el[2], el[3], el[4], el[5], el[6]) for el in df_list]
+    print(values)
     mycursor.executemany(sql, values)
     mydb.commit()
-    print(mycursor.rowcount, "was inserted.") 
-
+    print(mycursor.rowcount, "was inserted.")   
 
 if __name__ == '__main__':
     #update_tellows_data()
-    update_twitter_data()
+    update_twitter_data(100)
     #update_telguarder_data()

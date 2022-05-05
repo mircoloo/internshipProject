@@ -209,10 +209,12 @@ body{
 }
 
 .cardBox .card .image-text{
+    color: var(--grey); 
     pointer-events: none;
     border-radius: 0.5rem;
+    background-color: black;
     opacity: 0;
-    transition: opacity 0.5s ease-in opacity 0 ease-out;
+    /* transition: opacity .5s ease-in opacity 0 ease-out; */
 }
 
 .cardBox .card img{
@@ -225,25 +227,15 @@ body{
 
 .cardBox .card img:hover{
     width: 150px;
-    
-    
 }
 
 .cardBox .card img:hover~.image-text{
-    
     opacity: 1;
     width: 70%;
-
-
-    color: var(--grey);
-    background-color: black;
     padding: .5em;
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-    transition: visibility 0.5s;
 }
 
 
