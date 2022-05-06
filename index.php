@@ -63,7 +63,7 @@ include 'website/DBconnection.php';
             <!-- teldata -->
             <?php require 'website/teldata.php' ?>
             <!-- ioc / organizations -->
-            <!-- <?php require 'website/organizations.php' ?> -->
+             <?php require 'website/organizations.php' ?> 
         </div>
 
 

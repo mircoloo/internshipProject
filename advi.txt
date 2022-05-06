@@ -29,3 +29,13 @@ display a card
 -add empty column with organization detected after the analysis on twitter
 
 -open twitt links and extract informations about the fake site
+
+
+====
+-- add IOC column database, write it after the twitt text in red not clickable
+
+code 
+"""
+domain_re = r'https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)'
+    domain_match = re.search(domain_re, token.text)
+"""
