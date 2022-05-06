@@ -1,7 +1,5 @@
 #!python3 
 import spacy
-from spacy.tokens import DocBin
-from tqdm import tqdm
 import json 
 #df = twitt.extractInformation()
 # pip install -U spacy
