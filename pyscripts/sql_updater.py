@@ -50,11 +50,11 @@ def update_telguarder_data():
 
 def update_twitter_data(number=10):
     mycursor = mydb.cursor()
-    sql = "INSERT INTO twittdata VALUES ( %s , %s , %s, %s, %s, %s, %s)"  
+    sql = "INSERT INTO twittdata VALUES ( %s , %s , %s, %s, %s, %s, %s, %s)"  
     df = twitt.extract_data(number)
     df_list = df.values.tolist()
     #df_list.encode('utf-8')
-    values = [(el[0], el[1], el[2], el[3], el[4], el[5], el[6]) for el in df_list]
+    values = [(el[0], el[1], el[2], el[3], el[4], el[5], el[6], el[7]) for el in df_list]
     #print(values)
     mycursor.executemany(sql, values)
     mydb.commit()

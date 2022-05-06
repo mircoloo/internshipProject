@@ -40,6 +40,8 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
         inserted = False
         #set organization variable to none
         org = ""
+        #set link to none
+        link = "" 
         #if tweet has media and url is in the set (if is a photo beacause sometimes could be a video, GIF ecc...)
         if(tweet.attachments and tweet.attachments['media_keys'][0] in imgUrls):
             #retrieve media_key
@@ -53,6 +55,11 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
             hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
             msk = cv2.inRange(hsv, np.array([0, 0, 123]), np.array([179, 255, 255]))
             text = pytesseract.image_to_string(msk)
+            domain_re = r'(https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*))'
+            domain_match = re.search(domain_re, text.replace('\n', ''))
+            if(domain_match):
+                #print(tweet.id, domain_match.group(1))
+                link = domain_match.group(1)
             """ CHECK IF AN ORGANIZATION IS PRESENT IN THE TWEET """
             for keyword in ORGANIZATIONS:
                 if(keyword in text.upper()):
@@ -60,16 +67,16 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
                     #print(org)
                     break
             #print(f"####TESTO IMG TWEET {i}####\n{text}\n")
-            data.append([tweet.id, tweet['text'], users[tweet.author_id].username , tweet.data['created_at'][:-14], url, text, org])
+            data.append([tweet.id, tweet['text'], users[tweet.author_id].username , tweet.data['created_at'][:-14], url, text, org, link])
             #Set inserted as true so the tweet will not be inserted 2 times 
             inserted=True
         #if the tweet was not inserted before 
         if not inserted:
-            data.append([tweet.id, tweet['text'], users[tweet.author_id].username ,tweet.data['created_at'][:-14], '', '', org])
+            data.append([tweet.id, tweet['text'], users[tweet.author_id].username ,tweet.data['created_at'][:-14], '', '', org, link])
 
     #build the dataframe
-    df = pd.DataFrame(data, columns=['ID', 'Comment', 'Nickname' ,'Creation', 'ImageUrl', 'ImageText', 'Organization'])
+    df = pd.DataFrame(data, columns=['ID', 'Comment', 'Nickname' ,'Creation', 'ImageUrl', 'ImageText', 'Organization', 'Link'])
     return df
 
 if __name__ == '__main__':
-    print(extract_data(100)['Organization'])
+    print(extract_data(10)['Link'])

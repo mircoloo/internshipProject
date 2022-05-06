@@ -184,15 +184,45 @@ body{
     box-shadow: 0 7px 25px rgba(0,0,0,0.3);
 }
 
+.cardBox .card .link{
+    color: var(--danger);
+    margin-bottom: 1rem;
+}
+
+
+
 .cardBox .card .creation-date{
     position: relative;
     background-color: var(--blue);
     font-size: larger;
 }
 
+
 .cardBox .card .creation-date .organization{
     position: absolute;
-    right: 5%;
+    right: 2%;
+}
+
+#organizations{
+    display: none;
+}
+
+#org-svg{
+    margin-top: 2px;
+    background: rgb(255,255,255,0);
+    border-radius: .5rem;
+    width: 25px;
+    
+}
+#org-svg:hover{
+    background: rgb(255,255,255,.5);
+    transform: scale(1.1);
+    
+}
+
+#org-svg:hover~#organizations{
+    transform: scaleX(100);
+    display: block;
 }
 
 .cardBox .card a{
@@ -207,6 +237,7 @@ body{
     text-align: left;
     padding: 2rem;
 }
+
 
 .cardBox .card .image-text{
     color: var(--grey); 
@@ -468,6 +499,10 @@ IOC & ORGANIZATIONS
     .teldata-table thead{
         display: none;
     }
+
+    /* .organization{
+        display: block;
+    } */
 
     .teldata-table, .teldata-table tbody, .teldata-table tr, .teldata-table td{
         display: block;
