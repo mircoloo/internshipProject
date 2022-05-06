@@ -12,9 +12,9 @@ import spacy
 nlp = spacy.load('it_core_news_lg')
 
 # Process whole documents
-text = open("images/sample_text3.txt", "r").read()
+text = open("images/sample_text5.txt", "r").read()
 
-organizations = ['UNICREDIT', 'POSTEID', 'POSTEINFO']
+organizations = ['UNICREDIT', 'POSTEID', 'POSTEINFO', 'POSTEPAY', 'BANCAMPS']
 
 
 doc = nlp(text)
@@ -31,6 +31,7 @@ print("\n--------------------------\n")
 for entity in doc.ents:
     if(entity.label_ == 'ORG'):
         print(entity.text, entity.label_)
+    
 
 for keyword in organizations:
     if(keyword in text.upper()):
