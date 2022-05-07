@@ -1,45 +1,30 @@
-<?php 
-    include 'DBconnection.php'; 
+<?php
+include 'DBconnection.php';
 ?>
-<h1 class="table-title" style="text-align: center;">IOC & Organizations</h1>
+<h1 class="table-title" style="text-align: center;">Links</h1>
 <div class="org-container">
 
-                <table>
-                    <thead>
-                        <tr>
-                            <td>Organizations</td>
-                            <td>Number</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Amazon</td>
-                            <td>34</td>
-                        </tr>
-                        <tr>
-                            <td>PosteID</td>
-                            <td>17</td>
-                        </tr>
-                    </tbody>
-                </table>
 
-<table>
-                <thead>
-                        <tr>
-                            <td>IOC</td>
-                            <td>Number</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>??</td>
-                            <td>354</td>
-                        </tr>
-                        <tr>
-                            <td>??</td>
-                            <td>1345</td>
-                        </tr>
-                    </tbody>
-                </table>
 
-            </div>
+    <table>
+
+
+        <thead>
+            <tr>
+                <td>Links</td>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>??</td>
+
+            </tr>
+            <tr>
+                <td>??</td>
+
+            </tr>
+        </tbody>
+    </table>
+
+</div>
