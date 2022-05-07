@@ -101,8 +101,6 @@ $(document).on('input', '#slider', function() {
     $('#slider_value').html( $(this).val() );
 });
 
-
-
 });
 
 

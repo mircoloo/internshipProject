@@ -13,13 +13,11 @@ include 'DBconnection.php';
         while ($rows = mysqli_fetch_assoc($result)) {
         ?>
             <div class="swiper-slide card">
-                <div class="creation-date"><?php echo $rows['creation']; ?>
-                    
+                <div class="twitt-top-bar">
+                    <div class="creation-date"><?php echo $rows['creation']; ?></div>
                     <?php if($rows['organization'] != ''){
                         ?>
-                        <span class="organization">
-                        <div id="organizations"><?php echo $rows['organization']; ?></div>
-
+                        <div class="org-div">  
                         <svg id="org-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 297" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 297 297">
                             <g>
                                 <path d="M91.304,68.029c18.756,0,34.015-15.259,34.015-34.015S110.06,0,91.304,0S57.289,15.259,57.289,34.015   S72.548,68.029,91.304,68.029z" />
@@ -29,11 +27,11 @@ include 'DBconnection.php';
                                 <path d="m99.119,80.218c-0.786-0.856-1.935-1.287-3.097-1.287h-8.67c-1.162,0-2.311,0.431-3.098,1.287-1.217,1.326-1.393,3.241-0.53,4.738l4.635,6.987-2.17,18.302 4.272,11.365c0.417,1.143 2.033,1.143 2.45,0l4.272-11.365-2.17-18.302 4.634-6.987c0.866-1.497 0.689-3.412-0.528-4.738z" />
                             </g>
                         </svg>
-                    </span>
+                        <span class="org-popup-text"><?php echo $rows['organization']; ?></span>
+                    </div>
                     <?php }?>
                 </div>
                 
-                    
                 <div class="comment"><?php echo $rows['comment']; ?></div>
                 <div class="link"><?php echo $rows['link']; ?></div>
                 <div class="nickname"><a href="<?php echo  "https://twitter.com/MarkTabNet/status/" . $rows['ID'] ?>" target="_blank"><?php echo $rows['nickname']; ?></a></div>

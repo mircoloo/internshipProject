@@ -9,6 +9,9 @@ import urllib.request
 import numpy as np
 import requests
 import re
+import spacy
+
+nlp = spacy.load('it_core_news_lg')
 
 #number of maxResults from the query (min:10 - max:100)
 MAX_RESULTS = 15
@@ -42,6 +45,20 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
         org = ""
         #set link to none
         link = "" 
+
+        text = tweet.text
+        doc = nlp(text)
+        # Find entities
+        for entity in doc.ents:
+            if(entity.label_ == 'ORG'):
+                #print(entity)
+                org += f" {entity}"
+
+
+
+
+
+
         #if tweet has media and url is in the set (if is a photo beacause sometimes could be a video, GIF ecc...)
         if(tweet.attachments and tweet.attachments['media_keys'][0] in imgUrls):
             #retrieve media_key
@@ -66,6 +83,15 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
                     org = keyword
                     #print(org)
                     break
+            doc = nlp(text)
+            for entity in doc.ents:
+                if(entity.label_ == 'ORG'):
+                    #print(entity)
+                    org += f" {entity}"
+
+
+
+
             #print(f"####TESTO IMG TWEET {i}####\n{text}\n")
             data.append([tweet.id, tweet['text'], users[tweet.author_id].username , tweet.data['created_at'][:-14], url, text, org, link])
             #Set inserted as true so the tweet will not be inserted 2 times 
@@ -79,4 +105,4 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
     return df
 
 if __name__ == '__main__':
-    print(extract_data(10)['Link'])
+    print(extract_data(100)['Organization'])
