@@ -25,8 +25,9 @@ include 'website/DBconnection.php';
         <div class="left">
             <ul>
                 <li>
-                    <a href="#">
+                    <a id="title-link" href="#">
                         <span class="icon"><span class="material-icons-round">security_update_warning</span></span>
+                        <span id="fbk-logo" class="icon"><img src="website/images/fbk-logo-blue.png" alt=""></span>
                         <span class="title">Smis<span style="color: #ff7782;">hing</span></span>
                     </a>
 
@@ -37,6 +38,7 @@ include 'website/DBconnection.php';
                         <span class="title">Dashboard</span>
                     </a>
                 </li>
+                <!--
                 <li>
                     <a href="#">
                         <span class="icon"><span class="material-icons-round">query_stats</span></span>
@@ -49,6 +51,7 @@ include 'website/DBconnection.php';
                         <span class="title">Help</span>
                     </a>
                 </li>
+                    -->
             </ul>
         </div>
         <!-- main -->

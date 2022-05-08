@@ -7,7 +7,7 @@ include 'DBconnection.php';
     <div class="swiper-wrapper cardBox">
         <?php
         //show databse rows 
-        $query = "SELECT DISTINCT * FROM twittdata  LIMIT " . $GLOBALS['CARDS_TO_DISPLAY'];
+        $query = "SELECT DISTINCT * FROM twittdata  ORDER BY creation DESC LIMIT " . $GLOBALS['CARDS_TO_DISPLAY'];
         $result = mysqli_query($conn, $query);
         $resultCheck =  mysqli_num_rows($result);
         while ($rows = mysqli_fetch_assoc($result)) {
@@ -27,7 +27,7 @@ include 'DBconnection.php';
                                 <path d="m99.119,80.218c-0.786-0.856-1.935-1.287-3.097-1.287h-8.67c-1.162,0-2.311,0.431-3.098,1.287-1.217,1.326-1.393,3.241-0.53,4.738l4.635,6.987-2.17,18.302 4.272,11.365c0.417,1.143 2.033,1.143 2.45,0l4.272-11.365-2.17-18.302 4.634-6.987c0.866-1.497 0.689-3.412-0.528-4.738z" />
                             </g>
                         </svg>
-                        <span class="org-popup-text"><?php echo $rows['organization']; ?></span>
+                        <div class="org-popup-text"><?php echo $rows['organization']; ?></div>
                     </div>
                     <?php }?>
                 </div>

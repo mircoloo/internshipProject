@@ -108,6 +108,17 @@ body{
 
 }
 
+#title-link{
+    position: relative;
+}
+
+#fbk-logo{
+    position:absolute;
+   scale: .5;
+   left: -50%;
+    opacity: .25;
+}
+
 /*============== 
     MAIN 
 ==========*/
@@ -210,23 +221,30 @@ body{
    position: relative;
 }
 
+@keyframes popup-text-animation {
+    0% {transform:scale(1)}
+    80% {transform:scale(1.1)}
+    100% {transform:scale(1)}
+  }
+
 .twitt-top-bar .org-popup-text{
     visibility: hidden;
     width: 120px;
     background-color: black;
     color: #fff;
     text-align: center;
-    padding: 5px 0;
+    padding: .4rem;
     border-radius: 6px;
     /* Position the tooltip text - see examples below! */
     position: absolute;
     top: 110%;
-    left: -110%;
     z-index: 1;
+    min-width: 120px;
+    
 }
 
 #org-svg{
-    margin-top: 4px;
+    margin-top: 8px;
     width: 30px;
     padding: .03rem;
     transition: .2s;
@@ -240,6 +258,8 @@ body{
 
 #org-svg:hover~.org-popup-text{
     visibility: visible;
+    animation-name: popup-text-animation;
+    animation-duration: .6s;
   }
 
 
@@ -285,6 +305,8 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    animation-name: popup-text-animation;
+    animation-duration: .6s;
 }
 
 
@@ -491,6 +513,16 @@ IOC & ORGANIZATIONS
     border-bottom: 1px var(--black2) solid;
 }
 
+#link-top-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#links-num{
+    color: var(--danger);
+    font-size: larger;
+}
+
 
 /* ==============
     RESPONSIVE 
@@ -511,6 +543,10 @@ IOC & ORGANIZATIONS
     .toggle{
         display: none;
     }
+
+    
+
+    
   }
 
   @media screen and (max-width: 780px) {
@@ -518,9 +554,12 @@ IOC & ORGANIZATIONS
         display: none;
     }
 
-    /* .organization{
-        display: block;
-    } */
+
+    .twitt-top-bar .org-popup-text{
+        /*background-color: red;*/
+       
+        right: calc(100% - 55px);
+    }
 
     .teldata-table, .teldata-table tbody, .teldata-table tr, .teldata-table td{
         display: block;
