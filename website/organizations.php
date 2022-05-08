@@ -1,7 +1,7 @@
 <?php
 include 'DBconnection.php';
 ?>
-<h1 class="table-title" style="text-align: center;">Links</h1>
+<h1 class="table-title" style="text-align: center;">Suspicious Links</h1>
 <div class="org-container">
 
 
@@ -11,7 +11,7 @@ include 'DBconnection.php';
         <thead>
             <tr>
                 <td id="link-top-header">
-                    <div>Suspicious Links</div>
+                    <div>Links</div>
                     <div id="links-num"><?php 
                         $query = "SELECT COUNT(link) FROM twittdata WHERE CHAR_LENGTH(link)>0";
                         $result = mysqli_query($conn, $query);

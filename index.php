@@ -26,8 +26,8 @@ include 'website/DBconnection.php';
             <ul>
                 <li>
                     <a id="title-link" href="#">
-                        <span class="icon"><span class="material-icons-round">security_update_warning</span></span>
                         <span id="fbk-logo" class="icon"><img src="website/images/fbk-logo-blue.png" alt=""></span>
+                        <span class="icon"><span class="material-icons-round">security_update_warning</span></span>
                         <span class="title">Smis<span style="color: #ff7782;">hing</span></span>
                     </a>
 
