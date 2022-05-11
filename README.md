@@ -1,14 +1,19 @@
-# Foobar
+# Introduction
+This is the internship project 2021/2022, attended in Bruno Kessler Foundation, I carried out during my informatic engineering path in University of Trento.
 
-Foobar is a Python library for dealing with word pluralization.
+## What is about?
+This Smihing project is about building a framework can scrape some sites in order to retrieve usefull information about SMS phishing message, elaborate the datas and display them on a dashboard
 
+## What is Smishing?
+Smishing is the fraudulent practice of sending text messages purporting to be from reputable companies in order to induce individuals to reveal personal information, such as passwords or credit card numbers.
 ## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+In order to work, scripts need some requirments, there's a requirments.txt file in the project folder and where you are in the right path, just run the command:
 
 ```bash
-pip install foobar
+pip install -r requirments.txt
 ```
+
+We even need the driver for the browser scraping part (in this project i'm using Firefox as browser): https://github.com/mozilla/geckodriver/releases  here ther's a link where you can find the driver you need WORK IN PROGRESS...
 
 ## Usage
 
