@@ -8,14 +8,19 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import spacy
+
+
 
 def extract_data():
-    #get the recents comments [Number,Comment, Type, Researchs, Score]
+    nlp = spacy.load('it_core_news_lg')
+    #get the recents comments [Number,Comment, Type, Researchs, Score, Organization]
     numbers = []
     comments = []
     types = []
     researchs = []
     scores = []
+    organizations = []
 
     #adding arguments to Firefox options in order to avoid the opening of the windows 
     opt = webdriver.FirefoxOptions()
@@ -64,10 +69,16 @@ def extract_data():
             description = card_board.text
             
 
-            #find the first comment of the number
+            #find the first comment of the number and extract organizations if present
             try:
                 first_Comment = driver.find_element(by=By.XPATH, value='//ol[@id="singlecomments"]//div[@class="col comment-body"]/p[2]').text
                 comments.append(first_Comment)
+                doc = nlp(first_Comment)
+                org = ""
+                for entity in doc.ents:
+                    if(entity.label_ == 'ORG'):
+                        org = entity.text
+                        break;
                 driver.back()                             
             except:
                 print('Comment not found')
@@ -96,6 +107,8 @@ def extract_data():
             types.append(type)      #unicodedata.normalize('NFD', type).encode('ascii', 'ignore'))
             scores.append(score)    
             researchs.append(research)
+            organizations.append(org)
+
             driver.back()  
         except:
             print('Error in retrieving informations from the number: {}'.format(num))
@@ -112,8 +125,8 @@ def extract_data():
         #build dataFrame
         print("Building dataFrame...")
         for i in range(len(numbers)):
-            data.append([numbers[i], comments[i], types[i],researchs[i],scores[i], "tellows"])
-            df = pd.DataFrame(data, columns=['Number','Comment' ,'Type','Researchs','Score', 'Source'])
+            data.append([numbers[i], comments[i], types[i],researchs[i],scores[i], "tellows", organizations[i]])
+            df = pd.DataFrame(data, columns=['Number','Comment' ,'Type','Researchs','Score', 'Source', 'Organization'])
         #print(df)
         return df
     else:

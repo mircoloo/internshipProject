@@ -51,7 +51,6 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
         # Find entities
         for entity in doc.ents:
             if(entity.label_ == 'ORG'):
-                #print(entity)
                 org += f" {entity}"
 
 

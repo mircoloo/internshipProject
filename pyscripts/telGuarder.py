@@ -9,6 +9,8 @@ from selenium.webdriver.common.keys import Keys
 import pandas as pd
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import spacy
+
 
 #retrieve number of refresh from arguments
 refresh = 0
@@ -30,6 +32,8 @@ opt.add_argument("--headless")
 def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
     telGuarderUrl = "https://www.telguarder.com/it"
     success = True
+    #load spacy module 
+    nlp = spacy.load('it_core_news_lg')
     #starting telguarder site wait 1 second#
     driver = webdriver.Firefox(options=opt)
     driver.get(telGuarderUrl)
@@ -67,6 +71,7 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
 
     #comments extractions
     comments = []
+    organizations = []
     #retrieve all comments
 
     try:
@@ -74,12 +79,21 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
     
         for comment in numComments:
             if comment.text != '':
-                comments.append(comment.text[:-36])
+                comment = comment.text[:-36]
+                comments.append(comment)
+                doc = nlp(comment)
+                #retrieve organizaion
+                org = ""
+                for entity in doc.ents:
+                    if(entity.label_ == 'ORG'):
+                        org = entity.text
+                        break;
+                organizations.append(org)
     except:
         print("Error in retrieving comments")
         success = False
 
-    #spam reason
+    ################################extract and append spam reason##############################
     reasons = []
     try:
         spam_reason = driver.find_elements(by=By.CLASS_NAME,value="ai-spam-reason")
@@ -102,7 +116,7 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
                 WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "ratingFormOuter")))
                 WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "ratingchart")))
                 ratingChart = driver.find_element(by=By.ID, value="ratingchart")
-                print(num, ratingChart.text)
+                
                 """ THIS XPATH SHOULD WORKS BIT IT DOESN'T :') """
                 #WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, "//*[@id='_ABSTRACT_RENDERER_ID_36']/..")))
                 """ NOT RACCOMENDED TO USE SLEEP BUT WAS THE ONLY WAY I FOUND THIS SCRIPT TO WORK """
@@ -112,7 +126,7 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
                 dec_score = int(int(score)/10)
                 scores.append(dec_score)
             except Exception as e: 
-                #print(e)]
+                
                 scores.append(4)
                 print("score not found, default value is 4") 
         except Exception as e: 
@@ -126,8 +140,8 @@ def extract_data(refreshPage : int = refresh) -> pd.DataFrame:
     if success:
         data = []
         for i in range(len(numbers)):
-            data.append([numbers[i],comments[i], reasons[i],researchs[i], scores[i] ,"telguarder"])
-        df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs', 'Score', 'Source'])
+            data.append([numbers[i],comments[i], reasons[i],researchs[i], scores[i] ,"telguarder", organizations[i]])
+        df = pd.DataFrame(data, columns=['Number', 'Comment', 'Type', 'Researchs', 'Score', 'Source', 'Organization'])
         return df
     else:
         print('Error in bulding dataFrame: missing informations')

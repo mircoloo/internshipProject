@@ -20,6 +20,7 @@ function getData($conn, $query)
                                         }; ?></td>
             <td data-label="Score"><?php echo $rows['score']; ?></td>
             <td data-label="Source"><?php echo $rows['source']; ?></td>
+            <td data-label="Source"><?php echo $rows['organization']; ?></td>
         </tr>
 <?php
     }

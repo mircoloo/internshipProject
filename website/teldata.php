@@ -33,6 +33,7 @@
             <th>Researchs</th>
             <th>Score</th>
             <th>Source</th>
+            <th>Organization</th>
         </thead>
         <tbody class="teldata-table-tbody">
         </tbody>
