@@ -19,9 +19,9 @@ connection_config_dict = {
 }
 
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  password="",
+  host="192.168.1.106",
+  user="mirco",
+  password="123",
   database="smishingDB"
 )    
 
@@ -50,7 +50,7 @@ def update_telguarder_data():
 
 def update_twitter_data(number=10):
     mycursor = mydb.cursor()
-    sql = "INSERT INGORE INTO twittdata VALUES ( %s , %s , %s, %s, %s, %s, %s, %s)" #WHERE NOT EXISTS (SELECT ID FROM WHERE name = 'Rupert')"  
+    sql = "INSERT IGNORE INTO twittdata VALUES ( %s , %s , %s, %s, %s, %s, %s, %s)" #WHERE NOT EXISTS (SELECT ID FROM WHERE name = 'Rupert')"  
     df = twitt.extract_data(number)
     df_list = df.values.tolist()
     #df_list.encode('utf-8')

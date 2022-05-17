@@ -11,6 +11,7 @@
                 <th>Researchs</th>
                 <th>Score</th>
                 <th>Source</th>
+                <th>Organization</th>
             </tr>
         </thead>
         <tbody>
@@ -32,6 +33,7 @@
                         }; ?></td>
                     <td><?php echo $rows['score']; ?></td>
                     <td><?php echo $rows['source']; ?></td>
+                    <td><?php echo $rows['organization']; ?></td>
                 </tr>
             <?php
             }
