@@ -30,6 +30,22 @@ foobar.pluralize('goose')
 foobar.singularize('phenomena')
 ```
 
+The project is built using different technologies:
+HTML, CSS, Javascript for the frontend aspect
+PHP as backend languages
+Python as Web information collector
+mySQL as Database lanaguages
+
+It is necessary, to see the dashboard online, host the project on a server. For the development I used XAMPP (here's the link: https://www.apachefriends.org/it/index.html)
+
+On the sql_updater.py file, you can change the configuration in order to connect to the right database, in XAMPP, defualt values are (root as user, and no password, the hosting port is the http ones 80)
+## Testing
+After downloading the repository, put it on /htdocs/ folder, that are located dependetly on where you installed XAMPP, in defualt these should be the PATHS
+
+LINUX: /opt/lampp/htdocs
+
+  
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
