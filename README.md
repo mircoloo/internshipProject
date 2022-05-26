@@ -47,7 +47,7 @@ MacOS: /Applications/XAMPP/htdocs
 
 GNU LINUX: /opt/lampp/htdocs
 
-Windows: /
+Windows: C:\xampp\htdocs\ for standard installation
 
 After that, run the XAMPP applications and start the Apache server and MYSQL database.
 Default ports are 80 for Apache server and 3306 for the Database.
