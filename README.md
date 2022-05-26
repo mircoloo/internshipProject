@@ -1,13 +1,14 @@
 # Introduction
 This is the internship project 2021/2022, attended in Bruno Kessler Foundation, I carried out during my informatic engineering path in University of Trento.
 
-## What is the projet about?
+## What is the project about?
 This Smihing project is about building a framework can scrape some sites in order to retrieve usefull information about SMS phishing message, elaborate the datas and display them on a dashboard
 
 ## What is Smishing?
 Smishing is the fraudulent practice of sending text messages purporting to be from reputable companies in order to induce individuals to reveal personal information, such as passwords or credit card numbers.
 
-## Installation
+# Usage
+## Install python libraries
 The project is built using different technologies:
 HTML, CSS, Javascript for the frontend aspect
 PHP as backend languages
@@ -21,7 +22,9 @@ In order to work, scripts need some requirments, there's a requirments.txt file 
 ```bash
 pip install -r requirments.txt
 ```
+If you encount some errors, just try to install the libraries one at the time
 
+## Install geckodriver of Firefox
 We even need the driver for the browser scraping part (in this project i'm using Firefox as browser): https://github.com/mozilla/geckodriver/releases  here ther's a link where you can find the driver you need)
 
 
@@ -49,7 +52,7 @@ Windows: /
 After that, run the XAMPP applications and start the Apache server and MYSQL database.
 Default ports are 80 for Apache server and 3306 for the Database.
 
-### Create the tables
+## Create the tables
 Once the server is started, reach the "http://localhost:80" endpoint, open up the phpMyAdmin, and create a new Database, name it smishingDB, create new tables with the current sql querys:
 ```mySQL
 CREATE TABLE teldata (number VARCHAR(30), comment TEXT, type VARCHAR(30), researchs INT, score INT, source VARCHAR(30));
@@ -76,3 +79,41 @@ mydb = mysql.connector.connect(
 
 
 ```
+
+## Update the database
+
+If all the stuff had been correctly setted up, in order to scrape the web and update your database, you just need to run the ## Update the databasesql_updater.py``` script
+inside the ```pyscripts``` folder.
+On the console you can check some information like then number of rows interted
+
+## Open the web Application
+
+Now everything should be setted, the site is up! (locally), so search ```http://localhost/internshipProject``` on your browser
+
+# The Web App
+
+The web application is divided in three sections:
+* Twitter cards
+* Tellows and Telguarder tables
+* Sospicious Links section
+
+## Section one (Twitter)
+On the section one, there are displayed in a form of cards, usefull information about recents twitts from the users about sms fraud, we can find:
+
+* Creation date of the tweet
+* (The name of organizations if present)
+* The twitt comment
+* (Sospicious link if present)
+* The username of the poster
+* (The image of the tweet if present)
+  * If you hover the image, the text will be displayed
+
+
+  
+
+ 
+
+
+
+
+
