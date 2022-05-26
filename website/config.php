@@ -13,7 +13,6 @@ $GLOBALS['CARDS_TO_DISPLAY'] = 20;
 
 $GLOBALS['COMMENT_COUNT'] = 0;
 
-$GLOBALS['QUERY'] = "select * from teldata LIMIT ";
 
     
 ?>

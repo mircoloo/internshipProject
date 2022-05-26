@@ -24,12 +24,17 @@ include 'DBconnection.php';
         </thead>
         <tbody>
             <?php 
-                $query = "SELECT * from twittdata WHERE CHAR_LENGTH(link)>0 LIMIT 3";
+                //$query = "SELECT * from twittdata WHERE CHAR_LENGTH(link)>0 LIMIT 3";
+                $query = "SELECT link, COUNT(*) AS n
+                                FROM twittdata
+                                GROUP BY link
+                                HAVING CHAR_LENGTH(link)>0;";
                 $result = mysqli_query($conn, $query);
+                //$result2 = mysqli_query($conn, $query2);
                 $resultCheck =  mysqli_num_rows($result);
                 while($rows = mysqli_fetch_assoc($result)){
                     ?>
-                    <tr><td><?php echo$rows['link'] ?></td></tr>
+                    <tr><td><?php echo$rows['link'] ?></td><td><?php echo$rows['n'] ?></td></tr>
                     <?php 
                 }
                 ?>

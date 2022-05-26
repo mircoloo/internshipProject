@@ -6,6 +6,7 @@ import tellows
 import mysql.connector
 import twitt  
 import sys
+import os
 
 connection_config_dict = {
         'user': 'root',

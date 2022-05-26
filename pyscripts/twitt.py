@@ -1,7 +1,6 @@
 #!python3
 from time import sleep
 import pandas as pd
-import ApiKeys.apiKey as k
 import tweepy
 import pytesseract
 import cv2
@@ -10,6 +9,9 @@ import numpy as np
 import requests
 import re
 import spacy
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 nlp = spacy.load('it_core_news_lg')
 
@@ -23,8 +25,7 @@ pd.set_option('display.width', None)
 pd.set_option('display.max_colwidth', None)
 
 def extract_data(maxResults: int=10) -> pd.DataFrame: 
-
-    client = tweepy.Client(bearer_token=k.BEARER_TOKEN)
+    client = tweepy.Client(bearer_token=os.environ["BEARER_TOKEN"])
     #query = 'sms truffa -is:retweet has:media'
     query = 'SMS truffa -retweet'
 
@@ -104,4 +105,4 @@ def extract_data(maxResults: int=10) -> pd.DataFrame:
     return df
 
 if __name__ == '__main__':
-    print(extract_data(100)['Organization'])
+    print(extract_data(100))
