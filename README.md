@@ -82,7 +82,7 @@ mydb = mysql.connector.connect(
 
 ## Update the database
 
-If all the stuff had been correctly setted up, in order to scrape the web and update your database, you just need to run the ## Update the databasesql_updater.py``` script
+If all the stuff had been correctly setted up, in order to scrape the web and update your database, you just need to run the ```sql_updater.py``` script
 inside the ```pyscripts``` folder.
 On the console you can check some information like then number of rows interted
 
