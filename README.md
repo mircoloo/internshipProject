@@ -108,6 +108,25 @@ On the section one, there are displayed in a form of cards, usefull information 
 * (The image of the tweet if present)
   * If you hover the image, the text will be displayed
 
+## Section two (Teldata)
+
+On the section two, there are displayed  the datas reguarding the informations of recents number reports from the users. 
+
+* Number
+* Comment
+* Type, is the category of the comment (for example fraud, telemarketing ecc.)
+* Researchs
+* Score
+* Source
+* Organizations
+
+It is possible to filter the informations thanks to the use of the options menù
+
+## Section three (Links)
+
+On the section three, there are displayed  the datas reguarding the informations of sospicious links and the total number for each one
+
+
 
   
 
