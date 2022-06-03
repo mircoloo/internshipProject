@@ -5,7 +5,9 @@ This is the internship project 2021/2022, attended in Bruno Kessler Foundation, 
 This Smihing project is about building a framework can scrape some sites in order to retrieve usefull information about SMS phishing message, elaborate the datas and display them on a dashboard
 
 ## What is Smishing?
-Smishing is the fraudulent practice of sending text messages purporting to be from reputable companies in order to induce individuals to reveal personal information, such as passwords or credit card numbers.
+Phishing is a type of Internet fraud that seeks to acquire a user’s credentials by deception. It includes theft of passwords, credit card numbers, bank account details and other confidential information.
+
+Phishing messages usually take the form of fake notifications from banks, providers, e-pay systems and other organizations. The notification will try to encourage a recipient, for one reason or another, to urgently enter/update their personal data. Such excuses usually relate to loss of data, system breakdown, etc.
 
 # Usage
 ## Install python libraries
